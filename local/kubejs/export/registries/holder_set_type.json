@@ -1,0 +1,8 @@
+{
+	"neoforge:and": "net.neoforged.neoforge.registries.holdersets.AndHolderSet$Type",
+	"neoforge:any": "net.neoforged.neoforge.registries.holdersets.AnyHolderSet$Type",
+	"neoforge:not": "net.neoforged.neoforge.registries.holdersets.NotHolderSet$Type",
+	"neoforge:or": "net.neoforged.neoforge.registries.holdersets.OrHolderSet$Type",
+	"kubejs:namespace": "dev.latvian.mods.kubejs.holder.KubeJSHolderSets$2",
+	"kubejs:regex": "dev.latvian.mods.kubejs.holder.KubeJSHolderSets$1"
+}

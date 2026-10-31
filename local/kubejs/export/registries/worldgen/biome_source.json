@@ -1,0 +1,7 @@
+{
+	"minecraft:checkerboard": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:injector": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:fixed": "com.mojang.serialization.MapCodec$3",
+	"minecraft:the_end": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:multi_noise": "com.mojang.serialization.MapCodec$2"
+}

@@ -1,0 +1,34 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAFAA",
+        "ADBDA",
+        "CBEBC",
+        "ADBDA",
+        "AAFAA"
+    ],
+    "key": {
+        "A": {
+            "item": "eden:infinity_alloy"
+        },
+        "B": {
+            "item": "ae2omnicells:quantum_omni_cell_component_256m"
+        },
+        "C": {
+            "item": "minecraft:redstone_block"
+        },
+        "D": {
+            "item": "advanced_ae:quantum_processor"
+        },
+        "E": {
+            "item": "ae2omnicells:quantum_omni_cell_housing"
+        },
+        "F": {
+            "item": "extendedcrafting:ultimate_singularity"
+        }
+    },
+    "result": {
+        "id": "ae2omnicells:creative_ae_cell_biginteger",
+        "count": 1
+    }
+}

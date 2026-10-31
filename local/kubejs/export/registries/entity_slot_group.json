@@ -1,0 +1,13 @@
+{
+	"apothic_attributes:hand": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:offhand": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:mainhand": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:legs": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:armor": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:chest": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:head": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:any": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:body": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:any_vanilla": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup",
+	"apothic_attributes:feet": "dev.shadowsoffire.apothic_attributes.modifiers.EntitySlotGroup"
+}

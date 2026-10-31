@@ -1,0 +1,22 @@
+{
+	"lithostitched:schedule_tick": "dev.worldgen.lithostitched.impl.worldgen.processor.ScheduleTickProcessor$$Lambda/0x0000011665b513a8",
+	"minecraft:rule": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"minecraft:capped": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"lithostitched:internal/unbound_reference": "dev.worldgen.lithostitched.impl.worldgen.processor.UnboundReferenceProcessor$$Lambda/0x0000011665b26550",
+	"minecraft:block_age": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"lithostitched:block_swap": "dev.worldgen.lithostitched.impl.worldgen.processor.BlockSwapStructureProcessor$$Lambda/0x0000011665b40230",
+	"apotheosis:item_frame_gems": "dev.shadowsoffire.placebo.registry.DeferredHelper$$Lambda/0x0000011665a44bf0",
+	"lithostitched:condition": "dev.worldgen.lithostitched.impl.worldgen.processor.ConditionProcessor$$Lambda/0x0000011665b4a620",
+	"minecraft:protected_blocks": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"minecraft:nop": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"lithostitched:discard_input": "dev.worldgen.lithostitched.impl.worldgen.processor.DiscardInputProcessor$$Lambda/0x0000011665b4dbd8",
+	"minecraft:block_rot": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"lithostitched:reference": "dev.worldgen.lithostitched.impl.worldgen.processor.ReferenceStructureProcessor$$Lambda/0x0000011665b44128",
+	"lithostitched:apply_random": "dev.worldgen.lithostitched.impl.worldgen.processor.ApplyRandomStructureProcessor$$Lambda/0x0000011665b3c388",
+	"minecraft:block_ignore": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"minecraft:jigsaw_replacement": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"minecraft:gravity": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"lithostitched:set_block": "dev.worldgen.lithostitched.impl.worldgen.processor.SetBlockProcessor$$Lambda/0x0000011665b57270",
+	"minecraft:blackstone_replace": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0",
+	"minecraft:lava_submerged_block": "net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType$$Lambda/0x0000011664cf24a0"
+}

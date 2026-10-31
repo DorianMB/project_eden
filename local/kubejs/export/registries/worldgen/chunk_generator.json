@@ -1,0 +1,6 @@
+{
+	"minecraft:flat": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:noise": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:debug": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"ae2:spatial_storage": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

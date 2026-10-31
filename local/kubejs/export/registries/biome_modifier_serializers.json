@@ -1,0 +1,18 @@
+{
+	"apotheosis:blacklist": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:add_spawn_costs": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:replace_effects": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"architectury:none_biome_mod_codec": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:add_spawn_costs": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:add_features": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"productivebees:nest": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:remove_spawn_costs": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:remove_spawns": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:replace_climate": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:remove_carvers": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:add_spawns": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:none": "com.mojang.serialization.MapCodec$2",
+	"balm:balm": "com.mojang.serialization.MapCodec$2",
+	"neoforge:add_carvers": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:remove_features": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

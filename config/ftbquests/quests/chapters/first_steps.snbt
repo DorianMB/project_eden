@@ -1,0 +1,163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_steps"
+	group: "60A8A6BD9E81B246"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/campfire_fire"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7FE8DE8745AC49B7"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1A8F8B7B4F3E62F1"
+			tasks: [{
+				id: "69DA7D9A96900A74"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1A8F8B7B4F3E62F1"]
+			id: "63E17C1D5312F845"
+			rewards: [{
+				count: 16
+				id: "4607897CF7752C69"
+				item: {
+					count: 1
+					id: "minecraft:oak_planks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "487775764ACD3658"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["63E17C1D5312F845"]
+			id: "0246B77559069311"
+			rewards: [{
+				count: 16
+				id: "0212F6A54DFD7539"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "348B6878DBFD0DC7"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					id: "3028A519BB20774E"
+					item: { count: 1, id: "minecraft:wooden_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0246B77559069311"]
+			id: "46D6A84AB662C406"
+			rewards: [{
+				count: 6
+				id: "54B82C59BD363457"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "66E5EE1DE676EE88"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					id: "2091DBFC75434304"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["46D6A84AB662C406"]
+			id: "35ABB9B353AE3E50"
+			rewards: [{
+				id: "4A65961B880CC931"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1394DD01BBA52FEA"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					id: "186C8430A8C97B01"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46D6A84AB662C406"]
+			id: "4E6E9212E3F05F99"
+			rewards: [{
+				count: 48
+				id: "512A86AEBDEEEB5B"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "534D2520EC5596E7"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4E6E9212E3F05F99"
+				"35ABB9B353AE3E50"
+			]
+			id: "39A704B02EA53FFA"
+			tasks: [{
+				id: "75C3D7C3AA26FD99"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+}

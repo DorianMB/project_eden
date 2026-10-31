@@ -1,0 +1,50 @@
+/execute in minecraft:overworld run tp @s 0 80 0
+/reload
+/kill @e
+/kjs export
+/kubejs export debug
+/reload
+/kill @e[ty
+/kill @e[type!=player]
+/kill @e[type=!minecraft:player]
+/reload
+/summon productivebees:ashy_mining_bee
+/kjs han
+/kjs hand
+/give DorianMB tiab:time_in_a_bottle
+/tiab time add DorianMB 99999
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/apoth set_world_tier DorianMB pinnacle
+/gamerule randomTickSpeed
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3
+/kjs export debug
+/kjs export recipe-schema-json
+/kjs export debug
+/kjs export pack-folders
+/kjs export pack-zips
+/kjs export recipe-schema-json productivebees:configurable_honeycomb
+/kjs hand
+/kjs reload
+/kjs reload config
+/reload
+/kjs hand
+/reload
+/kjs hand
+/kjs inventory
+/reload
+/kjs inventory
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs inventory
+/reload

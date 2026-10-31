@@ -1,0 +1,14 @@
+[
+	"#forge:is_snowy?",
+	"#terralith:reference/temperature/frozen_all",
+	"minecraft:frozen_peaks",
+	"minecraft:grove",
+	"minecraft:ice_spikes",
+	"minecraft:jagged_peaks",
+	"minecraft:snowy_beach",
+	"minecraft:snowy_plains",
+	"minecraft:snowy_slopes",
+	"minecraft:snowy_taiga",
+	"terralith:emerald_peaks",
+	"terralith:rocky_mountains"
+]

@@ -1,0 +1,23 @@
+[
+	"#c:foods/berry",
+	"#c:foods/bread",
+	"#c:foods/candy",
+	"#c:foods/cooked_fish",
+	"#c:foods/cooked_meat",
+	"#c:foods/cookie",
+	"#c:foods/dough",
+	"#c:foods/edible_when_placed",
+	"#c:foods/food_poisoning",
+	"#c:foods/fruit",
+	"#c:foods/golden",
+	"#c:foods/pie",
+	"#c:foods/raw_fish",
+	"#c:foods/raw_meat",
+	"#c:foods/soup",
+	"#c:foods/vegetable",
+	"minecraft:baked_potato",
+	"minecraft:dried_kelp",
+	"minecraft:honey_bottle",
+	"minecraft:ominous_bottle",
+	"minecraft:pumpkin_pie"
+]

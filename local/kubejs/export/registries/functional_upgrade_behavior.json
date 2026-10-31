@@ -1,0 +1,12 @@
+{
+	"functionalstorage:and": "com.mojang.serialization.MapCodec$2",
+	"functionalstorage:emit_redstone": "com.mojang.serialization.MapCodec$2",
+	"functionalstorage:delegate_to_item": "com.mojang.serialization.MapCodec$2",
+	"functionalstorage:collect_fluids": "com.mojang.serialization.MapCodec$2",
+	"functionalstorage:collect_item_entities": "com.mojang.serialization.MapCodec$2",
+	"functionalstorage:move_fluids": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"functionalstorage:execute_every": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"functionalstorage:move_items": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"functionalstorage:generate_item": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"functionalstorage:generate_fluid": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

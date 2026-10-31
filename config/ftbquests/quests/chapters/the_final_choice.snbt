@@ -1,0 +1,69 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_final_choice"
+	group: "43EA46B7B93BC31B"
+	icon: {
+		components: {
+			"ftbquests:icon": "apotheosis:textures/advancements/bg/apoth.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "47D247DA907E455F"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6679C7AD37A1ECA0"]
+			hide_until_deps_complete: true
+			id: "3EE86D9E348B95A1"
+			tasks: [{
+				dimension: "eden:wasteland"
+				icon: {
+					components: {
+						"ftbquests:icon": "apotheosis:textures/advancements/bg/apoth.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2D9F05AC12D00F72"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EE86D9E348B95A1"]
+			id: "5F3F4514599694D9"
+			optional: true
+			tasks: [{
+				id: "5A1DA35B6DB02DBD"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EE86D9E348B95A1"]
+			id: "4BFCE61671D39928"
+			optional: true
+			tasks: [{
+				id: "6F1EBB751B501337"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EE86D9E348B95A1"]
+			id: "18F5F3D35B8E1C6F"
+			optional: true
+			tasks: [{
+				id: "30B2B428258DC765"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

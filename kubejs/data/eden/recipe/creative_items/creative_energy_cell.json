@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "AAAAA",
+        "ABBBA",
+        "CBDBC",
+        "ABBBA",
+        "AAAAA"
+    ],
+    "key": {
+        "A": {
+            "item": "eden:infinity_alloy"
+        },
+        "B": {
+            "item": "ae2:dense_energy_cell"
+        },
+        "C": {
+            "item": "advanced_ae:quantum_processor"
+        },
+        "D": {
+            "item": "extendedcrafting:ultimate_singularity"
+        }
+    },
+    "result": {
+        "id": "ae2:creative_energy_cell",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+[
+	"#c:gems/amethyst",
+	"#c:gems/diamond",
+	"#c:gems/emerald",
+	"#c:gems/fluorite",
+	"#c:gems/lapis",
+	"#c:gems/prismarine",
+	"#c:gems/quartz",
+	"#forge:gems?",
+	"ae2:certus_quartz_crystal",
+	"ae2:charged_certus_quartz_crystal",
+	"ae2:fluix_crystal",
+	"appflux:charged_redstone",
+	"appflux:redstone_crystal",
+	"extendedae:entro_crystal",
+	"powah:crystal_blazing",
+	"powah:crystal_niotic",
+	"powah:crystal_nitro",
+	"powah:crystal_spirited"
+]

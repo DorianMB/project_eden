@@ -1,0 +1,9 @@
+{
+	"lithostitched:any_of": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:not": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:loader": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:mod_loaded": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:all_of": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:pack_format": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:true": "com.mojang.serialization.MapCodec$2"
+}

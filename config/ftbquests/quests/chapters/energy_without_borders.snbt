@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_without_borders"
+	group: "7AFF8DE55D6853CE"
+	icon: {
+		id: "fluxnetworks:flux_point"
+	}
+	id: "10D3CA3EC0AA0862"
+	images: [{
+		click_action: "none:"
+		height: 12.0d
+		id: "6C15F45E669B552B"
+		image: "fluxnetworks:block/flux_block"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.5d
+		y: 4.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E8404A7DA2668A2"]
+			hide_until_deps_complete: true
+			id: "5FF735974457BFA0"
+			tasks: [{
+				id: "59223865DC949737"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FF735974457BFA0"]
+			id: "11377B23BB2302D4"
+			rewards: [{
+				id: "3E57E6F3FFE5AD91"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "59F6BBF0A3B414B0"
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11377B23BB2302D4"]
+			id: "07ED1C7339FB3741"
+			rewards: [{
+				id: "4A30AB7C958006FF"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_core"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "6DF044629DEE69A2"
+					item: { count: 1, id: "fluxnetworks:flux_core" }
+					type: "item"
+				}
+				{
+					id: "6C3991A91379014B"
+					item: { count: 1, id: "fluxnetworks:flux_block" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07ED1C7339FB3741"]
+			id: "64F8FADD48A3C96B"
+			rewards: [{
+				id: "7503182078526EB7"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_point"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "444389EF7808C5F0"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					id: "1699CE33A52EF1A4"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64F8FADD48A3C96B"]
+			id: "3B464B69FE2BC87C"
+			rewards: [{
+				id: "19B98492CA00EA2C"
+				item: {
+					count: 1
+					id: "fluxnetworks:basic_flux_storage"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38666EF8D9F9EC8A"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+	]
+}

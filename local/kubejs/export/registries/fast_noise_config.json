@@ -1,0 +1,5 @@
+{
+	"lithostitched:region/overworld": "dev.worldgen.lithostitched.impl.worldgen.fastnoise.CellularNoiseType",
+	"lithostitched:region/the_end": "dev.worldgen.lithostitched.impl.worldgen.fastnoise.CellularNoiseType",
+	"lithostitched:region/the_nether": "dev.worldgen.lithostitched.impl.worldgen.fastnoise.CellularNoiseType"
+}

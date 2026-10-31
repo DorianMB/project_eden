@@ -1,0 +1,11 @@
+{
+	"lithostitched:limited": "dev.worldgen.lithostitched.worldgen.poolelement.legacy.LimitedPoolElement$$Lambda/0x0000011665b174b0",
+	"minecraft:legacy_single_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x0000011664dd5830",
+	"minecraft:list_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x0000011664dd5830",
+	"minecraft:empty_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x0000011664dd5830",
+	"lithostitched:guaranteed": "dev.worldgen.lithostitched.worldgen.poolelement.legacy.GuaranteedPoolElement$$Lambda/0x0000011665b0cb38",
+	"lithostitched:feature": "dev.worldgen.lithostitched.worldgen.poolelement.LithostitchedFeaturePoolElement$$Lambda/0x0000011665b22fd0",
+	"minecraft:feature_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x0000011664dd5830",
+	"minecraft:single_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda/0x0000011664dd5830",
+	"lithostitched:delegating": "dev.worldgen.lithostitched.worldgen.poolelement.DelegatingPoolElement$$Lambda/0x0000011665b07ae8"
+}

@@ -1,0 +1,5 @@
+{
+	"minecraft:by_cost": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:single": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:by_cost_with_difficulty": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

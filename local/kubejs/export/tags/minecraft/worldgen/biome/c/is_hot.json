@@ -1,0 +1,8 @@
+[
+	"#c:is_hot/end",
+	"#c:is_hot/nether",
+	"#c:is_hot/overworld",
+	"#forge:is_hot?",
+	"#terralith:reference/temperature/lukewarm",
+	"#terralith:reference/temperature/warm"
+]

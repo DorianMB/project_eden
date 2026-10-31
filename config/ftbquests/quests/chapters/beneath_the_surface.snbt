@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beneath_the_surface"
+	group: "60A8A6BD9E81B246"
+	icon: {
+		id: "minecraft:iron_ingot"
+	}
+	id: "7A51F50E4BC03C9E"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["39A704B02EA53FFA"]
+			hide_until_deps_complete: true
+			id: "74B784EC7BE048CA"
+			rewards: [{
+				count: 2
+				id: "13F1EBB1C8B32A79"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "1CABB25CF06EBE34"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["74B784EC7BE048CA"]
+			id: "62F8FF2B4768E016"
+			rewards: [{
+				count: 2
+				id: "3524CD8C7E8D327B"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				random_bonus: 10
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0886D66E30B9C22E"
+					item: { count: 1, id: "minecraft:iron_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "244EC0BCCF3701F0"
+					item: { count: 1, id: "minecraft:iron_sword" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["74B784EC7BE048CA"]
+			id: "2236443B427B65AA"
+			rewards: [{
+				count: 4
+				id: "0E189A62BFEE7EE2"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				random_bonus: 10
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3040762C445BF7C3"
+					item: { count: 1, id: "minecraft:iron_helmet" }
+					type: "item"
+				}
+				{
+					id: "5467DE86FB64EC91"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5FF137087B56EA5B"
+					item: { count: 1, id: "minecraft:iron_leggings" }
+					type: "item"
+				}
+				{
+					id: "3807CFAA15AF6A29"
+					item: { count: 1, id: "minecraft:iron_boots" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"62F8FF2B4768E016"
+				"2236443B427B65AA"
+			]
+			dependency_requirement: "one_completed"
+			id: "6A30276A0D58DA9A"
+			tasks: [{
+				id: "3779777FBC5B6FB6"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "69E5E45615E65EEC"
+			tasks: [{
+				count: 3L
+				id: "7ACC4CCA47ABFB7A"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "0E7BBCDBC0A33260"
+			tasks: [{
+				id: "7DCFAE2B72591901"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "23BAB5498F79DA94"
+			tasks: [{
+				id: "279C159E9B4931A0"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "00917A93742878F7"
+			tasks: [{
+				id: "35CFCC937BB54117"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "3F3288FB3776266A"
+			tasks: [{
+				id: "03A2F96339746F06"
+				item: { count: 1, id: "mekanism:ingot_tin" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "4DA4C57845B3DCBF"
+			tasks: [{
+				id: "31F5A31AE2082E13"
+				item: { count: 1, id: "mekanism:ingot_lead" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "04B0BDC2173B2C49"
+			tasks: [{
+				id: "443CA74F42B09EB5"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "70BAB9F3D56E3477"
+			tasks: [{
+				count: 10L
+				id: "45746F4742CF12D1"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A30276A0D58DA9A"]
+			id: "56D967CFA8337225"
+			tasks: [{
+				id: "062C283E79755887"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+	]
+}

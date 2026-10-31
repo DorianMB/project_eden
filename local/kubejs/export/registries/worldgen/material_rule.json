@@ -1,0 +1,9 @@
+{
+	"lithostitched:bandlands": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:transient_merged": "com.mojang.serialization.MapCodec$2",
+	"minecraft:bandlands": "com.mojang.serialization.MapCodec$2",
+	"minecraft:condition": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:block": "com.mojang.serialization.MapCodec$2",
+	"minecraft:sequence": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:reference": "com.mojang.serialization.MapCodec$2"
+}

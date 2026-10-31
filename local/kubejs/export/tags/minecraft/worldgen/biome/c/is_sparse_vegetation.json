@@ -1,0 +1,10 @@
+[
+	"#c:is_sparse_vegetation/end",
+	"#c:is_sparse_vegetation/nether",
+	"#c:is_sparse_vegetation/overworld",
+	"#forge:is_sparse?",
+	"#forge:is_sparse_vegetation?",
+	"#terralith:reference/badlands_all",
+	"#terralith:reference/savanna",
+	"#terralith:shrublands"
+]

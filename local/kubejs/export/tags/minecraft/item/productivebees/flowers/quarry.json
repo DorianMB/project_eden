@@ -1,0 +1,23 @@
+[
+	"#c:gravels",
+	"#c:sands",
+	"#c:stones",
+	"#minecraft:dirt",
+	"ae2:sky_stone_block?",
+	"create:asurine?",
+	"create:crimsite?",
+	"create:limestone?",
+	"create:ochrum?",
+	"create:scorchia?",
+	"create:scoria?",
+	"create:veridium?",
+	"minecraft:basalt",
+	"minecraft:blackstone",
+	"minecraft:calcite",
+	"minecraft:clay",
+	"minecraft:cobbled_deepslate",
+	"minecraft:cobblestone",
+	"minecraft:end_stone",
+	"minecraft:netherrack",
+	"quark:corundum?"
+]

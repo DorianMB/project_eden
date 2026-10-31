@@ -1,0 +1,5 @@
+{
+	"lithostitched:simplex": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:perlin": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:cellular": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

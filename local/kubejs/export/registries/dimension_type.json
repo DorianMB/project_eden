@@ -1,0 +1,7 @@
+{
+	"minecraft:the_end": "net.minecraft.world.level.dimension.DimensionType",
+	"minecraft:overworld": "net.minecraft.world.level.dimension.DimensionType",
+	"minecraft:overworld_caves": "net.minecraft.world.level.dimension.DimensionType",
+	"minecraft:the_nether": "net.minecraft.world.level.dimension.DimensionType",
+	"ae2:spatial_storage": "net.minecraft.world.level.dimension.DimensionType"
+}

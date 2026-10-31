@@ -1,0 +1,11 @@
+{
+	"minecraft:rusty": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:ashen": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:striped": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:black": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:spotted": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:snowy": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:chestnut": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:woods": "net.minecraft.world.entity.animal.WolfVariant",
+	"minecraft:pale": "net.minecraft.world.entity.animal.WolfVariant"
+}

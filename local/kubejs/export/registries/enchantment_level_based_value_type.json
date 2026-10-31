@@ -1,0 +1,8 @@
+{
+	"minecraft:linear": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:levels_squared": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"apothic_enchanting:exponential": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:fraction": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:lookup": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:clamped": "com.mojang.serialization.Codec$3"
+}

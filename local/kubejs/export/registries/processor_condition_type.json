@@ -1,0 +1,10 @@
+{
+	"lithostitched:true": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:any_of": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:position": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:not": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:random_chance": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:all_of": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:matching_biomes": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:matching_blocks": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

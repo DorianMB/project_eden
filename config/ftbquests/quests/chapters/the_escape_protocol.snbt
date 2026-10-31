@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "the_escape_protocol"
+	group: "3E2817B9CDBC9BA4"
+	icon: {
+		id: "eden:portal"
+	}
+	id: "2FA3BB136A094D4A"
+	images: [{
+		click_action: "none:"
+		height: 19.5d
+		id: "615C54F4109A3CF5"
+		image: "project_eden:textures/quests/portal-recipe.png"
+		rotation: 0.0d
+		width: 24.0d
+		x: -1.5d
+		y: 1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["405D9A37F173B94F"]
+			hide_until_deps_complete: true
+			id: "188390EC3A678775"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 28L
+				id: "55FADD1B21E5E180"
+				item: { count: 1, id: "compressedblocks:c1_netherite_block" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["188390EC3A678775"]
+			id: "09845B52B4A64027"
+			tasks: [{
+				count: 20L
+				id: "5981F84222093EDC"
+				item: { count: 1, id: "eden:infinity_alloy" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CB520605DB8695F"]
+			id: "290429AE519422E3"
+			tasks: [{
+				count: 4L
+				id: "3CC23549E36C0AF7"
+				item: { count: 1, id: "compressedblocks:c3_redstone_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CB520605DB8695F"]
+			id: "632F94B3B49E14E3"
+			tasks: [{
+				count: 4L
+				id: "5F14D53EF617D998"
+				item: { count: 1, id: "eden:infinity_quantum_battery" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09845B52B4A64027"]
+			id: "3DF8FCADD317E7C3"
+			tasks: [{
+				count: 4L
+				id: "78421A856B32BB39"
+				item: { count: 1, id: "eden:reality_anchor" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"23F2A5DA339C27F1"
+				"11BBD6CB1A797497"
+			]
+			id: "6679C7AD37A1ECA0"
+			tasks: [{
+				id: "733E4950F6C7B56E"
+				item: { count: 1, id: "eden:portal" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55EF76C2C24D5186"]
+			id: "11BBD6CB1A797497"
+			tasks: [{
+				count: 4L
+				id: "300332B3B0AEC3AF"
+				item: { count: 1, id: "compressedblocks:c2_diamond_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["632F94B3B49E14E3"]
+			id: "55EF76C2C24D5186"
+			tasks: [{
+				count: 4L
+				id: "7B540E8A695E077C"
+				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3DF8FCADD317E7C3"]
+			id: "4CB520605DB8695F"
+			tasks: [{
+				id: "644A93CBF9A394D9"
+				item: { count: 1, id: "compressedblocks:c7_cobblestone" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["475194F94C5123BC"]
+			id: "23F2A5DA339C27F1"
+			tasks: [{
+				count: 4L
+				id: "523F05200AC5C9FE"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["290429AE519422E3"]
+			id: "475194F94C5123BC"
+			tasks: [{
+				count: 4L
+				id: "02813148ED7263A5"
+				item: { count: 1, id: "advanced_ae:quantum_processor" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"minecraft:play_sound": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:run_function": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:damage_entity": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:spawn_particles": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:explode": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:damage_item": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:ignite": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"apothic_enchanting:rebounding": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:apply_mob_effect": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:summon_entity": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:all_of": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:replace_disk": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:replace_block": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:set_block_properties": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

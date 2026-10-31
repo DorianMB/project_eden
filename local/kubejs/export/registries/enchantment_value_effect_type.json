@@ -1,0 +1,7 @@
+{
+	"minecraft:add": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:set": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:multiply": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:remove_binomial": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:all_of": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

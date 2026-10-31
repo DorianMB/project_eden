@@ -1,0 +1,18 @@
+[
+	"#minecraft:bypasses_invulnerability",
+	"#neoforge:is_poison",
+	"mekanism:radiation",
+	"mekanism:sps",
+	"mekanismgenerators:fusion",
+	"minecraft:cramming",
+	"minecraft:drown",
+	"minecraft:dry_out",
+	"minecraft:freeze",
+	"minecraft:in_wall",
+	"minecraft:indirect_magic",
+	"minecraft:magic",
+	"minecraft:outside_border",
+	"minecraft:starve",
+	"minecraft:thorns",
+	"minecraft:wither"
+]

@@ -1,0 +1,6 @@
+#6F6 minecraft:badlands
+#38F terralith:granite_cliffs
+#3DC minecraft:plains
+#2B7 minecraft:warm_ocean
+#531 terralith:warm_river
+#1C9 minecraft:wooded_badlands

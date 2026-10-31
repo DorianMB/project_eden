@@ -1,0 +1,17 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ae2:energy_acceptor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:charged_certus_quartz_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:fluix_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:engineering_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:inscriber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"powah:furnator_starter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"powah:dielectric_paste"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"eden:portal","recipeType":"extendedcrafting:ultimate_crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"eden:portal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:ultimate_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:ultimate_singularity"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"extendedcrafting:elite_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2omnicells:singularity_block"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

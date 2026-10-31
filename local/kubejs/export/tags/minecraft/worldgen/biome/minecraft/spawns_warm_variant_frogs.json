@@ -1,0 +1,10 @@
+[
+	"#minecraft:is_badlands",
+	"#minecraft:is_jungle",
+	"#minecraft:is_nether",
+	"#minecraft:is_savanna",
+	"#terralith:reference/temperature/warm",
+	"minecraft:desert",
+	"minecraft:mangrove_swamp",
+	"minecraft:warm_ocean"
+]

@@ -1,0 +1,18 @@
+[
+	"#forge:is_sparse/overworld?",
+	"#forge:is_sparse_vegetation/overworld?",
+	"#terralith:reference/badlands_all",
+	"#terralith:reference/savanna",
+	"#terralith:shrublands",
+	"minecraft:frozen_peaks",
+	"minecraft:jagged_peaks",
+	"minecraft:savanna",
+	"minecraft:savanna_plateau",
+	"minecraft:snowy_slopes",
+	"minecraft:sparse_jungle",
+	"minecraft:windswept_forest",
+	"minecraft:windswept_gravelly_hills",
+	"minecraft:windswept_hills",
+	"minecraft:windswept_savanna",
+	"minecraft:wooded_badlands"
+]

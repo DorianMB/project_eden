@@ -1,0 +1,7 @@
+{
+	"minecraft:nether_cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:canyon": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:cave_extra_underground": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"terralith:deep_ravine": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver"
+}

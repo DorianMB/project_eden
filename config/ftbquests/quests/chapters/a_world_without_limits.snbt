@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_world_without_limits"
+	group: "0F306884E14B21DC"
+	icon: {
+		id: "powah:energy_cell_creative"
+	}
+	id: "23F6A47CDBA40D23"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"5F3F4514599694D9"
+			"4BFCE61671D39928"
+			"18F5F3D35B8E1C6F"
+		]
+		dependency_requirement: "one_completed"
+		hide_until_deps_complete: true
+		id: "007A546BC345A2F9"
+		tasks: [{
+			id: "5E66845889AC33A5"
+			type: "checkmark"
+		}]
+		x: 1.0d
+		y: -0.5d
+	}]
+}
