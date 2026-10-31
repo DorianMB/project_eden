@@ -1,13 +1,13 @@
-[09:10:41] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
-[09:10:41] [INIT] Loaded plugins:
-[09:10:41] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[09:10:41] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[09:10:41] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[09:10:41] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
-[09:10:42] [INFO] Loaded script client_scripts:tooltips.js in 0.0 s
-[09:10:42] [INFO] Loaded 1/1 KubeJS client scripts in 0.023 s with 0 errors and 0 warnings
-[09:10:49] [INFO] Client resource reload complete!
+[10:47:32] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
+[10:47:32] [INIT] Loaded plugins:
+[10:47:32] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[10:47:32] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[10:47:32] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[10:47:32] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[10:47:32] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[10:47:32] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[10:47:32] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[10:47:32] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[10:47:32] [INFO] Loaded script client_scripts:tooltips.js in 0.0 s
+[10:47:32] [INFO] Loaded 1/1 KubeJS client scripts in 0.011 s with 0 errors and 0 warnings
+[10:47:39] [INFO] Client resource reload complete!

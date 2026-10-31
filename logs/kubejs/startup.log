@@ -1,18 +1,18 @@
-[09:10:41] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
-[09:10:41] [INIT] Loaded plugins:
-[09:10:41] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[09:10:41] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[09:10:41] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[09:10:41] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[09:10:41] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
-[09:10:41] [INFO] Loaded script startup_scripts:eden_blocks.js in 0.046 s
-[09:10:41] [INFO] startup_scripts:eden_chemicals.js#1: Loaded Java class 'mekanism.api.chemical.Chemical'
-[09:10:41] [INFO] startup_scripts:eden_chemicals.js#2: Loaded Java class 'mekanism.api.chemical.ChemicalBuilder'
-[09:10:41] [INFO] Loaded script startup_scripts:eden_chemicals.js in 0.005 s
-[09:10:41] [INFO] Loaded script startup_scripts:eden_items.js in 0.002 s
-[09:10:41] [INFO] Loaded 3/3 KubeJS startup scripts in 0.8 s with 0 errors and 0 warnings
-[09:10:42] [INFO] Validated 12 files in kubejs/assets/ in 42ms
-[09:10:42] [INFO] Validated 9 files in kubejs/data/ in 60ms
+[10:47:31] [INIT] KubeJS 2101.7.2-build.377; MC 2101 NeoForge
+[10:47:31] [INIT] Loaded plugins:
+[10:47:31] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[10:47:31] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[10:47:31] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[10:47:31] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[10:47:31] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[10:47:31] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[10:47:31] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[10:47:31] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[10:47:32] [INFO] Loaded script startup_scripts:eden_blocks.js in 0.034 s
+[10:47:32] [INFO] startup_scripts:eden_chemicals.js#1: Loaded Java class 'mekanism.api.chemical.Chemical'
+[10:47:32] [INFO] startup_scripts:eden_chemicals.js#2: Loaded Java class 'mekanism.api.chemical.ChemicalBuilder'
+[10:47:32] [INFO] Loaded script startup_scripts:eden_chemicals.js in 0.005 s
+[10:47:32] [INFO] Loaded script startup_scripts:eden_items.js in 0.002 s
+[10:47:32] [INFO] Loaded 3/3 KubeJS startup scripts in 0.734 s with 0 errors and 0 warnings
+[10:47:32] [INFO] Validated 12 files in kubejs/assets/ in 6ms
+[10:47:32] [INFO] Validated 12 files in kubejs/data/ in 4ms

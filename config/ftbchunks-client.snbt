@@ -138,28 +138,28 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"productivebees:resin_bee": true
-			"minecraft:squid": true
-			"minecraft:zombie": true
-			"productivebees:leafcutter_bee": true
-			"minecraft:salmon": false
-			"productivebees:yellow_black_carpenter_bee": true
-			"minecraft:pig": true
-			"minecraft:tropical_fish": false
 			"minecraft:slime": true
-			"minecraft:cow": true
-			"minecraft:axolotl": true
-			"minecraft:creeper": true
-			"minecraft:sheep": true
-			"productivebees:green_carpenter_bee": true
 			"minecraft:glow_squid": true
-			"productivebees:blue_banded_bee": true
+			"minecraft:pig": true
+			"minecraft:axolotl": true
 			"minecraft:spider": true
+			"minecraft:zombie": true
 			"minecraft:chicken": true
-			"minecraft:skeleton": true
-			"minecraft:bat": true
 			"minecraft:enderman": true
+			"minecraft:salmon": false
+			"minecraft:cow": true
+			"productivebees:green_carpenter_bee": true
 			"productivebees:chocolate_mining_bee": true
+			"minecraft:squid": true
+			"minecraft:bat": true
+			"minecraft:tropical_fish": false
+			"productivebees:resin_bee": true
+			"productivebees:leafcutter_bee": true
+			"productivebees:blue_banded_bee": true
+			"minecraft:sheep": true
+			"minecraft:creeper": true
+			"minecraft:skeleton": true
+			"productivebees:yellow_black_carpenter_bee": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

@@ -1,13 +1,3 @@
-/tp DorianMB -5361 100 -2859
-/tp DorianMB -6678 100 -1881
-/tp DorianMB -4435 200 3558
-/tp DorianMB -9477 200 -2983
-/tiab time add DorianMB 99999
-/execute in eden:wasteland run tp @s 0 2 0
-/execute in minecraft:overworld run tp @s 0 80 0
-/reload
-/execute in minecraft:overworld run tp @s 0 80 0
-/reload
 /execute in minecraft:overworld run tp @s 0 80 0
 /reload
 /kill @e
@@ -47,4 +37,14 @@
 /kjs inventory
 /reload
 /kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs hand
+/reload
+/kjs inventory
 /reload

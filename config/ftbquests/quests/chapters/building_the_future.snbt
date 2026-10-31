@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building_the_future"
+	group: "7AFF8DE55D6853CE"
+	icon: {
+		id: "buildinggadgets2:gadget_building"
+	}
+	id: "0E08274408A107E8"
+	images: [
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "666E3A5997F64147"
+			image: "buildinggadgets2:item/gadget_building"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "7F2B71182DD19B8B"
+			image: "buildinggadgets2:item/gadget_copy_paste"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "4E04D5C3EA358626"
+			image: "buildinggadgets2:item/gadget_cut_paste"
+			rotation: 0.0d
+			width: 4.0d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "460094F994601574"
+			image: "buildinggadgets2:item/gadget_exchanging"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "5BDC9594097AF441"
+			image: "buildinggadgets2:item/gadget_destruction"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "6F3C4BB117643683"
+			image: "buildinggadgets2:block/template_manager_front"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.5d
+			y: 6.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E8404A7DA2668A2"]
+			hide_until_deps_complete: true
+			id: "6950309AE2415C08"
+			tasks: [{
+				id: "423EE9E05048D416"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6950309AE2415C08"]
+			id: "74BDADB5D2151E43"
+			tasks: [{
+				id: "07F4AE3DCF849FA9"
+				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74BDADB5D2151E43"]
+			id: "4441CC0AC62684FC"
+			optional: true
+			tasks: [{
+				id: "74ACE6961026818C"
+				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4441CC0AC62684FC"]
+			id: "2C0BC7022FCDA7FB"
+			optional: true
+			tasks: [{
+				id: "41301EEB033F9529"
+				item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C0BC7022FCDA7FB"]
+			id: "57210D30756E02CA"
+			optional: true
+			tasks: [{
+				id: "46D3D23B97272D65"
+				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57210D30756E02CA"]
+			id: "5466A11DA0D688E8"
+			optional: true
+			rewards: [{
+				id: "279FE874B333B5B5"
+				item: {
+					count: 1
+					id: "buildinggadgets2:template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E80BAE1025ADA6"
+				item: { count: 1, id: "buildinggadgets2:template_manager" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+	]
+}
