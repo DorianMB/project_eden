@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fields_of_abundance"
+	group: "7AFF8DE55D6853CE"
+	icon: {
+		id: "pylons:harvester_pylon"
+	}
+	id: "080E61329F4A9E32"
+	images: [{
+		click_action: "none:"
+		height: 15.0d
+		id: "4663F5B3A2A0C212"
+		image: "pylons:item/player_filter"
+		rotation: 0.0d
+		width: 15.0d
+		x: -11.0d
+		y: -2.5d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E8404A7DA2668A2"]
+			hide_until_deps_complete: true
+			id: "1946EB9E8125929D"
+			tasks: [{
+				id: "481896CB4E39A3B4"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1946EB9E8125929D"]
+			id: "656C34235C64AA2F"
+			rewards: [{
+				id: "22FBFD15B5B994A9"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				random_bonus: 11
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D0755B1B5F8E29F"
+				item: { count: 1, id: "pylons:harvester_pylon" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["656C34235C64AA2F"]
+			icon: {
+				id: "minecraft:diamond_hoe"
+			}
+			id: "796E3E10C22B9B9B"
+			rewards: [{
+				id: "37C348347085C35A"
+				item: {
+					count: 1
+					id: "minecraft:diamond_hoe"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "388DDC7CABB547CC"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4CF396835C1B9EDC"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4A435B6324277AE6"
+					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["796E3E10C22B9B9B"]
+			id: "3C6E3906DAFBF4DB"
+			optional: true
+			tasks: [
+				{
+					id: "27A0CDA7B29B26D6"
+					item: { count: 1, id: "pylons:expulsion_pylon" }
+					type: "item"
+				}
+				{
+					id: "7BDF732EB54527E4"
+					item: { count: 1, id: "pylons:player_filter" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["796E3E10C22B9B9B"]
+			id: "1FB2F9F33445D967"
+			optional: true
+			tasks: [
+				{
+					id: "1C7D0FF160B9CE57"
+					item: { count: 1, id: "pylons:infusion_pylon" }
+					type: "item"
+				}
+				{
+					id: "70435A0B9FFDC815"
+					item: { count: 1, id: "pylons:potion_filter" }
+					type: "item"
+				}
+				{
+					id: "7708B64B0E4911D1"
+					item: { components: { "minecraft:potion_contents": { potion: "apothic_attributes:extra_long_flying" } }, count: 1, id: "minecraft:potion" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["796E3E10C22B9B9B"]
+			id: "3B7C27965BC3F6DA"
+			optional: true
+			tasks: [
+				{
+					id: "5B16CE5F8361FE30"
+					item: { count: 1, id: "pylons:interdiction_pylon" }
+					type: "item"
+				}
+				{
+					id: "1E7E7D2E7321B117"
+					item: { count: 1, id: "pylons:mob_filter" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["796E3E10C22B9B9B"]
+			id: "1E574F4898F8DD25"
+			optional: true
+			tasks: [
+				{
+					id: "1BF507920DC1218C"
+					item: { count: 1, id: "pylons:protection_pylon" }
+					type: "item"
+				}
+				{
+					id: "6BC87A1EFB1DAC72"
+					item: { count: 1, id: "pylons:block_filter" }
+					type: "item"
+				}
+				{
+					id: "132702A8BC85C354"
+					item: { count: 1, id: "pylons:mob_filter" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 0.5d
+		}
+	]
+}

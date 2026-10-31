@@ -1,0 +1,8 @@
+{
+	"framedblocks:collapsible_block": "xfacthd.framedblocks.api.blueprint.AuxBlueprintData$Type",
+	"framedblocks:adjustable_double_block": "xfacthd.framedblocks.api.blueprint.AuxBlueprintData$Type",
+	"framedblocks:target_color": "xfacthd.framedblocks.api.blueprint.AuxBlueprintData$Type",
+	"framedblocks:potted_flower": "xfacthd.framedblocks.api.blueprint.AuxBlueprintData$Type",
+	"framedblocks:door": "xfacthd.framedblocks.api.blueprint.AuxBlueprintData$Type",
+	"framedblocks:collapsible_copycat_block": "xfacthd.framedblocks.api.blueprint.AuxBlueprintData$Type"
+}

@@ -1,0 +1,5 @@
+{
+	"lithostitched:set_trial_chambers_pool_aliases": "dev.worldgen.lithostitched.worldgen.modifier.SetPoolAliasesModifier",
+	"lithostitched:rereference_noise_settings": "dev.worldgen.lithostitched.worldgen.modifier.internal.RereferenceNoiseSettingsModifier",
+	"lithostitched:compile_raw_templates": "dev.worldgen.lithostitched.worldgen.modifier.internal.CompileRawTemplatesModifier"
+}

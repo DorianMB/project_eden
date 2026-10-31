@@ -1,0 +1,8 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"ae2:energy_acceptor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:item_storage_cell_1k"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:fluix_glass_cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:crafting_terminal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

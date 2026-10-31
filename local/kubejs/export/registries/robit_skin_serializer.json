@@ -1,0 +1,4 @@
+{
+	"mekanism:basic": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"mekanism:advancement_based": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

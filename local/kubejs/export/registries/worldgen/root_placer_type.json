@@ -1,0 +1,4 @@
+{
+	"minecraft:mangrove_root_placer": "net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacerType",
+	"lithostitched:large_mangrove": "net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacerType"
+}

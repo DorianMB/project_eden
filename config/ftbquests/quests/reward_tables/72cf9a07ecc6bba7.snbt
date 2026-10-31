@@ -1,0 +1,55 @@
+{
+	id: "72CF9A07ECC6BBA7"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "2BB1814C44D7015C"
+			item: {
+				count: 1
+				id: "powah:ender_gate_basic"
+			}
+		}
+		{
+			count: 4
+			id: "34DF685DF1A4EB44"
+			item: {
+				count: 1
+				id: "powah:ender_gate_hardened"
+			}
+		}
+		{
+			count: 4
+			id: "721C5973BA4F6025"
+			item: {
+				count: 1
+				id: "powah:ender_gate_blazing"
+			}
+		}
+		{
+			count: 4
+			id: "1015701F680492C1"
+			item: {
+				count: 1
+				id: "powah:ender_gate_niotic"
+			}
+		}
+		{
+			count: 4
+			id: "6BFA0CD5E34C4D65"
+			item: {
+				count: 1
+				id: "powah:ender_gate_spirited"
+			}
+		}
+		{
+			count: 4
+			id: "7B8421C409E1D6C0"
+			item: {
+				count: 1
+				id: "powah:ender_gate_nitro"
+			}
+		}
+	]
+}

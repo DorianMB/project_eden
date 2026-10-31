@@ -1,0 +1,32 @@
+{
+	id: "537FBFB2519573A6"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "1A00B9E6F0669E65", item: { count: 1, id: "pipez:basic_upgrade" } }
+		{
+			id: "23D07EF59530E2CA"
+			item: {
+				count: 1
+				id: "pipez:improved_upgrade"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "562C20BAAAE834C4"
+			item: {
+				count: 1
+				id: "pipez:advanced_upgrade"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "6EEC96FB58D31340"
+			item: {
+				count: 1
+				id: "pipez:ultimate_upgrade"
+			}
+			weight: 0.1f
+		}
+	]
+}

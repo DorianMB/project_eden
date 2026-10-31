@@ -1,0 +1,18 @@
+{
+	"lithostitched:sample_density": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:temperature": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:all_of": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:stone_depth": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:hole": "com.mojang.serialization.MapCodec$2",
+	"minecraft:y_above": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:vertical_gradient": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:water": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:slope": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:biome": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:not": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:any_of": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:above_preliminary_surface": "com.mojang.serialization.MapCodec$2",
+	"minecraft:steep": "com.mojang.serialization.MapCodec$2",
+	"minecraft:noise_threshold": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:biome": "com.mojang.serialization.MapCodec$2"
+}

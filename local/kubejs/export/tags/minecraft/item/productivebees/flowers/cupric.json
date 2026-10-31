@@ -1,0 +1,18 @@
+[
+	"minecraft:copper_block",
+	"minecraft:copper_ore",
+	"minecraft:cut_copper",
+	"minecraft:deepslate_copper_ore",
+	"minecraft:exposed_copper",
+	"minecraft:exposed_cut_copper",
+	"minecraft:lightning_rod",
+	"minecraft:oxidized_copper",
+	"minecraft:oxidized_cut_copper",
+	"minecraft:raw_copper_block",
+	"minecraft:waxed_copper_block",
+	"minecraft:waxed_exposed_copper",
+	"minecraft:waxed_oxidized_copper",
+	"minecraft:waxed_weathered_copper",
+	"minecraft:weathered_copper",
+	"minecraft:weathered_cut_copper"
+]

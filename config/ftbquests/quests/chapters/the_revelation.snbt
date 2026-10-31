@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_revelation"
+	group: "3E2817B9CDBC9BA4"
+	id: "26CC6840876C165A"
+	images: [{
+		click_action: "none:"
+		height: 15.0d
+		id: "2467A6BFBE2E1A84"
+		image: "extendedcrafting:block/basic_table_top"
+		rotation: 0.0d
+		width: 15.0d
+		x: -1.0d
+		y: -1.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["167A7F391BAE50DD"]
+			hide_until_deps_complete: true
+			id: "70AFEE9C23FECCC5"
+			tasks: [{
+				id: "3F7C7195A5344F8F"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["70AFEE9C23FECCC5"]
+			id: "4763EA8F0F8A4F07"
+			tasks: [{
+				id: "4EDCEA628D0BE1A6"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4763EA8F0F8A4F07"]
+			id: "41D15958FB9231AD"
+			tasks: [{
+				id: "7A24147CB5F17F4D"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+}

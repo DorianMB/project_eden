@@ -1,0 +1,13 @@
+[
+	"#forge:is_magic?",
+	"#neoforge:is_poison",
+	"#neoforge:is_wither",
+	"apotheosis:psychic",
+	"apothic_attributes:cold_damage",
+	"apothic_attributes:detonation",
+	"apothic_attributes:fire_damage",
+	"minecraft:dragon_breath",
+	"minecraft:indirect_magic",
+	"minecraft:magic",
+	"minecraft:thorns"
+]

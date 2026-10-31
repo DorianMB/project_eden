@@ -1,0 +1,11 @@
+{
+	"kubejs:regex": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"neoforge:difference": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"neoforge:intersection": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"neoforge:tag": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"neoforge:single": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"neoforge:compound": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"neoforge:empty": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"neoforge:components": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType",
+	"kubejs:namespace": "net.neoforged.neoforge.fluids.crafting.FluidIngredientType"
+}

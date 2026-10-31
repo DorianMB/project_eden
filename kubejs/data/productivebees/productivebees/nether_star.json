@@ -1,0 +1,19 @@
+{
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#D8D8E8",
+    "particleColor": "#FFFFFF",
+    "flowerTag": "c:storage_blocks/nether_star",
+    "selfbreed": false,
+    "withered": true,
+    "createComb": true,
+    "attributes": {
+        "temper": "temper.aggressive",
+        "behavior": "behavior.nocturnal"
+    },
+    "passiveEffects": [
+        {
+            "effect": "minecraft:wither",
+            "duration": 150
+        }
+    ]
+}

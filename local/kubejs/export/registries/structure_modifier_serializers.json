@@ -1,0 +1,6 @@
+{
+	"neoforge:clear_spawns": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:remove_spawns": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:add_spawns": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:none": "com.mojang.serialization.MapCodec$2"
+}

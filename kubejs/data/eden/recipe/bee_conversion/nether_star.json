@@ -1,0 +1,9 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:withered",
+    "result": "productivebees:nether_star",
+    "item": {
+        "item": "extendedcrafting:nether_star_block"
+    },
+    "chance": 1.0
+}

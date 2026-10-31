@@ -1,0 +1,13 @@
+{
+	"lithostitched:any_of": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:true": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:sample_density": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:not": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:in_biome": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:grid": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:all_of": "com.mojang.serialization.MapCodec$2",
+	"lithostitched:multiple_of": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:offset": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:height_filter": "com.mojang.serialization.Codec$3",
+	"lithostitched:sample_noise_router": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

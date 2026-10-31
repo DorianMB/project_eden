@@ -1,0 +1,6 @@
+{
+	"framedblocks:block": "xfacthd.framedblocks.common.data.camo.block.BlockCamoContainerFactory",
+	"framedblocks:empty": "xfacthd.framedblocks.api.camo.empty.EmptyCamoContainerFactory",
+	"framedblocks:fluid": "xfacthd.framedblocks.common.data.camo.fluid.FluidCamoContainerFactory",
+	"mekanism:chemical": "mekanism.common.integration.framedblocks.ChemicalCamoContainerFactory"
+}

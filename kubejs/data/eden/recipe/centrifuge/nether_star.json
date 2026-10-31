@@ -1,0 +1,24 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "productivebees:component",
+        "items": "productivebees:configurable_honeycomb",
+        "components": {
+            "productivebees:bee_type": "productivebees:nether_star"
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "minecraft:nether_star"
+            },
+            "chance": 0.05
+        },
+        {
+            "item": {
+                "item": "productivebees:wax"
+            }
+        }
+    ],
+    "processingTime": 200
+}

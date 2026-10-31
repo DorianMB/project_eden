@@ -1,0 +1,21 @@
+{
+	"minecraft:stronghold": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:mineshaft": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:desert_pyramid": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:jigsaw": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"ae2:ae2mtrt": "appeng.worldgen.meteorite.MeteoriteStructure$$Lambda/0x0000011666424c58",
+	"minecraft:ocean_ruin": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:shipwreck": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:jungle_temple": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:nether_fossil": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:fortress": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:woodland_mansion": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"lithostitched:delegating": "dev.worldgen.lithostitched.worldgen.structure.DelegatingStructure$$Lambda/0x0000011665b6bc38",
+	"minecraft:ruined_portal": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:ocean_monument": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:end_city": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:igloo": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"lithostitched:jigsaw": "dev.worldgen.lithostitched.worldgen.structure.AlternateJigsawStructure$$Lambda/0x0000011665b85a68",
+	"minecraft:swamp_hut": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230",
+	"minecraft:buried_treasure": "net.minecraft.world.level.levelgen.structure.StructureType$$Lambda/0x0000011664d4c230"
+}

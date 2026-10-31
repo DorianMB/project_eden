@@ -1,0 +1,9 @@
+{
+	"apothic_attributes:body": "dev.shadowsoffire.apothic_attributes.modifiers.VanillaEquipmentSlot",
+	"apothic_attributes:legs": "dev.shadowsoffire.apothic_attributes.modifiers.VanillaEquipmentSlot",
+	"apothic_attributes:mainhand": "dev.shadowsoffire.apothic_attributes.modifiers.VanillaEquipmentSlot",
+	"apothic_attributes:head": "dev.shadowsoffire.apothic_attributes.modifiers.VanillaEquipmentSlot",
+	"apothic_attributes:feet": "dev.shadowsoffire.apothic_attributes.modifiers.VanillaEquipmentSlot",
+	"apothic_attributes:chest": "dev.shadowsoffire.apothic_attributes.modifiers.VanillaEquipmentSlot",
+	"apothic_attributes:offhand": "dev.shadowsoffire.apothic_attributes.modifiers.VanillaEquipmentSlot"
+}

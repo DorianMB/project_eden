@@ -1,0 +1,5 @@
+{
+	"lithostitched:wrapped": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:repeating": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:base": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

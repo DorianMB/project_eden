@@ -1,0 +1,4196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_evolution"
+	group: "4F8326BDB08C0432"
+	icon: {
+		id: "mekanism:pellet_antimatter"
+	}
+	id: "0B957D2575A9DBE2"
+	images: [
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "16B7A7D00A903EC4"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3698C88E50094AF6"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "089F942DAC561ABD"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "12AD7F1F23752CFE"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "51DF9C6442881972"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "23983CB8CC8AB585"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "17056A0EBF27CE78"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "33FF61758CD571ED"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5683928259D22E36"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "441A6F45AA0F1B19"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "00CB770AA12F9413"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6EBAA3A904A1C347"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4D8A612F2C54177C"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "78FDB4EA58FE50E3"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1A3A5F294AD656A3"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "698F0DBFCB944BC7"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "746ECE4F0EF65525"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "29B58B501063B42A"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4EFF2EFCC09DA293"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "38018389E5E51DF3"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "770C52BE33A22446"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2C361150978EB6A3"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "2A88B8FE7FF837BD"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "00C66CC4B924CDEC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6E5172DFD81CCA7B"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3CF6C49CE49A4339"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6EF1AAE1FFBF8ED9"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "264F9297E4116066"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7C1696906E9BCFEF"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2F179AA244D52EF4"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "78F76E3292ABC8C5"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "144F6AE4F15A00AC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5E23ACEDD38E3DFD"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "58C9AC2F5CA97112"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "286BDA89FB0D8F65"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6EF10D0C8C0CAE41"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4AE2D7CDAB06BEF3"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "77D3B24411E5FEA0"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "14A47156D7013D27"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4548D89FDD984AE8"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "02A6144CA42BA4C7"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "57211040A8D4FDD6"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "72E7F6CEFD0B4401"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6C92DE42F290E142"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "2B96CB50D119435E"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "038DBCA17977C068"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "471CB27986CEAC48"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "670E083CDB7CEEA3"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "41243DCD34549709"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3A4BC01DB539ACDA"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "08C3B8BBE5F514FB"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7F9FA5908512C178"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "388EB3CFAF1E3351"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6976977CFF4E839E"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "14A2E9321C43BD7F"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2AB89F98AB086F5C"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5356D8B73BE0DB78"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6483E0B67095FFDA"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "76BE372345AEFF18"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "47129C2EB9DA8E64"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "65D6B1F1A66ED5DE"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2856C4ED9433DA88"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "04387F78D87ED648"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "779E1DEBD254AB88"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "28300D4BEEF7D3BA"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "6927BF38746541EA"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "4AAFAD4CE3E8F5C7"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: 16.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "7EA3BF3C0DE3644A"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "47120C230091EB45"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "747AE25F8BEA72D6"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6954B8797EAF0009"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "23946E5ABA58C5D4"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1D67F05D69C881B6"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "41239962B2424A5F"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "136C392DC9ECE94D"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "396AA431B91431EF"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0B5B52A7F266BF4C"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "500E7537D9819503"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 15.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1A279F90F997C116"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 16.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6A77A05C0E472A5D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 17.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3F9F949CCB9CE666"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 18.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1A5A217C43EA4AB0"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "40F03B571AB44CB4"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1B3CEAB297CBFA94"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "17BC18AF3CF1524A"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2355811DF4CF3F4C"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "03529D6A09D67A53"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1D4A624CC4D967F7"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "20D09876A48A1013"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "62560D81DA167AEF"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "48D76625E1A9BCD0"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0F982C3F8061EC3D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5D68D98CEE3772EC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "58BA2A9AD8277D95"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "73D60E3E92575078"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "123F555A9598E6FC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "45D56A540CA665B5"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "25A4110EC0E283AC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6094FE9A0C349FCA"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "71E36BE7864D4828"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1AD784B5CDAEE9D3"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "54A969E43A418591"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4C6325D7DA2840AE"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "431B6F2E42620E38"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "48E32C7FDFDE5804"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "13D26CC3B85C8F73"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "44E9D91EBD722CBA"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "58C74CA6787ACB4C"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4D01339C25CC8F70"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 19.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "2237907E7920E7D7"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5A77E30546983496"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "00C0E604525D3D46"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "7A8B347D37A979EE"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.5d
+			y: 25.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "650E3267485BC88E"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: 25.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "537BDA87103B297C"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 90.0d
+			width: 5.0d
+			x: -2.5d
+			y: 25.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4CDE53903E64C778"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "55146468C96DD8D2"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1B9C69B02AE24DF4"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3103252A90490D40"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7DBB14A0CF3D8023"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "12ACAD938630236A"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "58929CA0E964FB4D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "146A97A22F11BF5F"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0272370D6A9069A0"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1B1ED21784557DCF"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3A29E681E6EA66BD"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5FF962F43C896A3A"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "321C0064D5DB98B9"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "337DB0E07E73654B"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2E055339667DD811"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "60D08F1A04A78078"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 22.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5E95FE4716FC51FC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1195C779C79AD2E0"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "45B202653E42C026"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3113C2324E4A7C89"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "076174EB8B8AFCA0"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3B42308173291FBF"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "49161A2F0B500463"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "23209C60748A47DC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6AAF0EFB9A2D097D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6B49ADE181404F0C"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "40E98D7D966BAD5C"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0CD4CDE9A8EADEF9"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 27.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4DFF75F51C81D553"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 23.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1508C52EAABC08BE"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 24.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6B29898BD9133BBC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 25.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4B5539D9AAFCBCFE"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 26.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "491B9E0295C22259"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "619EEFE0BB961FDE"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "665B77BF6D44E213"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "11916AC9C8EF767C"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "74259DF0B39A1774"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 19.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "62EDE2F3D26C15AA"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 20.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0E0BA927C6E2208F"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 20.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "32377A22C694A112"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 21.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5B2015A30EBF28DE"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 21.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "1AE2208D1C285B31"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 22.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "680C248A74B4F732"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: 33.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "421BDDF2D6264564"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.5d
+			y: 33.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "501182579F7BF092"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 33.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5A5ECB0D3B680D81"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "03D4584227E3EBEA"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "477531E5798EFC75"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2CA39748E423D39D"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6CAF2C1759E98D44"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7692C6DB1FE7708A"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7CD4EF74A21F4993"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1707970D3DDD2D34"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2B16FE3ADE01E959"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4A6441150C878AB0"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "20F14C547851A606"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "365E8BBC5842CDBC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0FD12B8C43F5208D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "47F65F7773EE0851"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1E4BE2F3C751A38A"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4F43A9E010A09332"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 31.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7E6B4D8FA6017B4B"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "387409D538E9F4CF"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3B1BB621DF1AEB07"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2056C04909812287"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "417CADFC97D1CC2D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "60B0136E4C262C08"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "751760891A3C7613"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0673BC899D5C521F"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0741697F7A3E27AB"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6E54630640094E95"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "387A4BD1D3C68794"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "49A63F795FB86453"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 36.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "13210C813169FC95"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 32.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "164A565E537FAFC7"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 33.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6C0D360D53720680"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 34.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "484B41B35A4811EF"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "11DFF6E287F79143"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "63C5CC92CAC0BD69"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "53A781158D1D1DE7"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 34.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3212C8149ACF64B4"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 35.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "642CD58FF317A88E"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 28.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6A94A57DDBD69A26"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 28.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "623E914F0270DF1B"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 29.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "372C57BC4A269E29"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 29.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "3FDA8D4DACDD86D0"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 30.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "7D6892E870A8B9B1"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 30.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "1476C2C6581B0215"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: 42.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "569CA2DA66777B80"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.5d
+			y: 42.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "417E8F882C873945"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 42.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3E30919B6E9C82F6"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "259A83FDCAB835EA"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0D1C149894F3F7B4"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "33723570E02AFFB1"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "07A763436633E4E1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "077821485B264254"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "40C62A0ACF7BFC34"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "56F4B6478E723C7F"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6CB8D0D1C1DA170C"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6F32ECE6310EEDA4"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3C63DD7C47A1ACFC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7FD3340CD2ABED25"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1B3621704AD3B51D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "638F91F47989AE14"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "3E50E1CFB3C90DFE"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 39.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6CB0D1C2FD88B9F1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "260185E66B79311D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "441AEEBA717E990E"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "37F6301B9E170D59"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0B3794AECA55BE60"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "00A688FF3E72E111"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5104AACDD56DA289"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6DCF8061B19871E6"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "42726D33DDFB32E2"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0DC88A1ED2052BE6"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "70F3B7930BBD904D"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5144434883DCAF1E"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 44.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "77A3055E1F9DECEB"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 40.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "16FD0936B31FB769"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 41.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2EB1C08F25D81BC1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 42.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5CB65E01A74E8E76"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 43.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0C2CD95121BF83AC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 40.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2FFBDECE22989280"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 41.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7B2F1E6A26F56D76"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 42.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1CB30CEEE9F86EB7"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 43.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "23A82B9E39E9510C"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 36.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "79C44DE813F1C248"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 37.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5645F5122A75C35C"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 37.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6DDE82F598CD708B"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 38.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "44F9299532684E30"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 38.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "4A862EAC03AD28BC"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 39.0d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "572980371A61BF97"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.5d
+			y: 50.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "4233FFC69A859481"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.5d
+			y: 50.5d
+		}
+		{
+			click_action: "none:"
+			height: 5.0d
+			id: "364A24C29D0B8D96"
+			image: "minecraft:block/gray_concrete"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 50.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7190D2D6666877E1"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "44C1DD73B1193FBE"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -13.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1A35938BE4490BAE"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "5DF31A404A0A7304"
+			image: "chipped:block/gray_concrete/warning_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6D9E28437075C200"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "411CA2442C3B53EC"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "02F50595B8180E66"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "15A0DEE528DF4FCD"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "66A8317FCFFB1520"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "27BA031BBED22EEF"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "10D926411A707981"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0B23F47189D49913"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "003565C1FBB1CF24"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "110227DA6B59D525"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "1348CF39B6420AC1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "638D9694C9A63497"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 48.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6EDC4F73DB9B2DFF"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -12.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "73D1FC6D74CE8D14"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "2153C7EE08038313"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -10.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "431B2D95B5096559"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -9.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "55B3313593D6D040"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -8.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "06373EF439A20FF1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -7.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "42EBB1186C254A44"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "39E08981867C4E22"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -5.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "220CDA33BE1877C1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -4.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "6A9ED51FE4988DF1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -3.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "49315A5C6A04FED4"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -2.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "4D1BCC0D48179D16"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 53.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "53F8D739D1B0C28F"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 49.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7E7F8249585D0316"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 50.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "18C797604597F63A"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 51.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "422D948802F8FBE1"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: -13.0d
+			y: 52.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0F824EB007E2DE27"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 49.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "731C06D3140D1F74"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 50.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "73CF1F5309FB182E"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 51.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "45A965EC0CD1F3E4"
+			image: "chipped:block/gray_concrete/hazard_gray_concrete"
+			rotation: 90.0d
+			width: 1.2d
+			x: 0.0d
+			y: 52.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "07E8E7E5F0197713"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 45.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "47A05209CDD6F16B"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 45.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5CF4FD5DA5B88974"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 46.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "6BC941CF2BB6C698"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 46.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "65EA43983998C3B4"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 47.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "5FEBC4CE8CEDFF29"
+			image: "mekanism:block/models/multipart/ultimate_mechanical_pipe_vertical"
+			order: -5
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 47.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4706B85A49CE7D6D"]
+			hide_until_deps_complete: true
+			id: "6B5EB46003C8836B"
+			rewards: [{
+				count: 4
+				id: "27EFE7467791F008"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "291CA7773BBA0143"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B5EB46003C8836B"]
+			id: "1E5426C4C6B43991"
+			rewards: [
+				{
+					count: 2
+					id: "29001AFE1BDE2909"
+					item: {
+						count: 1
+						id: "mekanism:elite_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "407462678AC9901E"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_control_circuit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D41ED4F062B1472"
+					item: { count: 1, id: "mekanism:elite_control_circuit" }
+					type: "item"
+				}
+				{
+					id: "1BFDAC5EB1C72870"
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E5426C4C6B43991"]
+			id: "19A558BD3058BA37"
+			rewards: [{
+				count: 2
+				id: "3B80B6401AB5C9CF"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_tier_installer"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00E1937ADBCAF573"
+					item: { count: 1, id: "mekanism:advanced_tier_installer" }
+					type: "item"
+				}
+				{
+					id: "5368A8FAE5964F2A"
+					item: { count: 1, id: "mekanism:elite_tier_installer" }
+					type: "item"
+				}
+				{
+					id: "5924D99701177B13"
+					item: { count: 1, id: "mekanism:ultimate_tier_installer" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19A558BD3058BA37"]
+			id: "7216A9D63E7AC44F"
+			rewards: [{
+				count: 2
+				id: "0E5EBBCC0DEA833B"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_tier_installer"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "327E39AB091ED1B2"
+					item: { count: 1, id: "mekanism:ultimate_smelting_factory" }
+					type: "item"
+				}
+				{
+					id: "6D6D51A1C72ACC82"
+					item: { count: 1, id: "mekanism:ultimate_crushing_factory" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7216A9D63E7AC44F"]
+			id: "2773206C146894EE"
+			rewards: [{
+				count: 4
+				id: "32C19C46C5A8A312"
+				item: {
+					count: 1
+					id: "mekanism:upgrade_muffling"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BA398A42C48668E"
+					item: { count: 1, id: "mekanism:upgrade_muffling" }
+					type: "item"
+				}
+				{
+					id: "1216BEF6855AE358"
+					item: { count: 1, id: "mekanism:upgrade_anchor" }
+					type: "item"
+				}
+				{
+					id: "419B8CCFC871E868"
+					item: { count: 1, id: "mekanism:upgrade_filter" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2773206C146894EE"]
+			hide_dependency_lines: true
+			id: "607127CC7B97ED14"
+			rewards: [{
+				id: "4E792A220E980812"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_tier_installer"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CDB5EFAFA524416"
+					item: { count: 1, id: "mekanism:purification_chamber" }
+					type: "item"
+				}
+				{
+					id: "6B9A4FEFB510E5F9"
+					item: { count: 1, id: "mekanism:ultimate_purifying_factory" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["607127CC7B97ED14"]
+			id: "7B0B9E02514258F6"
+			rewards: [{
+				count: 16
+				id: "2FFED4F05EB961BE"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "71157B7B9677058B"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B0B9E02514258F6"]
+			id: "208F1D8675911C43"
+			rewards: [{
+				id: "70AABC0844F12887"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_tier_installer"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04829FFB78EAC964"
+					item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+					type: "item"
+				}
+				{
+					id: "5E237B3C2558FEAA"
+					item: { count: 1, id: "mekanism:ultimate_injecting_factory" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["208F1D8675911C43"]
+			id: "1F65054E08B9CA07"
+			rewards: [{
+				count: 16
+				id: "6354B42251AA6989"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "76A1AFDDECA40E43"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F65054E08B9CA07"]
+			id: "4D756E805065E6F5"
+			rewards: [{
+				count: 2
+				id: "57871C33F6B55CF8"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3853A6DD5B55CFBD"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4D756E805065E6F5"]
+			id: "673BB3DC97E740D1"
+			rewards: [{
+				count: 4
+				id: "14356FB062E930EC"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A1F380940A1D4FB"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+				{
+					id: "65C42605697426E6"
+					item: { count: 1, id: "mekanism:chemical_crystallizer" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["673BB3DC97E740D1"]
+			id: "24376C16E6C4B37A"
+			rewards: [{
+				count: 16
+				id: "72C9BD4B12776341"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "44B5F5E0002CE868"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["24376C16E6C4B37A"]
+			hide_dependency_lines: true
+			id: "71A5C67BC978C048"
+			rewards: [{
+				count: 4
+				id: "3A817344ECD3B360"
+				item: {
+					count: 1
+					id: "mekanism:hdpe_pellet"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49F6EC17CCA15DFB"
+					item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+					type: "item"
+				}
+				{
+					id: "0D5AEA19407D4A72"
+					item: { count: 1, id: "mekanism:substrate" }
+					type: "item"
+				}
+				{
+					id: "4057A2F595AC9009"
+					item: { count: 1, id: "mekanism:hdpe_pellet" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["71A5C67BC978C048"]
+			id: "25476D3C21AF3242"
+			rewards: [{
+				id: "080A39E398C72DA9"
+				item: {
+					count: 1
+					id: "mekanism:gauge_dropper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A1DAFABEA1A7A54"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["25476D3C21AF3242"]
+			id: "26C71F69994A0B15"
+			rewards: [{
+				id: "7A1693231F476281"
+				item: {
+					count: 1
+					id: "mekanism:basic_chemical_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76F9E78A0AA1AE9A"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 16000L, id: "mekanism:sulfuric_acid" }] } }, count: 1, id: "mekanism:gauge_dropper" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["26C71F69994A0B15"]
+			id: "4AD92EF416088F54"
+			rewards: [{
+				count: 16
+				id: "3EE1761C8F3CBCEC"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27A78F85C6F88514"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					id: "0A154D37DCD7CF1C"
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					id: "36009EFB486E914D"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4AD92EF416088F54"]
+			id: "2D9695083D72AC22"
+			rewards: [{
+				count: 4
+				id: "603A28579878D670"
+				item: {
+					count: 1
+					id: "mekanism:dust_lithium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59F73CF5C182E7CA"
+				item: { count: 1, id: "mekanism:dust_lithium" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2D9695083D72AC22"]
+			id: "414885163646741E"
+			rewards: [{
+				count: 4
+				id: "7DC24E688BFF8A14"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A7B6C6107AC481E"
+				item: { count: 1, id: "mekanism:ultimate_chemical_tank" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["414885163646741E"]
+			hide_dependency_lines: true
+			id: "34CFDBC4B417F8D9"
+			rewards: [{
+				count: 8
+				id: "1E27104D2A57E81B"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0AC9AD62A4BF0C82"
+					item: { count: 1, id: "mekanism:ultimate_universal_cable" }
+					type: "item"
+				}
+				{
+					id: "0AFD34201AE2E92D"
+					item: { count: 1, id: "mekanism:ultimate_mechanical_pipe" }
+					type: "item"
+				}
+				{
+					id: "7AE2799E42BAF75E"
+					item: { count: 1, id: "mekanism:ultimate_pressurized_tube" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["34CFDBC4B417F8D9"]
+			id: "73D6AD8DF435688D"
+			rewards: [{
+				id: "61E7396CA5A16233"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_energy_cube"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7B1C37D164333269"
+					item: { count: 1, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					id: "0D941EA532493AB1"
+					item: { count: 1, id: "mekanism:induction_port" }
+					type: "item"
+				}
+				{
+					id: "2B455562DBBBC99B"
+					item: { count: 1, id: "mekanism:basic_induction_cell" }
+					type: "item"
+				}
+				{
+					id: "469497A4EAED6980"
+					item: { count: 1, id: "mekanism:basic_induction_provider" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["73D6AD8DF435688D"]
+			id: "6E37D5C6F0104CD3"
+			rewards: [{
+				count: 16
+				id: "234C44FA4341E07B"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D2BAF325DFE4A41"
+					item: { count: 1, id: "mekanism:dynamic_tank" }
+					type: "item"
+				}
+				{
+					id: "65F59F9BC5BD27F1"
+					item: { count: 1, id: "mekanism:dynamic_valve" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["6E37D5C6F0104CD3"]
+			id: "515C09984547DC06"
+			rewards: [{
+				id: "51DE19B2CE60400D"
+				item: {
+					count: 1
+					id: "mekanism:quantum_entangloporter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6411D95D687260B6"
+				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["515C09984547DC06"]
+			id: "7DDE41DF4BF02E69"
+			rewards: [{
+				count: 4
+				id: "4BC0F8A15880125F"
+				item: {
+					count: 1
+					id: "mekanism:teleportation_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E2974F27A777F87"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["7DDE41DF4BF02E69"]
+			id: "6908A9644418713A"
+			rewards: [{
+				count: 4
+				id: "2B967A778D01D264"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BDE180FA485CD90"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6908A9644418713A"]
+			id: "1C18510051E4C926"
+			tasks: [
+				{
+					id: "6ED035B68E32C8EF"
+					item: { count: 1, id: "mekanism:teleporter" }
+					type: "item"
+				}
+				{
+					id: "5371F7B8F45EF51C"
+					item: { count: 1, id: "mekanism:teleporter_frame" }
+					type: "item"
+				}
+				{
+					id: "00ACEB97BF43F837"
+					item: { count: 1, id: "mekanism:portable_teleporter" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["7400C2C5847D90D4"]
+			id: "35A96A2A3A7BE484"
+			rewards: [{
+				count: 16
+				id: "43137E8AFDF3427E"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fission_reactor_casing"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C84B843FE43D44D"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					id: "267518168C0EB58D"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "3C81EFD16D14AF9A"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					id: "1699D036AD267275"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+				{
+					id: "43129FC2AFEC2F27"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["35A96A2A3A7BE484"]
+			id: "652C49411D93AE78"
+			rewards: [{
+				count: 2
+				id: "0CEDFB749CFA1BB7"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BA6A67275496170"
+				item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["652C49411D93AE78"]
+			id: "2A19938C278FE567"
+			rewards: [{
+				count: 4
+				id: "4A43A9352FBFBCCC"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fission_reactor_logic_adapter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CFE0F1EAD4D71EA"
+				item: { count: 1, id: "mekanismgenerators:fission_reactor_logic_adapter" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 34.5d
+		}
+		{
+			dependencies: ["2A19938C278FE567"]
+			id: "6DB5C8523BF0A319"
+			rewards: [{
+				id: "201642184F92C8B2"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_energy_cube"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18F1A01C59789D78"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					id: "094D845BA2C98FEA"
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+				{
+					id: "62ECB84EF9D11481"
+					item: { count: 1, id: "mekanismgenerators:turbine_vent" }
+					type: "item"
+				}
+				{
+					id: "7A466A2CFE43931D"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "18C59525086D83A6"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					id: "5F75F2D539DC8CED"
+					item: { count: 1, id: "mekanismgenerators:rotational_complex" }
+					type: "item"
+				}
+				{
+					id: "42926F1DD05CFAFD"
+					item: { count: 1, id: "mekanism:pressure_disperser" }
+					type: "item"
+				}
+				{
+					id: "5C6953B9673BC7EA"
+					item: { count: 1, id: "mekanismgenerators:saturating_condenser" }
+					type: "item"
+				}
+				{
+					id: "21FC862DB489182B"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 34.5d
+		}
+		{
+			dependencies: ["6DB5C8523BF0A319"]
+			id: "4FA84DA0117DE098"
+			rewards: [{
+				id: "67875D23364C7BEA"
+				item: {
+					count: 1
+					id: "mekanism:radioactive_waste_barrel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E5BFE6D6D8488D7"
+				item: { count: 1, id: "mekanism:radioactive_waste_barrel" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 34.5d
+		}
+		{
+			dependencies: ["4FA84DA0117DE098"]
+			id: "7C937C1BE943F76B"
+			rewards: [
+				{
+					id: "421D7F4EB0835B90"
+					item: {
+						count: 1
+						id: "mekanism:pellet_polonium"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "15143CDFA3324991"
+					item: {
+						count: 1
+						id: "mekanism:pellet_plutonium"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "54820FA04942899D"
+					item: { count: 1, id: "mekanism:solar_neutron_activator" }
+					type: "item"
+				}
+				{
+					id: "4D1BAE8BC485C3B5"
+					item: { count: 1, id: "mekanism:pellet_polonium" }
+					type: "item"
+				}
+				{
+					id: "76E5EDF9463E4C51"
+					item: { count: 1, id: "mekanism:pellet_plutonium" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 34.5d
+		}
+		{
+			dependencies: ["1C18510051E4C926"]
+			hide_dependency_lines: true
+			id: "7400C2C5847D90D4"
+			rewards: [{
+				count: 16
+				id: "13A418DF428DFA23"
+				item: {
+					count: 1
+					id: "mekanism:ingot_lead"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3E78064254122AFA"
+					item: { count: 1, id: "mekanism:hazmat_mask" }
+					type: "item"
+				}
+				{
+					id: "0398F3207C37B137"
+					item: { count: 1, id: "mekanism:hazmat_gown" }
+					type: "item"
+				}
+				{
+					id: "46C906D56B781630"
+					item: { count: 1, id: "mekanism:hazmat_pants" }
+					type: "item"
+				}
+				{
+					id: "50D22E0EC50277D4"
+					item: { count: 1, id: "mekanism:hazmat_boots" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["7C937C1BE943F76B"]
+			hide_dependency_lines: true
+			id: "4D99B86E2E692B28"
+			rewards: [{
+				count: 8
+				id: "71B05E8E53D4EDDB"
+				item: {
+					count: 1
+					id: "mekanismgenerators:fusion_reactor_frame"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "743470150B0992FC"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+				{
+					id: "67B9CA88221C4D4D"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_port" }
+					type: "item"
+				}
+				{
+					id: "4C9C713D05387976"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "5144AAB89EA8B3B0"
+					item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
+					type: "item"
+				}
+				{
+					id: "1F840BE8331DDD01"
+					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 41.0d
+		}
+		{
+			dependencies: ["02404FA23857FBBC"]
+			id: "25786AC307C0B399"
+			rewards: [{
+				id: "497A6C8F7ECCD26F"
+				item: {
+					count: 1
+					id: "mekanismgenerators:hohlraum"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49BDEA67979C287D"
+				item: { components: { "mekanism:chemicals": { chemical_tanks: [{ amount: 10L, id: "mekanismgenerators:fusion_fuel" }] } }, count: 1, id: "mekanismgenerators:hohlraum" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 41.0d
+		}
+		{
+			dependencies: ["25786AC307C0B399"]
+			id: "3F543C95624C710F"
+			rewards: [{
+				count: 4
+				id: "0EA675AD7038FBA2"
+				item: {
+					count: 1
+					id: "mekanism:sps_casing"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "303838699AF02D99"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					id: "0C20DF94FBA338A2"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "6D61432EFB85DE83"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 43.0d
+		}
+		{
+			dependencies: ["3F543C95624C710F"]
+			id: "2391999DBDDB53E8"
+			rewards: [{
+				id: "75BB68FA776CD828"
+				item: {
+					count: 1
+					id: "mekanism:pellet_antimatter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0159C0F90FBBD189"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 43.0d
+		}
+		{
+			dependencies: ["2391999DBDDB53E8"]
+			id: "457287B1E16364E4"
+			rewards: [{
+				id: "6F6670404106C78D"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1897DD9B9D44F64F"
+				item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 43.0d
+		}
+		{
+			dependencies: ["4D99B86E2E692B28"]
+			id: "02404FA23857FBBC"
+			rewards: [{
+				count: 3
+				id: "3B34774879ECAC96"
+				item: {
+					count: 1
+					id: "mekanism:laser"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "577F9755EA32F2E4"
+					item: { count: 1, id: "mekanism:laser" }
+					type: "item"
+				}
+				{
+					id: "2E06C63BF7C84378"
+					item: { count: 1, id: "mekanism:laser_amplifier" }
+					type: "item"
+				}
+				{
+					id: "0C88DECEC68A93C1"
+					item: { count: 1, id: "mekanism:laser_tractor_beam" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 41.0d
+		}
+		{
+			dependencies: ["457287B1E16364E4"]
+			hide_dependency_lines: true
+			id: "72563F0A2DA35113"
+			rewards: [{
+				count: 4
+				id: "5AAE825D2E0F1FFC"
+				item: {
+					count: 1
+					id: "mekanism:pellet_polonium"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68C950BA587A142E"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "41B639CBBE7613F3"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+				{
+					id: "7942AA134AFE2201"
+					item: { count: 1, id: "mekanism:mekasuit_pants" }
+					type: "item"
+				}
+				{
+					id: "26F9114AE68072DD"
+					item: { count: 1, id: "mekanism:mekasuit_boots" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 49.5d
+		}
+		{
+			dependencies: ["72563F0A2DA35113"]
+			id: "03E0296CDF9DC866"
+			rewards: [{
+				count: 2
+				id: "1629588B542CD4D2"
+				item: {
+					count: 1
+					id: "mekanism:ultimate_control_circuit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "053EB9B62C400C41"
+				item: { count: 1, id: "mekanism:modification_station" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 49.5d
+		}
+		{
+			dependencies: ["03E0296CDF9DC866"]
+			id: "441D555BAB08BF6D"
+			optional: true
+			rewards: [{
+				id: "162986B7C37657A9"
+				item: {
+					count: 1
+					id: "mekanism:module_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4572A085A370989E"
+				item: { count: 1, id: "mekanism:module_energy_unit" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 51.5d
+		}
+		{
+			dependencies: ["03E0296CDF9DC866"]
+			id: "6C79EFC80142DDD8"
+			optional: true
+			rewards: [{
+				id: "1DF9133A3BDB3952"
+				item: {
+					count: 1
+					id: "mekanism:module_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2799E1367409468A"
+				item: { count: 1, id: "mekanism:module_charge_distribution_unit" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 51.5d
+		}
+		{
+			dependencies: ["03E0296CDF9DC866"]
+			id: "3F486C36E46B59EB"
+			optional: true
+			rewards: [{
+				id: "2743B28676024F66"
+				item: {
+					count: 1
+					id: "mekanism:module_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D19763CC3B7B47D"
+				item: { count: 1, id: "mekanism:module_nutritional_injection_unit" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 51.5d
+		}
+		{
+			dependencies: ["03E0296CDF9DC866"]
+			id: "2A68505CE9755DE1"
+			optional: true
+			rewards: [{
+				id: "64C7E19579C15EDD"
+				item: {
+					count: 1
+					id: "mekanism:module_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2946D51D6ABCCA8D"
+				item: { count: 1, id: "mekanism:module_radiation_shielding_unit" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 51.5d
+		}
+		{
+			dependencies: ["03E0296CDF9DC866"]
+			id: "174AD6FCE8940746"
+			optional: true
+			rewards: [{
+				id: "16D112FDD2AC3122"
+				item: {
+					count: 1
+					id: "mekanism:module_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "316E4FFC7930B6FB"
+				item: { count: 1, id: "mekanism:module_hydraulic_propulsion_unit" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 51.5d
+		}
+		{
+			dependencies: ["03E0296CDF9DC866"]
+			id: "7AE97BE5867342F9"
+			optional: true
+			rewards: [{
+				id: "194BD2C2D9B74761"
+				item: {
+					count: 1
+					id: "mekanism:module_base"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28843B0AFDFDF8AA"
+				item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 51.5d
+		}
+	]
+}

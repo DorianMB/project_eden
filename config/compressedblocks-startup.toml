@@ -1,0 +1,4211 @@
+#Compressed Blocks configuration
+#Changes require a game restart to take effect.
+#WARNING: These settings are loaded on startup and not synced with the server.
+#Ensure identical configuration on both client and server to prevent connection issues.
+#Any changes will log warnings for invalid or missing files.
+#----------------------------------------
+#Enable compressed blocks
+blocksEnabled = true
+#Enable crates
+cratesEnabled = true
+#Maximum compression level for all blocks
+# Default: 10
+# Range: 1 ~ 10
+maxCompressionLevel = 10
+#Maximum compression level for all crates
+# Default: 10
+# Range: 1 ~ 10
+maxCrateCompressionLevel = 10
+#Hardness levels for each compression level
+hardnessLevels = [5.0, 6.5, 8.5, 12.5, 15.0, 20.5, 25.5, 30.5, 40.0, 50.0]
+#Resistance levels for each compression level
+resistanceLevels = [35.5, 75.0, 150.0, 300.0, 600.0, 800.0, 1250.0, 2000.0, 5000.0, 7500.0]
+
+#Enabled blocks:
+#Note: Stone can not be disabled as it is required for the creative inventory icon.
+[dirt]
+	enabled = true
+	# Default: 0.925000011920929
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.925000011920929
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gravel]
+	enabled = true
+	# Default: 0.925000011920929
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.925000011920929
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cobblestone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[granite]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[diorite]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[andesite]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[tuff]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cobbled_deepslate]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[clay]
+	enabled = true
+	# Default: 0.925000011920929
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.925000011920929
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sand]
+	enabled = true
+	# Default: 0.925000011920929
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.925000011920929
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_sand]
+	enabled = true
+	# Default: 0.925000011920929
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.925000011920929
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[moss_block]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mud]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[packed_mud]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mud_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sulfur]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cinnabar]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[coal_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[copper_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[iron_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gold_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[redstone_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[emerald_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lapis_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[diamond_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[nether_gold_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[nether_quartz_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_coal_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_copper_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_iron_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_gold_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_redstone_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_emerald_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_lapis_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_diamond_ore]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[raw_iron_block]
+	enabled = true
+	# Default: 1.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[raw_copper_block]
+	enabled = true
+	# Default: 1.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[raw_gold_block]
+	enabled = true
+	# Default: 1.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[iron_block]
+	enabled = true
+	# Default: 1.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gold_block]
+	enabled = true
+	# Default: 1.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lapis_block]
+	enabled = true
+	# Default: 1.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[redstone_block]
+	enabled = true
+	# Default: 1.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[emerald_block]
+	enabled = true
+	# Default: 1.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[diamond_block]
+	enabled = true
+	# Default: 2.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 2.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[netherite_block]
+	enabled = true
+	# Default: 2.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 2.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[coal_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[slime_block]
+	enabled = true
+	# Default: 0.925000011920929
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.925000011920929
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[honey_block]
+	enabled = true
+	# Default: 0.925000011920929
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.925000011920929
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[polished_granite]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[polished_diorite]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[polished_andesite]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[polished_tuff]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[polished_deepslate]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chiseled_deepslate]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stone_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[deepslate_tiles]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cracked_deepslate_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cracked_deepslate_tiles]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[smooth_sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cut_sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chiseled_sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[smooth_red_sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cut_red_sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chiseled_red_sandstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[tuff_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chiseled_tuff_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mossy_cobblestone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mossy_stone_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cracked_stone_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chiseled_stone_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pale_moss_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[resin_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[resin_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chiseled_resin_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[oak_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[spruce_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[birch_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[jungle_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[acacia_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dark_oak_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mangrove_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[crimson_stem]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[warped_stem]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cherry_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bamboo_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pale_oak_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[poplar_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_oak_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_spruce_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_birch_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_jungle_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_acacia_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_dark_oak_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_mangrove_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_crimson_stem]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_warped_stem]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_cherry_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_bamboo_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_pale_oak_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stripped_poplar_log]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[oak_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[spruce_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[birch_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[jungle_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[acacia_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dark_oak_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mangrove_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cherry_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[crimson_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[warped_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bamboo_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bamboo_mosaic]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pale_oak_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[poplar_planks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[copper_block]
+	enabled = true
+	# Default: 1.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cut_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[exposed_copper]
+	enabled = true
+	# Default: 1.350000023841858
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.350000023841858
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[exposed_cut_copper]
+	enabled = true
+	# Default: 1.350000023841858
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.350000023841858
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[weathered_copper]
+	enabled = true
+	# Default: 1.350000023841858
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.350000023841858
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[weathered_cut_copper]
+	enabled = true
+	# Default: 1.350000023841858
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.350000023841858
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[oxidized_copper]
+	enabled = true
+	# Default: 1.350000023841858
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.350000023841858
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[oxidized_cut_copper]
+	enabled = true
+	# Default: 1.350000023841858
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.350000023841858
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_copper_block]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_cut_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_exposed_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_exposed_cut_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_weathered_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_weathered_cut_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_oxidized_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[waxed_oxidized_cut_copper]
+	enabled = true
+	# Default: 1.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[prismarine]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[prismarine_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dark_prismarine]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sea_lantern]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[netherrack]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[nether_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_nether_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[nether_wart_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[soul_sand]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[soul_soil]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blackstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[basalt]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[obsidian]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[crimson_nylium]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[warped_nylium]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[quartz_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chiseled_quartz_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[quartz_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[quartz_pillar]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[smooth_quartz]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glowstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magma_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[end_stone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[end_stone_bricks]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_wool]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_glazed_terracotta]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_concrete_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_concrete]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glass]
+	enabled = true
+	# Default: 0.11999999731779099
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.11999999731779099
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[tinted_glass]
+	enabled = true
+	# Default: 0.11999999731779099
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.11999999731779099
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_stained_glass]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[ice]
+	enabled = true
+	# Default: 0.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[packed_ice]
+	enabled = true
+	# Default: 0.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_ice]
+	enabled = true
+	# Default: 0.75
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.75
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[snow_block]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[calcite]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dripstone_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[amethyst_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sculk]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bone_block]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dried_kelp_block]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_mushroom_block]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_mushroom_block]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[shroomlight]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[melon]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pumpkin]
+	enabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.5
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[hay_block]
+	enabled = true
+	# Default: 0.25
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 0.25
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[ochre_froglight]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[verdant_froglight]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pearlescent_froglight]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[tnt]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+#Enabled crates:
+#Note: Golden Apple can not be disabled as it is required for the creative inventory icon.
+[apple]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[golden_apple]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[enchanted_golden_apple]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sweet_berries]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glow_berries]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chorus_fruit]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[carrot]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[golden_carrot]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[potato]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[baked_potato]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[poisonous_potato]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[beetroot]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[beef]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cooked_beef]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[porkchop]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cooked_porkchop]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mutton]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cooked_mutton]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chicken]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cooked_chicken]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[rabbit]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cooked_rabbit]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cod]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cooked_cod]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[salmon]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cooked_salmon]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[tropical_fish]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pufferfish]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bread]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cookie]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[honey_bottle]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[rotten_flesh]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[spider_eye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[string]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[feather]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[leather]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[rabbit_hide]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[honeycomb]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[ink_sac]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glow_ink_sac]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[turtle_scute]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[nautilus_shell]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blaze_rod]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[nether_star]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[ender_pearl]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[ender_eye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[shulker_shell]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gunpowder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dragon_breath]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[fermented_spider_eye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blaze_powder]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[rabbit_foot]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magma_cream]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[ghast_tear]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[phantom_membrane]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[turtle_egg]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cobweb]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[resin_clump]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[charcoal]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[quartz]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[amethyst_shard]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[stick]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[flint]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[snowball]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[egg]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[clay_ball]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_dye]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[paper]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[book]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[firework_star]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glass_bottle]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glowstone_dust]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sugar]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glistering_melon_slice]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[experience_bottle]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[end_crystal]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[name_tag]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lead]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[item_frame]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glow_item_frame]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[painting]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[anvil]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[fire_charge]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[arrow]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[spectral_arrow]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[rail]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[powered_rail]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[detector_rail]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[activator_rail]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[redstone_torch]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[repeater]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[comparator]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lightning_rod]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[torch]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[soul_torch]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[copper_torch]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lantern]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[soul_lantern]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[chain]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[end_rod]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pointed_dripstone]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[oak_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[spruce_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[birch_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[jungle_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[acacia_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dark_oak_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cherry_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[poplar_sapling]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[mangrove_propagule]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_mushroom]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_mushroom]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[crimson_fungus]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[warped_fungus]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[dandelion]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[poppy]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_orchid]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[allium]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[azure_bluet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_tulip]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_tulip]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_tulip]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_tulip]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[oxeye_daisy]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cornflower]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lily_of_the_valley]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[wither_rose]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sunflower]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lilac]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[rose_bush]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[peony]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[torchflower]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[golden_dandelion]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[open_eyeblossom]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[closed_eyeblossom]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cactus_flower]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[wildflowers]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_petals]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[leaf_litter]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[firefly_bush]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[wheat_seeds]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cocoa_beans]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pumpkin_seeds]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[melon_seeds]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[beetroot_seeds]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sugar_cane]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[seagrass]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[kelp]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[bamboo]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[white_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_gray_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[gray_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[black_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[brown_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[red_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[orange_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[yellow_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[lime_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[green_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[cyan_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[light_blue_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[blue_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[purple_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[magenta_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[pink_carpet]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[vine]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[twisting_vines]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[weeping_vines]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[glow_lichen]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10
+
+[sculk_vein]
+	enabled = true
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	hardnessResistanceMultiplier = 1.0
+	# Default: 10
+	# Range: 1 ~ 10
+	compressionLevel = 10

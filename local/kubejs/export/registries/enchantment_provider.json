@@ -1,0 +1,9 @@
+{
+	"minecraft:raid/vindicator_post_wave_5": "net.minecraft.world.item.enchantment.providers.SingleEnchantment",
+	"minecraft:raid/pillager_post_wave_5": "net.minecraft.world.item.enchantment.providers.SingleEnchantment",
+	"minecraft:enderman_loot_drop": "net.minecraft.world.item.enchantment.providers.SingleEnchantment",
+	"minecraft:raid/vindicator": "net.minecraft.world.item.enchantment.providers.SingleEnchantment",
+	"minecraft:raid/pillager_post_wave_3": "net.minecraft.world.item.enchantment.providers.SingleEnchantment",
+	"minecraft:pillager_spawn_crossbow": "net.minecraft.world.item.enchantment.providers.SingleEnchantment",
+	"minecraft:mob_spawn_equipment": "net.minecraft.world.item.enchantment.providers.EnchantmentsByCostWithDifficulty"
+}

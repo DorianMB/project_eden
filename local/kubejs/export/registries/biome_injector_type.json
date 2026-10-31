@@ -1,0 +1,7 @@
+{
+	"lithostitched:add_points": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:force_placement": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:dispatch_alternate_layout": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:replace_fully": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:replace_partially": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

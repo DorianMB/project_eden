@@ -1,0 +1,5 @@
+{
+	"lithostitched:the_nether": "dev.worldgen.lithostitched.impl.worldgen.biomeinjector.region.Region",
+	"lithostitched:the_end": "dev.worldgen.lithostitched.impl.worldgen.biomeinjector.region.Region",
+	"lithostitched:overworld": "dev.worldgen.lithostitched.impl.worldgen.biomeinjector.region.Region"
+}

@@ -1,0 +1,23 @@
+[
+	"#c:tools/bow",
+	"#c:tools/brush",
+	"#c:tools/crossbow",
+	"#c:tools/fishing_rod",
+	"#c:tools/igniter",
+	"#c:tools/mace",
+	"#c:tools/melee_weapon",
+	"#c:tools/mining_tool",
+	"#c:tools/ranged_weapon",
+	"#c:tools/shear",
+	"#c:tools/shield",
+	"#c:tools/spear",
+	"#c:tools/wrench",
+	"#c:tools/wrench",
+	"#c:tools/wrench",
+	"#forge:tools?",
+	"#minecraft:axes",
+	"#minecraft:hoes",
+	"#minecraft:pickaxes",
+	"#minecraft:shovels",
+	"#minecraft:swords"
+]

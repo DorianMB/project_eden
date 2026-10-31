@@ -1,0 +1,330 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_digital_expansion"
+	group: "7AFF8DE55D6853CE"
+	icon: {
+		id: "ae2:wireless_crafting_terminal"
+	}
+	id: "3A1654B04829562E"
+	images: [
+		{
+			click_action: "none:"
+			height: 23.5d
+			id: "1FC5B2A5E38CFC76"
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 23.5d
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 25.0d
+			id: "701C5877B52057ED"
+			image: "ae2:block/crafting/unit"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: -9.0d
+			y: 0.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F57B1EEFC5D733D"]
+			id: "5A9C68B94283757C"
+			rewards: [{
+				count: 2
+				id: "62B15FE587543728"
+				item: {
+					count: 1
+					id: "ae2:speed_card"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0DB0FF3A6ED5C215"
+					item: { count: 1, id: "ae2:export_bus" }
+					type: "item"
+				}
+				{
+					id: "01B826BDBF278694"
+					item: { count: 1, id: "ae2:import_bus" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A9C68B94283757C"]
+			id: "179E3660E61B8EC8"
+			rewards: [{
+				id: "3CB56F43A64E159D"
+				item: {
+					count: 1
+					id: "ae2:inverter_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52065F36ABC59DC3"
+				item: { count: 1, id: "ae2:storage_bus" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["179E3660E61B8EC8"]
+			id: "522524C5016D5987"
+			rewards: [{
+				id: "1A287EC98F518184"
+				item: {
+					count: 1
+					id: "ae2:fluix_smart_dense_cable"
+				}
+				random_bonus: 11
+				type: "item"
+			}]
+			tasks: [{
+				id: "280FB37252C80CF2"
+				item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["179E3660E61B8EC8"]
+			id: "760C1D3853D312BB"
+			rewards: [{
+				count: 3
+				id: "2572CEE86563F6FD"
+				item: {
+					count: 1
+					id: "ae2:level_emitter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A837CCD7FBEA23F"
+				item: { count: 1, id: "ae2:level_emitter" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["179E3660E61B8EC8"]
+			id: "5148E31CD06997C1"
+			rewards: [{
+				id: "4E0DAA0452DC7556"
+				item: {
+					count: 1
+					id: "ae2:wireless_receiver"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0288E0F9E0192593"
+				item: { count: 1, id: "ae2:wireless_access_point" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5148E31CD06997C1"]
+			id: "7003EF58381D18AC"
+			tasks: [{
+				id: "666EE299BDBDC645"
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7003EF58381D18AC"]
+			id: "4F7B8A5328B54A0D"
+			rewards: [{
+				count: 2
+				id: "3EA1E40E94F2C916"
+				item: {
+					count: 1
+					id: "ae2:wireless_booster"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "37B7E081B972866F"
+				item: { count: 1, id: "ae2:wireless_booster" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["179E3660E61B8EC8"]
+			id: "106548CA45C9FD09"
+			rewards: [{
+				id: "5BCC4120F818C03D"
+				item: {
+					count: 1
+					id: "ae2:blank_pattern"
+				}
+				random_bonus: 9
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A683261BB17D279"
+					item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "244052719A5A3210"
+					item: { count: 1, id: "ae2:blank_pattern" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["106548CA45C9FD09"]
+			id: "7755A1BC937014AC"
+			rewards: [{
+				count: 2
+				id: "79A270855FA64103"
+				item: {
+					count: 1
+					id: "ae2:speed_card"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E0FF40C9F6E63D7"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "43F67FDEDB7E5049"
+					item: { count: 1, id: "ae2:molecular_assembler" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7755A1BC937014AC"]
+			id: "75B6E97DE3240292"
+			rewards: [{
+				id: "0EDE327E93D99097"
+				item: {
+					count: 1
+					id: "ae2:1k_crafting_storage"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32377606CD8BDB52"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+				{
+					id: "3FC6602805C7C4B7"
+					item: { count: 1, id: "ae2:1k_crafting_storage" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["75B6E97DE3240292"]
+			id: "0A6ED181EE2B7F35"
+			rewards: [{
+				id: "6E7ACD62AF6EF377"
+				item: {
+					count: 1
+					id: "ae2:crafting_monitor"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51F5C57582D9CEBB"
+					item: { count: 1, id: "ae2:4k_crafting_storage" }
+					type: "item"
+				}
+				{
+					id: "5183D162DD45EBF2"
+					item: { count: 1, id: "ae2:16k_crafting_storage" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0A6ED181EE2B7F35"]
+			id: "0167FCC68EB9CC64"
+			rewards: [{
+				id: "1287E72628B3B8F4"
+				item: {
+					count: 1
+					id: "ae2:crafting_accelerator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C983F92D714DF04"
+				item: { count: 1, id: "ae2:crafting_accelerator" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4E8404A7DA2668A2"]
+			hide_until_deps_complete: true
+			id: "6D412083C89D6AB1"
+			tasks: [
+				{
+					id: "5C2FD9949FAD245A"
+					item: { count: 1, id: "ae2:item_storage_cell_4k" }
+					type: "item"
+				}
+				{
+					id: "4CBB7D671B1BFD51"
+					item: { count: 1, id: "ae2:item_storage_cell_16k" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6D412083C89D6AB1"]
+			id: "2F57B1EEFC5D733D"
+			tasks: [{
+				id: "385B64A464EF3F24"
+				item: { count: 1, id: "ae_universal_press:universal_inscriber_press" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+	]
+}

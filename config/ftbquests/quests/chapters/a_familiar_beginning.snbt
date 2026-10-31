@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_familiar_beginning"
+	group: "4F8326BDB08C0432"
+	id: "5237744B0C6576BA"
+	images: [{
+		click_action: "none:"
+		height: 5.0d
+		id: "189B5D77AF333107"
+		image: "ae2:block/mysterious_cube_core"
+		rotation: 0.0d
+		width: 5.0d
+		x: 1.0d
+		y: 1.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"59A9C3FDA47DC3EC"
+				"299F368F3160D512"
+				"796E3E10C22B9B9B"
+				"342762BF1860AF53"
+				"0C3C89F731BE1EA8"
+				"1E24E84A5EB41EA0"
+				"520994D66C6C9342"
+				"55B4277182BD7D6B"
+				"3B464B69FE2BC87C"
+				"61BCE7304A3F869A"
+				"4F7B8A5328B54A0D"
+				"0D23F962434E513A"
+			]
+			hide_until_deps_complete: true
+			id: "5B69606B9F4DB67A"
+			tasks: [{
+				id: "3F9EB75EDDB92223"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B69606B9F4DB67A"]
+			id: "2AB84D85B0846FDB"
+			tasks: [{
+				id: "5FB4FB665F8B2F11"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+}

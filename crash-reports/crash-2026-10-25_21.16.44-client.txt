@@ -1,0 +1,376 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2026-10-25 21:16:44
+Description: Unexpected error
+
+java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    mezz/jei/library/plugins/vanilla/anvil/AnvilHelper.setAnvilMenu(Lnet/minecraft/world/inventory/AnvilMenu;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/inventory/AnvilMenu; @199: invokestatic
+  Reason:
+    Type 'java/lang/String' (current frame, stack[3]) is not assignable to 'net/minecraft/world/item/ItemStack'
+  Current Frame:
+    bci: @199
+    flags: { }
+    locals: { 'java/lang/Throwable', 'java/lang/String', 'java/lang/String', top, top, top, top, 'org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable' }
+    stack: { null, 'java/lang/Throwable', 'java/lang/String', 'java/lang/String', 'org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable' }
+  Bytecode:
+    0000000: 2a2b 2c01 b800 462a b400 4a03 b600 50c0
+    0000010: 0052 594e 2ab4 004a 04b6 0050 c000 523a
+    0000020: 04b6 0056 2ba5 0008 2d2b b600 5a19 04b6
+    0000030: 0056 2ca5 0035 2a19 042c b600 5a59 3a05
+    0000040: bb00 5c59 125d 0419 05b7 0060 3a05 2a2b
+    0000050: 2c19 05b8 0063 1905 b600 6799 000c 1905
+    0000060: b600 6bc0 001b b0b0 2a59 3a06 bb00 5c59
+    0000070: 125d 0419 06b7 0060 3a06 2a2b 2c19 06b8
+    0000080: 0063 1906 b600 6799 000c 1906 b600 6bc0
+    0000090: 001b b0b0 4ba7 0004 4b2c 2bb8 0071 4cb8
+    00000a0: 0071 4db2 0073 1275 2b2c 2ab9 007b 0500
+    00000b0: 0159 3a07 bb00 5c59 125d 0419 07b7 0060
+    00000c0: 3a07 2a2b 2c19 07b8 0063 1907 b600 6799
+    00000d0: 000c 1907 b600 6bc0 001b b0b0          
+  Exception Handler Table:
+    bci [7, 18] => handler: 152
+    bci [7, 18] => handler: 148
+    bci [20, 31] => handler: 152
+    bci [20, 31] => handler: 148
+    bci [33, 36] => handler: 152
+    bci [33, 36] => handler: 148
+    bci [40, 50] => handler: 152
+    bci [40, 50] => handler: 148
+    bci [54, 104] => handler: 152
+    bci [54, 104] => handler: 148
+  Stackmap Table:
+    append_frame(@45,Object[#82],Object[#82])
+    full_frame(@103,{Object[#27],Object[#33],Object[#33],Object[#82],Object[#82],Object[#92]},{Object[#27]})
+    chop_frame(@104,1)
+    full_frame(@147,{Object[#27],Object[#33],Object[#33],Object[#82],Object[#82],Top,Object[#92]},{Object[#27]})
+    full_frame(@148,{Object[#27],Object[#33],Object[#33]},{Object[#66]})
+    same_locals_1_stack_item_frame(@152,Object[#64])
+    full_frame(@153,{Object[#125],Object[#33],Object[#33]},{})
+    full_frame(@219,{Object[#125],Object[#127],Object[#127],Top,Top,Top,Top,Object[#92]},{Null})
+
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.plugins.vanilla.anvil.AnvilRecipeMaker.getAnvilRecipes(AnvilRecipeMaker.java:46) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:mixin,re:classloading,pl:mixin:APP:jeioptimizer.mixins.json:AnvilRecipeMakerMixin from mod jeioptimizer,pl:mixin:A}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.plugins.vanilla.VanillaPlugin.registerRecipes(VanillaPlugin.java:317) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.load.PluginLoader.lambda$createRecipeManager$21(PluginLoader.java:245) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.load.PluginCaller.callOnPlugins(PluginCaller.java:26) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:mixin,re:classloading,pl:mixin:APP:jeioptimizer.mixins.json:PluginCallerMixin from mod jeioptimizer,pl:mixin:A}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.load.PluginLoader.createRecipeManager(PluginLoader.java:245) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.startup.JeiStarter.start(JeiStarter.java:154) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.neoforge.startup.StartEventObserver.transitionState(StartEventObserver.java:200) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.neoforge.startup.StartEventObserver.startIfReady(StartEventObserver.java:112) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.neoforge.startup.StartEventObserver.onRecipesUpdatedEvent(StartEventObserver.java:101) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23110!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23110!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23110!/:?] {}
+	at TRANSFORMER/neoforge@21.1.264/net.neoforged.neoforge.client.ClientHooks.onRecipesUpdated(ClientHooks.java:664) ~[neoforge-21.1.264-universal.jar%23300!/:?] {re:mixin,re:classloading,pl:mixin:APP:supermartijn642corelib.mixins.json:ClientHooksMixin from mod supermartijn642corelib,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.ClientHooksMixin from mod sodium,pl:mixin:APP:journeymap.neoforge.mixins.json:client.ClientHooksMixin from mod journeymap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientPacketListener.handleUpdateRecipes(ClientPacketListener.java:1506) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.iris.json:MixinClientPacketListener from mod iris,pl:mixin:APP:konkrete.mixins.json:client.IMixinClientPacketListener from mod konkrete,pl:mixin:APP:cucumber.mixins.json:ClientPacketListenerMixin from mod cucumber,pl:mixin:APP:kubejs.mixins.json:ClientPacketListenerMixin from mod kubejs,pl:mixin:APP:journeymap.mixins.json:client.ClientPacketListenerMixin from mod journeymap,pl:mixin:APP:journeymap.neoforge.mixins.json:client.NeoClientPacketListenerMixin from mod journeymap,pl:mixin:APP:sodium-common.mixins.json:core.world.map.ClientPacketListenerMixin from mod sodium,pl:mixin:APP:ftbchunks-common.mixins.json:ClientPacketListenerMixin from mod ftbchunks,pl:mixin:APP:fancymenu.mixins.json:client.MixinClientPacketListener from mod fancymenu,pl:mixin:APP:bookshelf.mixins.json:patch.client.MixinClientPacketListener from mod bookshelf,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:32) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:13) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:27) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1155) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:globalpacks.mixins.json:MinecraftMixin from mod globalpacks,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.encoder_cache_leak.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:bookshelf.mixins.json:access.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftMixin from mod balm,pl:mixin:APP:konkrete.mixins.json:client.MixinMinecraft from mod konkrete,pl:mixin:APP:ae2importexportcard.mixins.json:MinecraftMixin from mod ae2importexportcard,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:APP:transition.mixins.json:BlockEntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:MinecraftMixin from mod transition,pl:mixin:APP:rechiseled.mixins.json:MinecraftMixin from mod rechiseled,pl:mixin:APP:kubejs.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:journeymap.mixins.json:client.MinecraftMixin from mod journeymap,pl:mixin:APP:fusion.mixins.json:MinecraftMixin from mod fusion,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:ae2.mixins.json:PickColorMixin from mod ae2,pl:mixin:APP:ae2wtlib.mixins.json:MinecraftMixin from mod ae2wtlib,pl:mixin:APP:entityculling.mixins.json:DebugScreenEntriesAccessor from mod entityculling,pl:mixin:APP:entityculling.mixins.json:LivingEntityRendererAccessor from mod entityculling,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft from mod fancymenu,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft from mod fancymenu,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:807) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:globalpacks.mixins.json:MinecraftMixin from mod globalpacks,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.encoder_cache_leak.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:bookshelf.mixins.json:access.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftMixin from mod balm,pl:mixin:APP:konkrete.mixins.json:client.MixinMinecraft from mod konkrete,pl:mixin:APP:ae2importexportcard.mixins.json:MinecraftMixin from mod ae2importexportcard,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:APP:transition.mixins.json:BlockEntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:MinecraftMixin from mod transition,pl:mixin:APP:rechiseled.mixins.json:MinecraftMixin from mod rechiseled,pl:mixin:APP:kubejs.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:journeymap.mixins.json:client.MinecraftMixin from mod journeymap,pl:mixin:APP:fusion.mixins.json:MinecraftMixin from mod fusion,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:ae2.mixins.json:PickColorMixin from mod ae2,pl:mixin:APP:ae2wtlib.mixins.json:MinecraftMixin from mod ae2wtlib,pl:mixin:APP:entityculling.mixins.json:DebugScreenEntriesAccessor from mod entityculling,pl:mixin:APP:entityculling.mixins.json:LivingEntityRendererAccessor from mod entityculling,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft from mod fancymenu,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft from mod fancymenu,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.plugins.vanilla.anvil.AnvilRecipeMaker.getAnvilRecipes(AnvilRecipeMaker.java:46) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:mixin,re:classloading,pl:mixin:APP:jeioptimizer.mixins.json:AnvilRecipeMakerMixin from mod jeioptimizer,pl:mixin:A}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.plugins.vanilla.VanillaPlugin.registerRecipes(VanillaPlugin.java:317) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.load.PluginLoader.lambda$createRecipeManager$21(PluginLoader.java:245) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.load.PluginCaller.callOnPlugins(PluginCaller.java:26) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:mixin,re:classloading,pl:mixin:APP:jeioptimizer.mixins.json:PluginCallerMixin from mod jeioptimizer,pl:mixin:A}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.load.PluginLoader.createRecipeManager(PluginLoader.java:245) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.library.startup.JeiStarter.start(JeiStarter.java:154) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.neoforge.startup.StartEventObserver.transitionState(StartEventObserver.java:200) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.neoforge.startup.StartEventObserver.startIfReady(StartEventObserver.java:112) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at TRANSFORMER/jei@19.70.0.460/mezz.jei.neoforge.startup.StartEventObserver.onRecipesUpdatedEvent(StartEventObserver.java:101) ~[jei-1.21.1-neoforge-19.70.0.460.jar%23368!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23110!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23110!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23110!/:?] {}
+	at TRANSFORMER/neoforge@21.1.264/net.neoforged.neoforge.client.ClientHooks.onRecipesUpdated(ClientHooks.java:664) ~[neoforge-21.1.264-universal.jar%23300!/:?] {re:mixin,re:classloading,pl:mixin:APP:supermartijn642corelib.mixins.json:ClientHooksMixin from mod supermartijn642corelib,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.ClientHooksMixin from mod sodium,pl:mixin:APP:journeymap.neoforge.mixins.json:client.ClientHooksMixin from mod journeymap,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientPacketListener.handleUpdateRecipes(ClientPacketListener.java:1506) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.iris.json:MixinClientPacketListener from mod iris,pl:mixin:APP:konkrete.mixins.json:client.IMixinClientPacketListener from mod konkrete,pl:mixin:APP:cucumber.mixins.json:ClientPacketListenerMixin from mod cucumber,pl:mixin:APP:kubejs.mixins.json:ClientPacketListenerMixin from mod kubejs,pl:mixin:APP:journeymap.mixins.json:client.ClientPacketListenerMixin from mod journeymap,pl:mixin:APP:journeymap.neoforge.mixins.json:client.NeoClientPacketListenerMixin from mod journeymap,pl:mixin:APP:sodium-common.mixins.json:core.world.map.ClientPacketListenerMixin from mod sodium,pl:mixin:APP:ftbchunks-common.mixins.json:ClientPacketListenerMixin from mod ftbchunks,pl:mixin:APP:fancymenu.mixins.json:client.MixinClientPacketListener from mod fancymenu,pl:mixin:APP:bookshelf.mixins.json:patch.client.MixinClientPacketListener from mod bookshelf,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:32) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket.handle(ClientboundUpdateRecipesPacket.java:13) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:27) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+-- Uptime --
+Details:
+	JVM uptime: 66.656s
+	Wall uptime: 52.058s
+	High-res time: 63.723s
+	Client ticks: 596 ticks / 29.800s
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.fillReport(Minecraft.java:2395) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:globalpacks.mixins.json:MinecraftMixin from mod globalpacks,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.encoder_cache_leak.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:bookshelf.mixins.json:access.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftMixin from mod balm,pl:mixin:APP:konkrete.mixins.json:client.MixinMinecraft from mod konkrete,pl:mixin:APP:ae2importexportcard.mixins.json:MinecraftMixin from mod ae2importexportcard,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:APP:transition.mixins.json:BlockEntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:MinecraftMixin from mod transition,pl:mixin:APP:rechiseled.mixins.json:MinecraftMixin from mod rechiseled,pl:mixin:APP:kubejs.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:journeymap.mixins.json:client.MinecraftMixin from mod journeymap,pl:mixin:APP:fusion.mixins.json:MinecraftMixin from mod fusion,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:ae2.mixins.json:PickColorMixin from mod ae2,pl:mixin:APP:ae2wtlib.mixins.json:MinecraftMixin from mod ae2wtlib,pl:mixin:APP:entityculling.mixins.json:DebugScreenEntriesAccessor from mod entityculling,pl:mixin:APP:entityculling.mixins.json:LivingEntityRendererAccessor from mod entityculling,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft from mod fancymenu,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft from mod fancymenu,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.emergencySaveAndCrash(Minecraft.java:868) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:globalpacks.mixins.json:MinecraftMixin from mod globalpacks,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.encoder_cache_leak.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:bookshelf.mixins.json:access.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftMixin from mod balm,pl:mixin:APP:konkrete.mixins.json:client.MixinMinecraft from mod konkrete,pl:mixin:APP:ae2importexportcard.mixins.json:MinecraftMixin from mod ae2importexportcard,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:APP:transition.mixins.json:BlockEntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:MinecraftMixin from mod transition,pl:mixin:APP:rechiseled.mixins.json:MinecraftMixin from mod rechiseled,pl:mixin:APP:kubejs.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:journeymap.mixins.json:client.MinecraftMixin from mod journeymap,pl:mixin:APP:fusion.mixins.json:MinecraftMixin from mod fusion,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:ae2.mixins.json:PickColorMixin from mod ae2,pl:mixin:APP:ae2wtlib.mixins.json:MinecraftMixin from mod ae2wtlib,pl:mixin:APP:entityculling.mixins.json:DebugScreenEntriesAccessor from mod entityculling,pl:mixin:APP:entityculling.mixins.json:LivingEntityRendererAccessor from mod entityculling,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft from mod fancymenu,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft from mod fancymenu,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:828) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:globalpacks.mixins.json:MinecraftMixin from mod globalpacks,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.encoder_cache_leak.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.suspend_integrated_server_during_load.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Images from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_Keybinds from mod iris,pl:mixin:APP:mixins.iris.json:MixinMinecraft_PipelineManagement from mod iris,pl:mixin:APP:bookshelf.mixins.json:access.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:balm.neoforge.mixins.json:MinecraftMixin from mod balm,pl:mixin:APP:konkrete.mixins.json:client.MixinMinecraft from mod konkrete,pl:mixin:APP:ae2importexportcard.mixins.json:MinecraftMixin from mod ae2importexportcard,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:transition.mixins.json:EntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:EntityRendererMixin from mod transition,pl:mixin:APP:transition.mixins.json:BlockEntityRenderStateMixin from mod transition,pl:mixin:APP:transition.mixins.json:MinecraftMixin from mod transition,pl:mixin:APP:rechiseled.mixins.json:MinecraftMixin from mod rechiseled,pl:mixin:APP:kubejs.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:journeymap.mixins.json:client.MinecraftMixin from mod journeymap,pl:mixin:APP:fusion.mixins.json:MinecraftMixin from mod fusion,pl:mixin:APP:sodium-common.mixins.json:core.MinecraftMixin from mod sodium,pl:mixin:APP:sodium-neoforge.mixins.json:platform.neoforge.EntrypointMixin from mod sodium,pl:mixin:APP:ae2.mixins.json:PickColorMixin from mod ae2,pl:mixin:APP:ae2wtlib.mixins.json:MinecraftMixin from mod ae2wtlib,pl:mixin:APP:entityculling.mixins.json:DebugScreenEntriesAccessor from mod entityculling,pl:mixin:APP:entityculling.mixins.json:LivingEntityRendererAccessor from mod entityculling,pl:mixin:APP:fancymenu.mixins.json:client.IMixinMinecraft from mod fancymenu,pl:mixin:APP:fancymenu.mixins.json:client.MixinMinecraft from mod fancymenu,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.remove_telemetry.MinecraftMixin_Telemetry from mod modernfix,pl:mixin:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[client-1.21.1-20240808.144430-srg.jar%23299!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:32) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.45.jar%23107!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23112!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['DorianMB'/185, l='ClientLevel', x=8.50, y=65.00, z=8.50]]
+	Chunk stats: 961, 0
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (8,64,8), Section: (at 8,0,8 in 0,4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 1 game time, 1 day time
+	Server brand: neoforge
+	Server type: Integrated singleplayer server
+	Tracked entity count: 1
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: mod/ae2omnicells:resourcepacks/optional_textures, vanilla, KubeJS Virtual Resource Pack [Before Mods, assets], mod_resources, mod/sodium, mod/kuma_api, mod/fabric_renderer_api_v1, mod/ftbessentials, mod/supermartijn642configlib, mod/globalpacks, mod/geckolib, mod/extendedcrafting, mod/apollib, mod/sophisticatedcore, mod/controlling, mod/neoforge, mod/placebo, mod/modernfix, mod/fabric_block_view_api_v2, mod/powah, mod/iris, mod/bookshelf, mod/sophisticatedbackpacks, mod/balm, mod/prickle, mod/grandpower, mod/melody, mod/jeresources, mod/cloth_config, mod/mob_grinding_utils, mod/konkrete, mod/athena, mod/chipped, mod/glodium, mod/supermartijn642corelib, mod/apothic_attributes, mod/curios, mod/ae2importexportcard, mod/patchouli, mod/searchables, mod/tiab, mod/framedblocks, mod/elevatorid, mod/resourcefullib, mod/architectury, mod/aiimprovements, mod/apothic_enchanting, mod/transition, mod/productivebees, mod/fabric_rendering_data_attachment_v1, mod/trashcans, mod/mixinloadconditions, mod/yeetusexperimentus, mod/journeymap_api, mod/mezz_config, mod/ae2jeiintegration, mod/rhino, mod/cucumber, mod/ftblibrary, mod/ftbteams, mod/rechiseled, mod/sophisticatedstorage, mod/productivelib, mod/jei, mod/kubejs, mod/jei_trade, mod/lithostitched, mod/attributefix, mod/commonnetworking, mod/trender, mod/mekanism, mod/mekanismgenerators, mod/waystones, mod/clumps, mod/journeymap, mod/naturescompass, mod/configured, mod/guideme, mod/explorerscompass, mod/jeioptimizer, mod/toastcontrol, mod/terralith, mod/pipezlagfix, mod/fusion, mod/ftbchunks, mod/ae_universal_press, mod/compressedblocks, mod/apothic_spawners, mod/apotheosis, mod/fabric_api_base, mod/mousetweaks, mod/titanium, mod/ftbquests, mod/ftbxmodcompat, mod/jade, mod/ae2, mod/ae2omnicells, mod/aeinfinitybooster, mod/appflux, mod/applied_extended_crafting, mod/ae2wtlib, mod/extendedae, mod/merequester, mod/ae2things, mod/ftbjeiextras, mod/forgeconfigapiport, mod/pipez, mod/megacells, mod/expandedae, mod/ftbfiltersystem, mod/justenoughprofessions, mod/fluxnetworks, mod/entityculling, mod/buildinggadgets2, mod/fancymenu, mod/ae2addonlib, mod/advanced_ae, mod/ae2wtlib_api, mod/immediatelyfast, mod/betteradvancedtooltips, mod/jeiworldgen, mod/pylons, mod/ferritecore, mod/functionalstorage, mod/modularrouters, mod/appmek, mod/packetfixer, mod/extremesoundmuffler, mod/ae2ct, mod/tiabfix, mod/megacells:optional_cell_colours, project_eden_assets, KubeJS Virtual Resource Pack [Internal, assets], KubeJS Virtual Resource Pack [After Mods, assets], KubeJS File Resource Pack [assets], KubeJS Virtual Resource Pack [Last, assets]
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.6, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1967128576 bytes (1876 MiB) / 4005560320 bytes (3820 MiB) up to 8455716864 bytes (8064 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 13
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 5070 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 16303.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1692
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 58305.03
+	Virtual memory used (MiB): 27133.74
+	Swap memory total (MiB): 25600.00
+	Swap memory used (MiB): 1.69
+	Space in storage for jna.tmpdir (MiB): available: 108757.41, total: 951824.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 108757.41, total: 951824.00
+	Space in storage for io.netty.native.workdir (MiB): available: 108757.41, total: 951824.00
+	Space in storage for java.io.tmpdir (MiB): available: 108757.41, total: 951824.00
+	Space in storage for workdir (MiB): available: 108757.41, total: 951824.00
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8064m -Xms256m
+	Loaded Shaderpack: (off)
+	Launched Version: neoforge-21.1.264
+	Launcher name: CurseForge
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: NVIDIA GeForce RTX 5070 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 616.92, NVIDIA Corporation
+	Window size: 2560x1440
+	GFLW Platform: win32
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Universe: 400921fb54442d18
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Render Distance: 12/12 chunks
+	Resource Packs: mod/ae2omnicells:resourcepacks/optional_textures, vanilla, mod_resources, mod/sodium, mod/kuma_api (incompatible), mod/fabric_renderer_api_v1, mod/ftbessentials (incompatible), mod/supermartijn642configlib, mod/globalpacks (incompatible), mod/geckolib, mod/extendedcrafting, mod/apollib, mod/sophisticatedcore (incompatible), mod/controlling (incompatible), mod/neoforge, mod/placebo, mod/modernfix (incompatible), mod/fabric_block_view_api_v2, mod/powah (incompatible), mod/iris, mod/bookshelf (incompatible), mod/sophisticatedbackpacks (incompatible), mod/balm (incompatible), mod/prickle (incompatible), mod/grandpower, mod/melody (incompatible), mod/jeresources (incompatible), mod/cloth_config (incompatible), mod/mob_grinding_utils (incompatible), mod/konkrete (incompatible), mod/athena, mod/chipped, mod/glodium (incompatible), mod/supermartijn642corelib, mod/apothic_attributes, mod/curios (incompatible), mod/ae2importexportcard, mod/patchouli (incompatible), mod/searchables (incompatible), mod/tiab (incompatible), mod/framedblocks, mod/elevatorid, mod/resourcefullib, mod/architectury (incompatible), mod/aiimprovements, mod/apothic_enchanting, mod/transition, mod/productivebees (incompatible), mod/fabric_rendering_data_attachment_v1, mod/trashcans, mod/mixinloadconditions, mod/yeetusexperimentus (incompatible), mod/journeymap_api (incompatible), mod/mezz_config, mod/ae2jeiintegration, mod/rhino, mod/cucumber, mod/ftblibrary (incompatible), mod/ftbteams (incompatible), mod/rechiseled, mod/sophisticatedstorage (incompatible), mod/productivelib (incompatible), mod/jei, mod/kubejs, mod/jei_trade (incompatible), mod/lithostitched (incompatible), mod/attributefix (incompatible), mod/commonnetworking (incompatible), mod/trender, mod/mekanism, mod/mekanismgenerators, mod/waystones (incompatible), mod/clumps (incompatible), mod/journeymap (incompatible), mod/naturescompass, mod/configured, mod/guideme, mod/explorerscompass, mod/jeioptimizer, mod/toastcontrol, mod/terralith (incompatible), mod/pipezlagfix, mod/fusion, mod/ftbchunks (incompatible), mod/ae_universal_press (incompatible), mod/compressedblocks (incompatible), mod/apothic_spawners, mod/apotheosis, mod/fabric_api_base, mod/mousetweaks (incompatible), mod/titanium, mod/ftbquests (incompatible), mod/ftbxmodcompat (incompatible), mod/jade (incompatible), mod/ae2 (incompatible), mod/ae2omnicells, mod/aeinfinitybooster, mod/appflux (incompatible), mod/applied_extended_crafting, mod/ae2wtlib (incompatible), mod/extendedae (incompatible), mod/merequester, mod/ae2things (incompatible), mod/ftbjeiextras, mod/forgeconfigapiport, mod/pipez, mod/megacells, mod/expandedae (incompatible), mod/ftbfiltersystem (incompatible), mod/justenoughprofessions (incompatible), mod/fluxnetworks (incompatible), mod/entityculling, mod/buildinggadgets2 (incompatible), mod/fancymenu (incompatible), mod/ae2addonlib, mod/advanced_ae (incompatible), mod/ae2wtlib_api, mod/immediatelyfast (incompatible), mod/betteradvancedtooltips, mod/jeiworldgen (incompatible), mod/pylons, mod/ferritecore (incompatible), mod/functionalstorage (incompatible), mod/modularrouters, mod/appmek (incompatible), mod/packetfixer (incompatible), mod/extremesoundmuffler (incompatible), mod/ae2ct, mod/tiabfix, mod/megacells:optional_cell_colours, project_eden_assets
+	Current Language: en_us
+	Locale: en_FR
+	System encoding: Cp1252
+	File encoding: UTF-8
+	CPU: 16x Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['DorianMB'/185, l='ServerLevel[Flat]', x=7.13, y=-60.00, z=-3.68]]
+	Active Data Packs: vanilla, mod_data, mod/sodium, mod/kuma_api (incompatible), mod/fabric_renderer_api_v1, mod/ftbessentials (incompatible), mod/supermartijn642configlib (incompatible), mod/globalpacks, mod/geckolib, mod/extendedcrafting, mod/apollib, mod/sophisticatedcore (incompatible), mod/controlling (incompatible), mod/neoforge, mod/placebo, mod/modernfix (incompatible), mod/fabric_block_view_api_v2, mod/powah (incompatible), mod/iris, mod/bookshelf (incompatible), mod/sophisticatedbackpacks (incompatible), mod/balm (incompatible), mod/prickle (incompatible), mod/grandpower, mod/melody (incompatible), mod/jeresources (incompatible), mod/cloth_config (incompatible), mod/mob_grinding_utils (incompatible), mod/konkrete (incompatible), mod/athena, mod/chipped, mod/glodium (incompatible), mod/supermartijn642corelib, mod/apothic_attributes, mod/curios (incompatible), mod/ae2importexportcard, mod/patchouli (incompatible), mod/searchables (incompatible), mod/tiab (incompatible), mod/framedblocks, mod/elevatorid, mod/resourcefullib, mod/architectury (incompatible), mod/aiimprovements, mod/apothic_enchanting, mod/transition (incompatible), mod/productivebees (incompatible), mod/fabric_rendering_data_attachment_v1, mod/trashcans, mod/mixinloadconditions, mod/yeetusexperimentus (incompatible), mod/journeymap_api (incompatible), mod/mezz_config, mod/ae2jeiintegration, mod/rhino, mod/cucumber, mod/ftblibrary (incompatible), mod/ftbteams (incompatible), mod/rechiseled, mod/sophisticatedstorage (incompatible), mod/productivelib (incompatible), mod/jei (incompatible), mod/kubejs, mod/jei_trade (incompatible), mod/lithostitched, mod/attributefix (incompatible), mod/commonnetworking (incompatible), mod/trender (incompatible), mod/mekanism, mod/mekanismgenerators, mod/waystones (incompatible), mod/clumps (incompatible), mod/journeymap (incompatible), mod/naturescompass (incompatible), mod/configured (incompatible), mod/guideme, mod/explorerscompass (incompatible), mod/jeioptimizer, mod/toastcontrol, mod/terralith, mod/pipezlagfix, mod/fusion, mod/ftbchunks (incompatible), mod/ae_universal_press, mod/compressedblocks (incompatible), mod/apothic_spawners, mod/apotheosis, mod/fabric_api_base, mod/mousetweaks (incompatible), mod/titanium, mod/ftbquests (incompatible), mod/ftbxmodcompat (incompatible), mod/jade (incompatible), mod/ae2 (incompatible), mod/ae2omnicells, mod/aeinfinitybooster, mod/appflux (incompatible), mod/applied_extended_crafting, mod/ae2wtlib (incompatible), mod/extendedae (incompatible), mod/merequester, mod/ae2things (incompatible), mod/ftbjeiextras, mod/forgeconfigapiport (incompatible), mod/pipez (incompatible), mod/megacells, mod/expandedae (incompatible), mod/ftbfiltersystem (incompatible), mod/justenoughprofessions (incompatible), mod/fluxnetworks (incompatible), mod/entityculling (incompatible), mod/buildinggadgets2 (incompatible), mod/fancymenu (incompatible), mod/ae2addonlib, mod/advanced_ae (incompatible), mod/ae2wtlib_api, mod/immediatelyfast (incompatible), mod/betteradvancedtooltips, mod/jeiworldgen (incompatible), mod/pylons, mod/ferritecore (incompatible), mod/functionalstorage (incompatible), mod/modularrouters, mod/appmek (incompatible), mod/packetfixer (incompatible), mod/extremesoundmuffler (incompatible), mod/ae2ct, mod/tiabfix
+	Available Data Packs: vanilla, trade_rebalance, bundle, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: 6708472127464747454
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.16.4+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.45.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.45.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.45.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		AdvancedAE-1.6.12-1.21.1.jar                      |Advanced AE                   |advanced_ae                   |1.6.12-1.21.1       |Manifest: NOSIGNATURE
+		ae2omnicells-1.21.1-neoforge-1.1.6.jar            |AE Omni Cells                 |ae2omnicells                  |1.1.6               |Manifest: NOSIGNATURE
+		ae2importexportcard-1.21.1-1.9.1.jar              |AE2 Import Export Card        |ae2importexportcard           |1.21.1-1.9.1        |Manifest: NOSIGNATURE
+		ae2jeiintegration-1.2.1.jar                       |AE2 JEI Integration           |ae2jeiintegration             |1.2.1               |Manifest: NOSIGNATURE
+		AE2-Things-1.4.2-beta.jar                         |AE2 Things                    |ae2things                     |1.4.2-beta          |Manifest: NOSIGNATURE
+		ae_universal_press-2.1.1-neoforge-1.21.1.jar      |AE2 Universal Press           |ae_universal_press            |2.1.1               |Manifest: NOSIGNATURE
+		ae2ct-1.21.1-1.1.1.jar                            |AE2:Crafting Tree             |ae2ct                         |1.21.1-1.1.1        |Manifest: NOSIGNATURE
+		ae2addonlib-1.0.3-1.21.1.jar                      |AE2AddonLib                   |ae2addonlib                   |1.0.3-1.21.1        |Manifest: NOSIGNATURE
+		ae2wtlib-19.5.1.jar                               |AE2WTLib                      |ae2wtlib                      |19.5.1              |Manifest: NOSIGNATURE
+		de.mari_023.ae2wtlib_api-19.5.1.jar               |AE2WTLib API                  |ae2wtlib_api                  |19.5.1              |Manifest: NOSIGNATURE
+		aeinfinitybooster-neoforge-2.1.0+mc1.21.1.jar     |AEInfinityBooster             |aeinfinitybooster             |2.1.0               |Manifest: NOSIGNATURE
+		AI-Improvements-1.21-0.5.3.jar                    |AI-Improvements               |aiimprovements                |0.5.3               |Manifest: NOSIGNATURE
+		apollib-1.2.0-neoforge-21.1.jar                   |Apollib                       |apollib                       |1.2.0               |Manifest: NOSIGNATURE
+		Apotheosis-1.21.1-8.9.0.jar                       |Apotheosis                    |apotheosis                    |8.9.0               |Manifest: NOSIGNATURE
+		ApothicAttributes-1.21.1-2.11.0.jar               |Apothic Attributes            |apothic_attributes            |2.11.0              |Manifest: NOSIGNATURE
+		ApothicEnchanting-1.21.1-1.6.4.jar                |Apothic Enchanting            |apothic_enchanting            |1.6.4               |Manifest: NOSIGNATURE
+		ApothicSpawners-1.21.1-1.4.0.jar                  |Apothic Spawners              |apothic_spawners              |1.4.0               |Manifest: NOSIGNATURE
+		appliedenergistics2-19.2.18.jar                   |Applied Energistics 2         |ae2                           |19.2.18             |Manifest: NOSIGNATURE
+		applied_extended_crafting-1.2.0.jar               |Applied Extended Crafting     |applied_extended_crafting     |1.2.0               |Manifest: NOSIGNATURE
+		Applied-Mekanistics-1.6.3.jar                     |Applied Mekanistics           |appmek                        |1.6.3               |Manifest: NOSIGNATURE
+		AppliedFlux-1.21-2.1.7-neoforge.jar               |AppliedFlux                   |appflux                       |1.21-2.1.7-neoforge |Manifest: NOSIGNATURE
+		architectury-13.0.11-neoforge.jar                 |Architectury                  |architectury                  |13.0.11             |Manifest: NOSIGNATURE
+		athena-neoforge-1.21.1-4.0.6.jar                  |Athena                        |athena                        |4.0.6               |Manifest: NOSIGNATURE
+		attributefix-neoforge-1.21.1-21.1.3.jar           |AttributeFix                  |attributefix                  |21.1.3              |Manifest: NOSIGNATURE
+		balm-neoforge-1.21.1-21.0.66.jar                  |Balm                          |balm                          |21.0.66             |Manifest: NOSIGNATURE
+		better-advanced-tooltips-2101.1.0-build.5.jar     |Better Advanced Tooltips      |betteradvancedtooltips        |2101.1.0-build.5    |Manifest: NOSIGNATURE
+		bookshelf-neoforge-1.21.1-21.1.81.jar             |Bookshelf                     |bookshelf                     |21.1.81             |Manifest: NOSIGNATURE
+		buildinggadgets2-21.1.1.jar                       |Building Gadgets 2            |buildinggadgets2              |21.1.1              |Manifest: NOSIGNATURE
+		chipped-neoforge-1.21.1-4.0.2.jar                 |Chipped                       |chipped                       |4.0.2               |Manifest: NOSIGNATURE
+		cloth-config-15.0.140-neoforge.jar                |Cloth Config v15 API          |cloth_config                  |15.0.140            |Manifest: NOSIGNATURE
+		Clumps-neoforge-1.21.1-19.0.0.1.jar               |Clumps                        |clumps                        |19.0.0.1            |Manifest: NOSIGNATURE
+		common-networking-neoforge-1.0.21-1.21.1.jar      |Common Networking             |commonnetworking              |1.0.21-1.21.1       |Manifest: NOSIGNATURE
+		compressedblocks-neoforge-3.0.0-1.21.1.jar        |Compressed Blocks             |compressedblocks              |3.0.0-1.21.1        |Manifest: NOSIGNATURE
+		configured-neoforge-1.21.1-2.6.3.jar              |Configured                    |configured                    |2.6.3               |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		Controlling-neoforge-1.21.1-19.0.5.jar            |Controlling                   |controlling                   |19.0.5              |Manifest: NOSIGNATURE
+		Cucumber-1.21.1-8.0.16.jar                        |Cucumber Library              |cucumber                      |8.0.16              |Manifest: NOSIGNATURE
+		curios-neoforge-9.5.1+1.21.1.jar                  |Curios API                    |curios                        |9.5.1+1.21.1        |Manifest: NOSIGNATURE
+		elevatorid-neoforge-1.21.1-1.11.4.jar             |ElevatorMod                   |elevatorid                    |1.21.1-1.11.4       |Manifest: NOSIGNATURE
+		entityculling-neoforge-1.11.3-mc1.21.1.jar        |EntityCulling                 |entityculling                 |1.11.3              |Manifest: NOSIGNATURE
+		expandedae-2.1.4.jar                              |Expanded AE                   |expandedae                    |2.1.4               |Manifest: NOSIGNATURE
+		Explorer's Compass Enhance-1.21.1-neoforge-2.0.1.j|Explorer's Compass Enhance    |explorerscompass              |1.21.1-neoforge-2.0.|Manifest: NOSIGNATURE
+		ExtendedCrafting-1.21.1-7.0.9.jar                 |Extended Crafting             |extendedcrafting              |7.0.9               |Manifest: NOSIGNATURE
+		ExtendedAE-1.21-2.2.42-neoforge.jar               |ExtendedAE                    |extendedae                    |1.21-2.2.42-neoforge|Manifest: NOSIGNATURE
+		ExtremeSoundMuffler-3.57_NeoForge-1.21.jar        |Extreme Sound Muffler         |extremesoundmuffler           |3.57                |Manifest: NOSIGNATURE
+		fancymenu_neoforge_3.9.14_MC_1.21.1.jar           |FancyMenu                     |fancymenu                     |3.9.14              |Manifest: NOSIGNATURE
+		ferritecore-7.0.3-neoforge.jar                    |Ferrite Core                  |ferritecore                   |7.0.3               |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		FluxNetworks-1.21.1-8.0.0.jar                     |Flux Networks                 |fluxnetworks                  |8.0.0               |Manifest: NOSIGNATURE
+		ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar    |Forge Config API Port         |forgeconfigapiport            |21.1.6              |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.42+d1308ded19.jar             |Forgified Fabric API Base     |fabric_api_base               |0.4.42+d1308ded19   |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar    |Forgified Fabric BlockView API|fabric_block_view_api_v2      |1.0.10+9afaaf8c19   |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.4.1+9125b6dc19.jar       |Forgified Fabric Renderer API |fabric_renderer_api_v1        |3.4.1+9125b6dc19    |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.48+73761d2|Forgified Fabric Rendering Dat|fabric_rendering_data_attachme|0.3.48+73761d2e19   |Manifest: NOSIGNATURE
+		FramedBlocks-10.6.3.jar                           |FramedBlocks                  |framedblocks                  |10.6.3              |Manifest: NOSIGNATURE
+		ftb-chunks-neoforge-2101.1.22.jar                 |FTB Chunks                    |ftbchunks                     |2101.1.22           |Manifest: NOSIGNATURE
+		ftb-essentials-neoforge-2101.1.10.jar             |FTB Essentials                |ftbessentials                 |2101.1.10           |Manifest: NOSIGNATURE
+		ftb-filter-system-neoforge-21.1.4.jar             |FTB Filter System             |ftbfiltersystem               |21.1.4              |Manifest: NOSIGNATURE
+		ftb-jei-extras-21.1.7.jar                         |FTB Jei Extras                |ftbjeiextras                  |21.1.7              |Manifest: NOSIGNATURE
+		ftb-library-neoforge-2101.1.37.jar                |FTB Library                   |ftblibrary                    |2101.1.37           |Manifest: NOSIGNATURE
+		ftb-quests-neoforge-2101.1.37.jar                 |FTB Quests                    |ftbquests                     |2101.1.37           |Manifest: NOSIGNATURE
+		ftb-teams-neoforge-2101.1.11.jar                  |FTB Teams                     |ftbteams                      |2101.1.11           |Manifest: NOSIGNATURE
+		ftb-xmod-compat-neoforge-21.1.13.jar              |FTB XMod Compat               |ftbxmodcompat                 |21.1.13             |Manifest: NOSIGNATURE
+		functionalstorage-1.21.1-1.5.8.jar                |Functional Storage            |functionalstorage             |1.21.1-1.5.8        |Manifest: NOSIGNATURE
+		fusion-1.3.16-neoforge-mc1.21.1.jar               |Fusion                        |fusion                        |1.3.16              |Manifest: NOSIGNATURE
+		geckolib-neoforge-1.21.1-4.9.3.jar                |GeckoLib 4                    |geckolib                      |4.9.3               |Manifest: NOSIGNATURE
+		globalpacks-neoforge-1.21.1-21.0.6.jar            |Global Packs                  |globalpacks                   |21.0.6              |Manifest: NOSIGNATURE
+		Glodium-1.21-2.2-neoforge.jar                     |Glodium                       |glodium                       |1.21-2.2-neoforge   |Manifest: NOSIGNATURE
+		GrandPower-3.0.2.jar                              |Grand Power                   |grandpower                    |3.0.2               |Manifest: NOSIGNATURE
+		guideme-21.1.20.jar                               |GuideME                       |guideme                       |21.1.20             |Manifest: NOSIGNATURE
+		ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar        |ImmediatelyFast               |immediatelyfast               |1.6.15+1.21.1       |Manifest: NOSIGNATURE
+		iris-neoforge-1.8.14-beta.1+mc1.21.1.jar          |Iris                          |iris                          |1.8.14-beta.1+mc1.21|Manifest: NOSIGNATURE
+		Jade-1.21.1-NeoForge-15.10.6.jar                  |Jade                          |jade                          |15.10.6+neoforge    |Manifest: NOSIGNATURE
+		jei_trade-1.0.2-1.21.1.jar                        |JEI Trade                     |jei_trade                     |1.0.2-1.21.1        |Manifest: NOSIGNATURE
+		jeioptimizer-1.21.1-1.2.1-19.64.jar               |JEIOptimizer                  |jeioptimizer                  |1.2.1-19.64         |Manifest: NOSIGNATURE
+		jeiworldgen-neoforge-1.21.1-1.4.5.jar             |JEIWorldGen                   |jeiworldgen                   |1.4.5               |Manifest: NOSIGNATURE
+		journeymap-neoforge-1.21.1-6.0.9.jar              |Journeymap                    |journeymap                    |1.21.1-6.0.9        |Manifest: NOSIGNATURE
+		journeymap-api-neoforge-2.0.0-1.21.1.jar          |JourneyMap API                |journeymap_api                |2.0.0-1.21.1        |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.70.0.460.jar               |Just Enough Items             |jei                           |19.70.0.460         |Manifest: NOSIGNATURE
+		JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar   |Just Enough Professions (JEP) |justenoughprofessions         |4.0.5               |Manifest: NOSIGNATURE
+		JustEnoughResources-NeoForge-1.21.1-1.6.0.57.jar  |Just Enough Resources         |jeresources                   |1.6.0.57            |Manifest: NOSIGNATURE
+		konkrete_neoforge_1.9.9_MC_1.21.jar               |Konkrete                      |konkrete                      |1.9.9               |Manifest: NOSIGNATURE
+		kubejs-neoforge-2101.7.2-build.377.jar            |KubeJS                        |kubejs                        |2101.7.2-build.377  |Manifest: NOSIGNATURE
+		kuma-api-neoforge-21.0.8+1.21.jar                 |KumaAPI                       |kuma_api                      |21.0.8              |Manifest: NOSIGNATURE
+		lithostitched-1.8.1-neoforge-21.1.jar             |Lithostitched                 |lithostitched                 |1.8.1               |Manifest: NOSIGNATURE
+		merequester-neoforge-1.21.1-1.5.0.jar             |ME Requester                  |merequester                   |1.21.1-1.5.0        |Manifest: NOSIGNATURE
+		megacells-4.11.0.jar                              |MEGA Cells                    |megacells                     |4.11.0              |Manifest: NOSIGNATURE
+		Mekanism-1.21.1-10.7.19.85.jar                    |Mekanism                      |mekanism                      |10.7.19             |Manifest: NOSIGNATURE
+		MekanismGenerators-1.21.1-10.7.19.85.jar          |Mekanism: Generators          |mekanismgenerators            |10.7.19             |Manifest: NOSIGNATURE
+		melody_neoforge_1.0.10_MC_1.21.jar                |Melody                        |melody                        |1.0.10              |Manifest: NOSIGNATURE
+		mezz_config-1.21.1-neoforge-0.6.9.jar             |MezzConfig                    |mezz_config                   |0.6.9               |Manifest: NOSIGNATURE
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		mixinloadconditions-neoforge-0.2.0.jar            |MixinLoadConditions           |mixinloadconditions           |0.2.0               |Manifest: NOSIGNATURE
+		mob_grinding_utils-1.1.10+mc1.21.1.jar            |Mob Grinding Utils            |mob_grinding_utils            |1.1.10+mc1.21.1     |Manifest: NOSIGNATURE
+		modernfix-neoforge-5.27.27+mc1.21.1.jar           |ModernFix                     |modernfix                     |5.27.27+mc1.21.1    |Manifest: NOSIGNATURE
+		modular-routers-13.2.7+mc1.21.1.jar               |Modular Routers               |modularrouters                |13.2.7              |Manifest: NOSIGNATURE
+		MouseTweaks-neoforge-mc1.21-2.26.1.jar            |Mouse Tweaks                  |mousetweaks                   |2.26.1              |Manifest: NOSIGNATURE
+		NaturesCompass-1.21.1-3.4.0-neoforge.jar          |Nature's Compass              |naturescompass                |1.21.1-3.4.0-neoforg|Manifest: NOSIGNATURE
+		neoforge-21.1.264-universal.jar                   |NeoForge                      |neoforge                      |21.1.264            |Manifest: NOSIGNATURE
+		packetfixer-3.3.1-1.20.5-1.21.X-merged.jar        |PacketFixer                   |packetfixer                   |3.3.1               |Manifest: NOSIGNATURE
+		Patchouli-1.21.1-93-NEOFORGE.jar                  |Patchouli                     |patchouli                     |1.21.1-93-NEOFORGE  |Manifest: NOSIGNATURE
+		pipez-neoforge-1.21.1-1.2.31.jar                  |Pipez                         |pipez                         |1.21.1-1.2.31       |Manifest: NOSIGNATURE
+		pipezlagfix-1.21.1-1.1.0.jar                      |PipezLagFix                   |pipezlagfix                   |1.1.0               |Manifest: NOSIGNATURE
+		Placebo-1.21.1-9.9.4.jar                          |Placebo                       |placebo                       |9.9.4               |Manifest: NOSIGNATURE
+		Powah-6.2.10.jar                                  |Powah                         |powah                         |6.2.10              |Manifest: NOSIGNATURE
+		prickle-neoforge-1.21.1-21.1.11.jar               |PrickleMC                     |prickle                       |21.1.11             |Manifest: NOSIGNATURE
+		productivebees-1.21.1-13.14.0.jar                 |Productive Bees               |productivebees                |1.21.1-13.14.0      |Manifest: NOSIGNATURE
+		productivelib-1.21.1-0.2.0.jar                    |Productive Lib                |productivelib                 |1.21.1-0.2.0        |Manifest: NOSIGNATURE
+		pylons-1.21.1-5.4.2.jar                           |Pylons                        |pylons                        |5.4.2               |Manifest: NOSIGNATURE
+		rechiseled-1.2.6-neoforge-mc1.21.jar              |Rechiseled                    |rechiseled                    |1.2.6               |Manifest: NOSIGNATURE
+		resourcefullib-neoforge-1.21-3.0.12.jar           |Resourceful Lib               |resourcefullib                |3.0.12              |Manifest: NOSIGNATURE
+		rhino-2101.2.8-build.91.jar                       |Rhino                         |rhino                         |2101.2.8-build.91   |Manifest: NOSIGNATURE
+		Searchables-neoforge-1.21.1-1.0.2.jar             |Searchables                   |searchables                   |1.0.2               |Manifest: NOSIGNATURE
+		net.caffeinemc.sodium-neoforge-0.8.13+mc1.21.1-mod|Sodium                        |sodium                        |0.8.13+mc1.21.1     |Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.21.1-3.26.15.2227.jar    |Sophisticated Backpacks       |sophisticatedbackpacks        |3.26.15             |Manifest: NOSIGNATURE
+		sophisticatedcore-1.21.1-1.5.18.2431.jar          |Sophisticated Core            |sophisticatedcore             |1.5.18              |Manifest: NOSIGNATURE
+		sophisticatedstorage-1.21.1-1.6.9.2199.jar        |Sophisticated Storage         |sophisticatedstorage          |1.6.9               |Manifest: NOSIGNATURE
+		supermartijn642configlib-1.1.8-neoforge-mc1.21.jar|SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.8               |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.25-neoforge-mc1.21.jar |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.25              |Manifest: NOSIGNATURE
+		Terralith_1.21.x_v2.6.2.jar                       |Terralith                     |terralith                     |2.6.2               |Manifest: NOSIGNATURE
+		tiab-entity-fix-1.0.3.jar                         |TIAB Entity Fix               |tiabfix                       |1.0.0               |Manifest: NOSIGNATURE
+		tiab-neoforge-6.5.4.jar                           |Time In A Bottle              |tiab                          |6.5.4               |Manifest: NOSIGNATURE
+		titanium-1.21-4.0.51.jar                          |Titanium                      |titanium                      |4.0.51              |Manifest: NOSIGNATURE
+		ToastControl-1.21.1-9.0.1.jar                     |Toast Control                 |toastcontrol                  |9.0.1               |Manifest: NOSIGNATURE
+		TRansition-1.0.26-1.21.1-neoforge-SNAPSHOT.jar    |TRansition                    |transition                    |1.0.26              |Manifest: NOSIGNATURE
+		trashcans-1.1.2-neoforge-mc1.21.jar               |Trash Cans                    |trashcans                     |1.1.2               |Manifest: NOSIGNATURE
+		TRender-1.0.17-1.21.1-neoforge-SNAPSHOT.jar       |TRender                       |trender                       |1.0.17              |Manifest: NOSIGNATURE
+		waystones-neoforge-1.21.1-21.1.46.jar             |Waystones                     |waystones                     |21.1.46             |Manifest: NOSIGNATURE
+		yeetusexperimentus-neoforge-87.0.0.jar            |Yeetus Experimentus           |yeetusexperimentus            |87.0.0              |Manifest: NOSIGNATURE
+	Crash Report UUID: ca881e5b-5b04-483b-8019-c9c4685283cc
+	FML: 4.0.45
+	NeoForge: 21.1.264

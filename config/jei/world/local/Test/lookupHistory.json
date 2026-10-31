@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"powah:crystal_niotic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":"terralith:mirage_isles","type":"org.hp.jei_structures.jei.StructureBiomeIcon","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:rotten_flesh"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enderman_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:ender_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"explorerscompass:explorerscompass"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,15 @@
+[
+	"#forge:is_wet/overworld?",
+	"#terralith:oases",
+	"#terralith:reference/jungle",
+	"#terralith:reference/swamp",
+	"minecraft:bamboo_jungle",
+	"minecraft:beach",
+	"minecraft:dripstone_caves",
+	"minecraft:jungle",
+	"minecraft:lush_caves",
+	"minecraft:mangrove_swamp",
+	"minecraft:sparse_jungle",
+	"minecraft:swamp",
+	"terralith:cave/underground_jungle"
+]

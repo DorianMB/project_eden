@@ -1,0 +1,295 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_autonomy_initiative"
+	group: "60A8A6BD9E81B246"
+	icon: {
+		id: "minecraft:honeycomb"
+	}
+	id: "10703709A02C5CDA"
+	images: [{
+		click_action: "none:"
+		height: 20.0d
+		id: "1AED4BA8CF6813B1"
+		image: "minecraft:block/honeycomb_block"
+		rotation: 0.0d
+		width: 20.0d
+		x: -2.5d
+		y: -5.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B8BEE8B438563A8"]
+			hide_until_deps_complete: true
+			id: "1D2BE66FBC215D3B"
+			tasks: [{
+				id: "643EDC8C8DBC1FE8"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1D2BE66FBC215D3B"]
+			id: "02CEA2B924128CD5"
+			rewards: [{
+				id: "5BBCEE51E0AAC943"
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "00D1540EA47768C0"
+				item: { count: 1, id: "minecraft:honey_bottle" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["02CEA2B924128CD5"]
+			id: "71CFA91458EEB0CD"
+			rewards: [{
+				count: 2
+				id: "00E7D8474365981E"
+				item: {
+					count: 1
+					id: "productivebees:sturdy_bee_cage"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6C695D6ED6E19518"
+				item: { count: 1, id: "productivebees:bee_cage" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["71CFA91458EEB0CD"]
+			id: "3B8B19DBC0BC441B"
+			rewards: [{
+				id: "0927337C7D381459"
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0FEE7322F5DE74E3"
+				item: { count: 1, id: "minecraft:honeycomb" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3B8B19DBC0BC441B"]
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
+			id: "69B47F57064B822A"
+			rewards: [
+				{
+					id: "34E5E42E21C71BFD"
+					item: {
+						count: 1
+						id: "minecraft:poppy"
+					}
+					type: "item"
+				}
+				{
+					id: "59E1857E1718EF15"
+					item: {
+						count: 1
+						id: "minecraft:dandelion"
+					}
+					type: "item"
+				}
+				{
+					id: "7C1254EEEDCBD8CA"
+					item: {
+						count: 1
+						id: "minecraft:cornflower"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "056AAF76A6CBD48D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6C2F74FB72F09BD3"
+					item: { count: 1, id: "productivebees:feeder" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69B47F57064B822A"]
+			icon: {
+				id: "productivebees:expansion_box_oak"
+			}
+			id: "39D33474252BB076"
+			rewards: [{
+				count: 6
+				id: "70896CD7788A9CC9"
+				item: {
+					count: 1
+					id: "minecraft:oak_planks"
+				}
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "46534E2B03B6D855"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:expansion_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["39D33474252BB076"]
+			id: "6F87085D858E7843"
+			rewards: [{
+				id: "403B175C039A9F15"
+				item: {
+					count: 1
+					id: "functionalstorage:fluid_1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "465941712B67DC16"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F87085D858E7843"]
+			icon: {
+				id: "productivebees:wax"
+			}
+			id: "690D72B9E065CBD7"
+			rewards: [{
+				id: "35AA5112C6DEE8FB"
+				item: {
+					count: 1
+					id: "productivebees:wax"
+				}
+				random_bonus: 9
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "44428D0125080976"
+					item: { count: 1, id: "productivebees:wax" }
+					type: "item"
+				}
+				{
+					id: "30A30B175B6FE915"
+					item: { count: 1, id: "productivebees:honey_bucket" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["611A6BED3B05645E"]
+			id: "08E72D5E37DC0A3C"
+			rewards: [{
+				id: "40CF58725FDB6C8F"
+				item: {
+					count: 1
+					id: "productivebees:honey_treat"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "05703F26943C243F"
+					item: { components: { "minecraft:custom_data": { Age: -24000, AngerTime: 0, ArmorItems: [ { }, { }, { }, { } ], ForcedAge: 0, HandItems: [ { }, { } ], HasConverted: 0b, HasNectar: 0b, HasStung: 0b, Health: 10.0f, Invulnerable: 0b, MaxHealth: 10.0f, PersistenceRequired: 0b, bee_type: "hive", breathCollectionCooldown: 600, entity: "productivebees:configurable_bee", isProductiveBee: 1b, mod: "FMLModContainer", name: "Coal Bee", "neoforge:attachments": { "productivebees:attributes_handler": { bee_behavior: "behavior.diurnal", bee_endurance: "endurance.normal", bee_productivity: "productivity.normal", bee_temper: "temper.normal", bee_weather_tolerance: "weather_tolerance.none" } }, type: "productivebees:coal" } }, count: 1, id: "productivebees:bee_cage" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "20D2F4119CF36885"
+					item: { count: 1, id: "productivebees:incubator" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08E72D5E37DC0A3C"]
+			id: "0DAAB3A9E7CA2507"
+			tasks: [{
+				id: "7FDA05E21D0F9D81"
+				item: { components: { "productivebees:bee_type": "productivebees:coal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0DAAB3A9E7CA2507"
+				"1D2BE66FBC215D3B"
+			]
+			id: "4E8404A7DA2668A2"
+			tasks: [{
+				count: 10L
+				id: "39FF84D328286CA2"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["690D72B9E065CBD7"]
+			id: "611A6BED3B05645E"
+			rewards: [{
+				count: 2
+				id: "72B0C24C32F053A9"
+				item: {
+					count: 1
+					id: "productivebees:sturdy_bee_cage"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46335F3D4E971FD2"
+				item: { count: 1, id: "productivebees:breeding_chamber" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+}

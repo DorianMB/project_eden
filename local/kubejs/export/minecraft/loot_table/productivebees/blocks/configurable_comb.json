@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:survives_explosion"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:copy_components",
+							"include": [
+								"productivebees:bee_type"
+							],
+							"source": "block_entity"
+						}
+					],
+					"name": "productivebees:configurable_comb"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "productivebees:blocks/configurable_comb"
+}

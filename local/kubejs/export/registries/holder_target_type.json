@@ -1,0 +1,7 @@
+{
+	"lithostitched:biome/climate": "dev.worldgen.lithostitched.impl.worldgen.modifier.target.biome.ClimateTarget$1",
+	"lithostitched:holder_set": "dev.worldgen.lithostitched.impl.worldgen.modifier.target.HolderSetTarget$1",
+	"lithostitched:any": "dev.worldgen.lithostitched.impl.worldgen.modifier.target.AnyTarget$1",
+	"lithostitched:biome/has_feature": "dev.worldgen.lithostitched.impl.worldgen.modifier.target.biome.HasFeatureTarget$1",
+	"lithostitched:regex": "dev.worldgen.lithostitched.impl.worldgen.modifier.target.RegexTarget$1"
+}

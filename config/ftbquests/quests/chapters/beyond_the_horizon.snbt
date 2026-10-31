@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beyond_the_horizon"
+	group: "7AFF8DE55D6853CE"
+	icon: {
+		id: "minecraft:end_portal_frame"
+	}
+	id: "4A55F8FF065846A0"
+	images: [
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "3FBDAB43A44338BD"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "08B44B78AF6BF96A"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "2CF58443A09444EF"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "390D6830270C3B27"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "185F386F88B869D9"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "3CD758C96E3A0A35"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "4A9CC2B6FEF69D57"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "6E7561DFD82667EF"
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 4.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "3DABED278BDC9335"
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E8404A7DA2668A2"]
+			hide_until_deps_complete: true
+			id: "5F338C53C3323EA2"
+			rewards: [
+				{
+					count: 9
+					id: "5B5D7F756BCCABF6"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 9
+					id: "20F461D3706150D1"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A6934FF52A560F8"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:end_portal_frame"
+					}
+					id: "5BD1521869A4296D"
+					structure: "minecraft:stronghold"
+					type: "structure"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F338C53C3323EA2"]
+			id: "5E06CD0B1FC65C8B"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2EE1F5FF73F19B27"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E06CD0B1FC65C8B"]
+			id: "59A9C3FDA47DC3EC"
+			rewards: [{
+				id: "58129F3177C9EAEA"
+				item: {
+					count: 1
+					id: "mob_grinding_utils:dragon_muffler"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "03A9C9D4A67D0E52"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E06CD0B1FC65C8B"]
+			id: "143E9A55B0EFA9D1"
+			rewards: [{
+				count: 12
+				id: "646BFBB781E4A8C0"
+				item: {
+					count: 1
+					id: "minecraft:dragon_breath"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7643680DD05ECFD2"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E06CD0B1FC65C8B"]
+			id: "6A9BA6BF1173F7AB"
+			rewards: [{
+				count: 4
+				id: "448D630FAB8558CF"
+				item: {
+					count: 1
+					id: "minecraft:chorus_flower"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2420C76C0E199CA2"
+					item: { count: 1, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+				{
+					id: "19BD4B9F0505946B"
+					item: { count: 1, id: "minecraft:chorus_flower" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E06CD0B1FC65C8B"]
+			id: "5D95011683CBB0CE"
+			rewards: [{
+				id: "17A49D873F9A2989"
+				item: {
+					count: 1
+					id: "minecraft:shulker_box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "393EC4F53ACBDC27"
+				item: { count: 1, id: "minecraft:shulker_box" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E06CD0B1FC65C8B"]
+			id: "46CE05F9850D51FD"
+			rewards: [{
+				id: "126DF1A9C8CBA8D1"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:mending": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20BCE44815C4124A"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E06CD0B1FC65C8B"]
+			id: "0AD266B2BDE09D72"
+			rewards: [{
+				count: 12
+				id: "129DD16242390F4B"
+				item: {
+					count: 1
+					id: "minecraft:dragon_breath"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F4A83CC75BFF98F"
+				item: { count: 1, id: "minecraft:dragon_head" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E06CD0B1FC65C8B"]
+			id: "71458A67DA07D759"
+			rewards: [{
+				id: "323FCDDE0FDC6812"
+				item: {
+					count: 1
+					id: "productivebees:inactive_dragon_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71908D47480A63E8"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+}

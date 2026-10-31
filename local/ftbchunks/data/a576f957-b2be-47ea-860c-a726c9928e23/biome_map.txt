@@ -1,0 +1,8 @@
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#498 minecraft:lush_caves
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
+#37D eden:wasteland
+#55C terralith:wintry_forest

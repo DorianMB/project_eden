@@ -1,0 +1,10 @@
+[
+	"#c:is_wet/end",
+	"#c:is_wet/nether",
+	"#c:is_wet/overworld",
+	"#forge:is_wet?",
+	"#terralith:oases",
+	"#terralith:reference/jungle",
+	"#terralith:reference/swamp",
+	"terralith:cave/underground_jungle"
+]

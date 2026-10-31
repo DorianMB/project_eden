@@ -1,0 +1,13 @@
+{
+	"apotheosis:chestplate": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:shears": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:leggings": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:shield": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:boots": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:trident": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:helmet": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:breaker": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:bow": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:none": "dev.shadowsoffire.apotheosis.loot.LootCategory",
+	"apotheosis:melee_weapon": "dev.shadowsoffire.apotheosis.loot.LootCategory"
+}

@@ -1,0 +1,22 @@
+{
+	"minecraft:replaceable": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"lithostitched:in_structure": "dev.worldgen.lithostitched.worldgen.blockpredicate.InStructurePredicate$$Lambda/0x000001166594fd10",
+	"minecraft:true": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"minecraft:inside_world_bounds": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"lithostitched:block_state": "dev.worldgen.lithostitched.worldgen.blockpredicate.BlockStatePredicate$$Lambda/0x0000011665926c38",
+	"lithostitched:multiple_of": "dev.worldgen.lithostitched.worldgen.blockpredicate.MultipleOfPredicate$$Lambda/0x000001166595ab18",
+	"minecraft:not": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"lithostitched:random_chance": "dev.worldgen.lithostitched.worldgen.blockpredicate.RandomChancePredicate$$Lambda/0x000001166596d4e0",
+	"minecraft:unobstructed": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"lithostitched:matching_biomes": "dev.worldgen.lithostitched.worldgen.blockpredicate.MatchingBiomesPredicate$$Lambda/0x0000011665954c08",
+	"minecraft:solid": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"minecraft:has_sturdy_face": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"lithostitched:offset": "dev.worldgen.lithostitched.worldgen.blockpredicate.OffsetPredicate$$Lambda/0x0000011665964b88",
+	"minecraft:any_of": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"minecraft:all_of": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"minecraft:matching_block_tag": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"minecraft:would_survive": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"minecraft:matching_fluids": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60",
+	"lithostitched:grid": "dev.worldgen.lithostitched.worldgen.blockpredicate.GridPredicate$$Lambda/0x0000011665932510",
+	"minecraft:matching_blocks": "net.minecraft.world.level.levelgen.blockpredicates.BlockPredicateType$$Lambda/0x0000011664cc1d60"
+}

@@ -1,0 +1,8 @@
+[
+	"#c:is_cold/end",
+	"#c:is_cold/nether",
+	"#c:is_cold/overworld",
+	"#forge:is_cold?",
+	"#terralith:reference/temperature/cold",
+	"#terralith:reference/temperature/frozen_all"
+]

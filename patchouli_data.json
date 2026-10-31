@@ -1,0 +1,16 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "productivebees:guide": {
+      "viewedEntries": [
+        "productivebees:blocks/honey_generator",
+        "productivebees:bees/worker/cubee",
+        "productivebees:bees/worker/rancher",
+        "productivebees:misc/performance"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

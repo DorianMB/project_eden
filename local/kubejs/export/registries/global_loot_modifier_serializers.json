@@ -1,0 +1,13 @@
+{
+	"apotheosis:code_hook": "com.mojang.serialization.MapCodec$2",
+	"productivelib:container_contents_modifier": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"neoforge:add_table": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"apotheosis:affix_conversion": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"apotheosis:gems": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"apotheosis:affix_loot": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"productivelib:ingredient_modifier": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"sophisticatedbackpacks:inject_loot": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"productivelib:weighted_ingredient_modifier": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"productivelib:item_modifier": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"apothic_enchanting:warden_tendril": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

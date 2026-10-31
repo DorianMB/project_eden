@@ -1,0 +1,8 @@
+{
+	"mekanism:single": "com.mojang.serialization.MapCodec$2",
+	"mekanism:compound": "com.mojang.serialization.MapCodec$2",
+	"mekanism:difference": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"mekanism:empty": "com.mojang.serialization.MapCodec$2",
+	"mekanism:tag": "com.mojang.serialization.MapCodec$2",
+	"mekanism:intersection": "com.mojang.serialization.codecs.RecordCodecBuilder$2"
+}

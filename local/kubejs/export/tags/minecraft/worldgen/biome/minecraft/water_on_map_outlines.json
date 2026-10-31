@@ -1,0 +1,7 @@
+[
+	"#minecraft:is_ocean",
+	"#minecraft:is_river",
+	"#terralith:reference/swamp",
+	"minecraft:mangrove_swamp",
+	"minecraft:swamp"
+]

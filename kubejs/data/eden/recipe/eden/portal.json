@@ -1,0 +1,50 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        " AAAAAAA ",
+        "ABBBCBBBA",
+        "ABDFGFDBA",
+        "ABHIEIHBA",
+        "ACGEJEGCA",
+        "ABHIEIHBA",
+        "ABDFGFDBA",
+        "ABBBCBBBA",
+        " AAAAAAA "
+    ],
+    "key": {
+        "A": {
+            "item": "compressedblocks:c1_netherite_block"
+        },
+        "B": {
+            "item": "eden:infinity_alloy"
+        },
+        "C": {
+            "item": "compressedblocks:c3_redstone_block"
+        },
+        "D": {
+            "item": "compressedblocks:c2_diamond_block"
+        },
+        "E": {
+            "item": "eden:reality_anchor"
+        },
+        "F": {
+            "item": "advanced_ae:quantum_processor"
+        },
+        "G": {
+            "item": "eden:infinity_quantum_battery"
+        },
+        "H": {
+            "item": "mekanism:pellet_antimatter"
+        },
+        "I": {
+            "item": "extendedcrafting:ultimate_singularity"
+        },
+        "J": {
+            "item": "compressedblocks:c7_cobblestone"
+        }
+    },
+    "result": {
+        "id": "eden:portal",
+        "count": 1
+    }
+}

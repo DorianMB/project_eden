@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_flow_of_resources"
+	group: "7AFF8DE55D6853CE"
+	icon: {
+		id: "pipez:item_pipe"
+	}
+	id: "49FD9A887565AD71"
+	images: [{
+		click_action: "none:"
+		height: 15.0d
+		id: "2FFBC4FE205AAEE7"
+		image: "pipez:item/ultimate_upgrade"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: 4.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E8404A7DA2668A2"]
+			hide_until_deps_complete: true
+			id: "643A8AF4DEBCB147"
+			tasks: [{
+				id: "6A8452727C232510"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["643A8AF4DEBCB147"]
+			icon: {
+				id: "pipez:item_pipe"
+			}
+			id: "3441522FF69BC281"
+			rewards: [{
+				id: "35AC86E528A19C9E"
+				item: {
+					count: 1
+					id: "pipez:item_pipe"
+				}
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "26F4434FDB75435E"
+					item: { count: 1, id: "pipez:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "4C0C94CCF41C4E90"
+					item: { count: 1, id: "pipez:wrench" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3441522FF69BC281"]
+			id: "63108F02C704C147"
+			rewards: [{
+				id: "684833BF7498C8D2"
+				item: {
+					count: 1
+					id: "pipez:fluid_pipe"
+				}
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "36C3445090D22374"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3441522FF69BC281"]
+			id: "67BCB6283868466A"
+			rewards: [{
+				id: "5AE0CB3EA786FC1A"
+				item: {
+					count: 1
+					id: "pipez:energy_pipe"
+				}
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "58C8673673F9926A"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"63108F02C704C147"
+				"67BCB6283868466A"
+			]
+			icon: {
+				id: "pipez:basic_upgrade"
+			}
+			id: "61BCE7304A3F869A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "363714B36375148C"
+				table_id: 6016738399784104870L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69AB4C7F2E6E143E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pipez:upgrades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["61BCE7304A3F869A"]
+			id: "7792BC56FAD4E248"
+			optional: true
+			tasks: [{
+				id: "7B92A3844C670E8E"
+				item: { count: 1, id: "pipez:filter_destination_tool" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+	]
+}

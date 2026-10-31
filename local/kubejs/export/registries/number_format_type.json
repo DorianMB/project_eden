@@ -1,0 +1,5 @@
+{
+	"minecraft:blank": "net.minecraft.network.chat.numbers.BlankFormat$1",
+	"minecraft:styled": "net.minecraft.network.chat.numbers.StyledFormat$1",
+	"minecraft:fixed": "net.minecraft.network.chat.numbers.FixedFormat$1"
+}

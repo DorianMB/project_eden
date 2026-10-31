@@ -1,0 +1,15 @@
+{
+	"mekanism:enby": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:allay": "mekanism.api.robit.AdvancementBasedRobitSkin",
+	"mekanism:gay": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:agender": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:trans": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:aro": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:genderfluid": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:pride": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:lesbian": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:robit": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:pan": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:bi": "mekanism.api.robit.BasicRobitSkin",
+	"mekanism:ace": "mekanism.api.robit.BasicRobitSkin"
+}

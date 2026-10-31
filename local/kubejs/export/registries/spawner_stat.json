@@ -1,0 +1,18 @@
+{
+	"apothic_spawners:max_delay": "dev.shadowsoffire.apothic_spawners.stats.VanillaStat",
+	"apothic_spawners:ignore_conditions": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:max_nearby_entities": "dev.shadowsoffire.apothic_spawners.stats.VanillaStat",
+	"apothic_spawners:req_player_range": "dev.shadowsoffire.apothic_spawners.stats.VanillaStat",
+	"apothic_spawners:redstone_control": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:burning": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:silent": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:spawn_count": "dev.shadowsoffire.apothic_spawners.stats.VanillaStat",
+	"apothic_spawners:min_delay": "dev.shadowsoffire.apothic_spawners.stats.VanillaStat",
+	"apothic_spawners:ignore_light": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:ignore_players": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:no_ai": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:spawn_range": "dev.shadowsoffire.apothic_spawners.stats.VanillaStat",
+	"apothic_spawners:echoing": "dev.shadowsoffire.apothic_spawners.stats.LevelStat",
+	"apothic_spawners:youthful": "dev.shadowsoffire.apothic_spawners.stats.BooleanStat",
+	"apothic_spawners:initial_health": "dev.shadowsoffire.apothic_spawners.stats.PercentageStat"
+}

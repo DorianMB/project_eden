@@ -1,0 +1,6 @@
+{
+	"appflux:flux": "com.glodblock.github.appflux.common.me.key.type.FluxKeyType",
+	"ae2:f": "appeng.api.stacks.AEFluidKeys",
+	"appmek:chemical": "me.ramidzkh.mekae2.ae2.MekanismKeyType",
+	"ae2:i": "appeng.api.stacks.AEItemKeys"
+}

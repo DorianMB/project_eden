@@ -1,0 +1,23 @@
+{
+	"minecraft:surface_water_depth_filter": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"lithostitched:offset": "dev.worldgen.lithostitched.worldgen.placementmodifier.OffsetPlacement$$Lambda/0x0000011665ad7758",
+	"minecraft:random_offset": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:noise_threshold_count": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:in_square": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:heightmap": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"waystones:waystone": "net.blay09.mods.waystones.worldgen.ModWorldGen$$Lambda/0x0000011666425078",
+	"minecraft:count": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:surface_relative_threshold_filter": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:count_on_every_layer": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:rarity_filter": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"lithostitched:noise_slope": "dev.worldgen.lithostitched.worldgen.placementmodifier.NoiseSlopePlacement$$Lambda/0x0000011665ad15c0",
+	"minecraft:fixed_placement": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:block_predicate_filter": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"lithostitched:condition": "dev.worldgen.lithostitched.worldgen.placementmodifier.ConditionPlacement$$Lambda/0x0000011665acbb68",
+	"minecraft:height_range": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:environment_scan": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"mekanism:disableable": "mekanism.common.registries.MekanismPlacementModifiers$$Lambda/0x0000011666424e68",
+	"minecraft:carving_mask": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:biome": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0",
+	"minecraft:noise_based_count": "net.minecraft.world.level.levelgen.placement.PlacementModifierType$$Lambda/0x0000011664d59cd0"
+}

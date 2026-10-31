@@ -1,0 +1,6 @@
+{
+	"minecraft:random_group": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:random": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"minecraft:direct": "com.mojang.serialization.codecs.RecordCodecBuilder$2",
+	"lithostitched:internal/random_entries": "com.mojang.serialization.Codec$3"
+}

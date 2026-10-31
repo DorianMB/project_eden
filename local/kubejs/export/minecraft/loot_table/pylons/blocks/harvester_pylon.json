@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "pylons:harvester_pylon"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "pylons:blocks/harvester_pylon"
+}

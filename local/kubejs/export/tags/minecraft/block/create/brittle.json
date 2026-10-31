@@ -1,0 +1,7 @@
+[
+	"pylons:expulsion_pylon",
+	"pylons:harvester_pylon",
+	"pylons:infusion_pylon",
+	"pylons:interdiction_pylon",
+	"pylons:protection_pylon"
+]

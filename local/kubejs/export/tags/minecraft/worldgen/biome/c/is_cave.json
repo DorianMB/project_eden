@@ -1,0 +1,8 @@
+[
+	"#forge:is_cave?",
+	"#terralith:reference/cave",
+	"#terralith:reference/deep_cave",
+	"minecraft:deep_dark",
+	"minecraft:dripstone_caves",
+	"minecraft:lush_caves"
+]

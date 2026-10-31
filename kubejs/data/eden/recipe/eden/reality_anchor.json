@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "   A   ",
+        "  ABA  ",
+        " AECEA ",
+        "ABDFDBA",
+        " AECEA ",
+        "  ABA  ",
+        "   A   "
+    ],
+    "key": {
+        "A": {
+            "item": "eden:infinity_alloy"
+        },
+        "B": {
+            "item": "appflux:charged_redstone"
+        },
+        "C": {
+            "item": "advanced_ae:shattered_singularity"
+        },
+        "D": {
+            "item": "ae2:quantum_entangled_singularity"
+        },
+        "E": {
+            "item": "powah:niotic_crystal_block"
+        },
+        "F": {
+            "item": "minecraft:beacon"
+        }
+    },
+    "result": {
+        "id": "eden:reality_anchor",
+        "count": 1
+    }
+}

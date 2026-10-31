@@ -1,0 +1,19 @@
+{
+	"mekanism:free_runners": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:diamond": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:chainmail": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:turtle": "net.minecraft.world.item.ArmorMaterial",
+	"mekanism:armored_free_runners": "net.minecraft.world.item.ArmorMaterial",
+	"mekanism:scuba_gear": "net.minecraft.world.item.ArmorMaterial",
+	"mekanism:jetpack": "net.minecraft.world.item.ArmorMaterial",
+	"advanced_ae:quantum_alloy": "net.minecraft.world.item.ArmorMaterial",
+	"mekanism:hazmat": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:gold": "net.minecraft.world.item.ArmorMaterial",
+	"mekanism:scuba_mask": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:netherite": "net.minecraft.world.item.ArmorMaterial",
+	"mekanism:armored_jetpack": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:iron": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:armadillo": "net.minecraft.world.item.ArmorMaterial",
+	"minecraft:leather": "net.minecraft.world.item.ArmorMaterial",
+	"mekanism:mekasuit": "net.minecraft.world.item.ArmorMaterial"
+}
