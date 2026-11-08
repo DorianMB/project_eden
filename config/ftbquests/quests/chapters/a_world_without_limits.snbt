@@ -10,20 +10,143 @@
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"5F3F4514599694D9"
-			"4BFCE61671D39928"
-			"18F5F3D35B8E1C6F"
-		]
-		dependency_requirement: "one_completed"
-		hide_until_deps_complete: true
-		id: "007A546BC345A2F9"
-		tasks: [{
-			id: "5E66845889AC33A5"
-			type: "checkmark"
-		}]
-		x: 1.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"5F3F4514599694D9"
+				"4BFCE61671D39928"
+				"18F5F3D35B8E1C6F"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "007A546BC345A2F9"
+			tasks: [{
+				id: "5E66845889AC33A5"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "0E6DAFDC195AD8EF"
+			tasks: [{
+				id: "748F96F291407A2E"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "705597E981A92E6A"
+			tasks: [{
+				id: "0C89F27E09179F6B"
+				item: { components: { "mekanism:side_config": { config: { energy: { side: { back: "input", bottom: "input", front: "input", left: "input", right: "input", top: "input" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "6F6A266B1AB422E9"
+			tasks: [{
+				id: "5B8815DEF9CBD8A2"
+				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "771A5661EBADCA8F"
+			tasks: [{
+				id: "034B5884537C6982"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "268E9C4180F039C5"
+			tasks: [{
+				id: "18AA8EE024204B98"
+				item: { count: 1, id: "powah:energy_cell_creative" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "56CD985319366E1A"
+			tasks: [{
+				id: "480440D0D293D153"
+				item: { count: 1, id: "pipez:infinity_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "75C69A9BD08B1BC0"
+			tasks: [{
+				id: "323C2B1F55D1A593"
+				item: { count: 1, id: "ae2omnicells:creative_ae_cell_long" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["007A546BC345A2F9"]
+			id: "583FC4BB07F01DA1"
+			tasks: [{
+				id: "7CD8704BBD0D0DA1"
+				item: { count: 1, id: "ae2omnicells:creative_ae_cell_biginteger" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["583FC4BB07F01DA1"]
+			id: "070B4E75AF373F71"
+			tasks: [{
+				id: "1502881D31C9CDFF"
+				item: { count: 1, id: "modularrouters:creative_module" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["583FC4BB07F01DA1"]
+			id: "0A66F9109846127F"
+			tasks: [{
+				id: "163F22987B0ECA32"
+				item: { count: 1, id: "functionalstorage:creative_vending_upgrade" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["583FC4BB07F01DA1"]
+			id: "6685EE8D4E4FA06B"
+			tasks: [{
+				id: "27E5C99E685630D4"
+				item: { count: 1, id: "ae2:creative_storage_cell" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+	]
 }

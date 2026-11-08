@@ -298,5 +298,17 @@
 			x: 8.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["2F550A6668313522"]
+			id: "1E58D617D7681D24"
+			optional: true
+			tasks: [{
+				id: "6A1DC90F498C223D"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
 	]
 }

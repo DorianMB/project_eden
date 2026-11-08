@@ -973,5 +973,19 @@
 			x: -28.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2CF2B6950F403717"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5602A5AC3433B322"
+			optional: true
+			tasks: [{
+				id: "0A6F1B9E60B24B6A"
+				item: { count: 1, id: "javd:portal_block" }
+				type: "item"
+			}]
+			x: -29.5d
+			y: -7.0d
+		}
 	]
 }

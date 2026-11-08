@@ -44,7 +44,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 3L
 				id: "00D1540EA47768C0"
 				item: { count: 1, id: "minecraft:honey_bottle" }
 				type: "item"
@@ -86,7 +85,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
+				count: 4L
 				id: "0FEE7322F5DE74E3"
 				item: { count: 1, id: "minecraft:honeycomb" }
 				match_components: "strict"
@@ -192,27 +191,32 @@
 				id: "productivebees:wax"
 			}
 			id: "690D72B9E065CBD7"
-			rewards: [{
-				id: "35AA5112C6DEE8FB"
-				item: {
-					count: 1
-					id: "productivebees:wax"
-				}
-				random_bonus: 9
-				type: "item"
-			}]
-			tasks: [
+			rewards: [
 				{
-					id: "44428D0125080976"
-					item: { count: 1, id: "productivebees:wax" }
+					id: "35AA5112C6DEE8FB"
+					item: {
+						count: 1
+						id: "productivebees:wax"
+					}
+					random_bonus: 3
 					type: "item"
 				}
 				{
-					id: "30A30B175B6FE915"
-					item: { count: 1, id: "productivebees:honey_bucket" }
+					id: "100B28CC861BB849"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					random_bonus: 3
 					type: "item"
 				}
 			]
+			tasks: [{
+				count: 4L
+				id: "44428D0125080976"
+				item: { count: 1, id: "productivebees:wax" }
+				type: "item"
+			}]
 			x: -3.0d
 			y: -2.0d
 		}
@@ -228,19 +232,11 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "05703F26943C243F"
-					item: { components: { "minecraft:custom_data": { Age: -24000, AngerTime: 0, ArmorItems: [ { }, { }, { }, { } ], ForcedAge: 0, HandItems: [ { }, { } ], HasConverted: 0b, HasNectar: 0b, HasStung: 0b, Health: 10.0f, Invulnerable: 0b, MaxHealth: 10.0f, PersistenceRequired: 0b, bee_type: "hive", breathCollectionCooldown: 600, entity: "productivebees:configurable_bee", isProductiveBee: 1b, mod: "FMLModContainer", name: "Coal Bee", "neoforge:attachments": { "productivebees:attributes_handler": { bee_behavior: "behavior.diurnal", bee_endurance: "endurance.normal", bee_productivity: "productivity.normal", bee_temper: "temper.normal", bee_weather_tolerance: "weather_tolerance.none" } }, type: "productivebees:coal" } }, count: 1, id: "productivebees:bee_cage" }
-					match_components: "fuzzy"
-					type: "item"
-				}
-				{
-					id: "20D2F4119CF36885"
-					item: { count: 1, id: "productivebees:incubator" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20D2F4119CF36885"
+				item: { count: 1, id: "productivebees:incubator" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: -4.0d
 		}

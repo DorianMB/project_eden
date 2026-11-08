@@ -148,5 +148,8 @@
   },
   "tiabfix": {
     "entity_accel": true
+  },
+  "gravestone": {
+    "grave": true
   }
 }
