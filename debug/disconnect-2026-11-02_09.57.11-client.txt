@@ -1,0 +1,121 @@
+---- Minecraft Network Protocol Error Report ----
+// Maybe this time it will work!
+
+Time: 2026-11-02 09:57:11
+Description: Packet handling error
+
+java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:?] {}
+	at java.base/sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:?] {}
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:?] {}
+	at java.base/sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?] {}
+	at java.base/sun.nio.ch.IOUtil.read(Unknown Source) ~[?:?] {}
+	at java.base/sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:?] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.97.Final.jar%23155!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.buffer@4.1.97.Final/io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.97.Final.jar%23155!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Netty Client IO #1
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketListener.fillCrashReport(PacketListener.java:33) ~[client-1.21.1-20240808.144430-srg.jar%23188!/:?] {re:classloading}
+-- Connection --
+Details:
+	Protocol: configuration
+	Flow: CLIENTBOUND
+	Server type: OTHER
+	Server brand: ~~NULL~~
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.PacketListener.fillCrashReport(PacketListener.java:33) ~[client-1.21.1-20240808.144430-srg.jar%23188!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.fillCrashReport(PacketUtils.java:62) ~[client-1.21.1-20240808.144430-srg.jar%23188!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl.storeDisconnectionReport(ClientCommonPacketListenerImpl.java:130) ~[client-1.21.1-20240808.144430-srg.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl.createDisconnectionInfo(ClientCommonPacketListenerImpl.java:123) ~[client-1.21.1-20240808.144430-srg.jar%23188!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.exceptionCaught(Connection.java:157) ~[client-1.21.1-20240808.144430-srg.jar%23188!/:?] {re:classloading}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.transport@4.1.97.Final/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar%23162!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at MC-BOOTSTRAP/io.netty.common@4.1.97.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar%23157!/:4.1.97.Final] {}
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.6, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 288159000 bytes (274 MiB) / 595591168 bytes (568 MiB) up to 8455716864 bytes (8064 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 13
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 5070 Ti
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 16303.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1692
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 47041.03
+	Virtual memory used (MiB): 31744.80
+	Swap memory total (MiB): 14336.00
+	Swap memory used (MiB): 123.96
+	Space in storage for jna.tmpdir (MiB): available: 105926.41, total: 951824.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 105926.41, total: 951824.00
+	Space in storage for io.netty.native.workdir (MiB): available: 105926.41, total: 951824.00
+	Space in storage for java.io.tmpdir (MiB): available: 105926.41, total: 951824.00
+	Space in storage for workdir (MiB): available: 105926.41, total: 951824.00
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8064m -Xms256m
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclient
+	ModLauncher services: 
+		sponge-mixin-0.16.4+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.45.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.45.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.45.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		client-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		neoforge-21.1.264-universal.jar                   |NeoForge                      |neoforge                      |21.1.264            |Manifest: NOSIGNATURE
+	Crash Report UUID: 4b82ae92-2733-4053-9b1d-b7a86718137d
+	FML: 4.0.45
+	NeoForge: 21.1.264

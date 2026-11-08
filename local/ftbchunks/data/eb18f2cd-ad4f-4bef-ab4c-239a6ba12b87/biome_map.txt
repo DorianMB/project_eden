@@ -1,0 +1,5 @@
+#4DB terralith:cave/fungal_caves
+#0E5 terralith:highlands
+#5FF minecraft:river
+#720 terralith:steppe
+#495 minecraft:the_void

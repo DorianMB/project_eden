@@ -1,0 +1,9 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:quarry_bee",
+    "result": "productivebees:phil",
+    "item": {
+        "tag": "c:concretes"
+    },
+    "chance": 1.0
+}

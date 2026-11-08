@@ -1,0 +1,6 @@
+#05B minecraft:bamboo_jungle
+#498 minecraft:lush_caves
+#5FF minecraft:river
+#307 terralith:rocky_jungle
+#3AF minecraft:sparse_jungle
+#297 terralith:tropical_jungle

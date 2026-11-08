@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"eden:portal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modularrouters:creative_module"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

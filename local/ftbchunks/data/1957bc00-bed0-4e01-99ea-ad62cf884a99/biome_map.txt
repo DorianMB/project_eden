@@ -1,0 +1,8 @@
+#556 minecraft:beach
+#184 terralith:brushland
+#34D minecraft:deep_lukewarm_ocean
+#78A terralith:gravel_beach
+#79A minecraft:lukewarm_ocean
+#5FF minecraft:river
+#67B minecraft:savanna
+#4E6 terralith:skylands_summer

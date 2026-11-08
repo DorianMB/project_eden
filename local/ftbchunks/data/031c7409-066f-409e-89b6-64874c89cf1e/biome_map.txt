@@ -1,0 +1,12 @@
+#556 minecraft:beach
+#5E9 terralith:blooming_plateau
+#1FE terralith:blooming_valley
+#694 terralith:cave/deep_caves
+#00C terralith:cave/infested_caves
+#4B0 minecraft:jungle
+#7E3 terralith:jungle_mountains
+#28D minecraft:mangrove_swamp
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#039 terralith:savanna_badlands
+#579 minecraft:windswept_savanna

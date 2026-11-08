@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"ae2omnicells:creative_ae_cell_biginteger"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modularrouters:creative_module"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"functionalstorage:creative_vending_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
