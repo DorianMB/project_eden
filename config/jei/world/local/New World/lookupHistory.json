@@ -1,5 +1,13 @@
 [
   {"version":1},
+  {"ingredient":"productivebees:ocean_treasure","type":"cy.jdkdigital.productivebees.common.crafting.ingredient.BeeIngredient","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"productivebees:spawn_egg_configurable_bee","components":"{\"minecraft:entity_data\":{id:\"productivebees:configurable_bee\",type:\"productivebees:ocean_treasure\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:heart_of_the_sea"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":"productivebees:water","type":"cy.jdkdigital.productivebees.common.crafting.ingredient.BeeIngredient","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:conduit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":["jeistuff:minecraft/chests/buried_treasure",{"drops":[{"item":{"id":"minecraft:heart_of_the_sea","count":1},"chance":1.0},{"item":{"id":"minecraft:potion","count":1},"chance":1.0},{"item":{"id":"minecraft:iron_ingot","count":3},"chance":0.9959435,"count":2.5},{"item":{"id":"minecraft:gold_ingot","count":3},"chance":0.8877548,"count":2.5},{"item":{"id":"minecraft:cooked_cod","count":3},"chance":0.75,"count":3.0},{"item":{"id":"minecraft:cooked_salmon","count":3},"chance":0.75,"count":3.0},{"item":{"id":"minecraft:tnt","count":2},"chance":0.632848,"count":1.5},{"item":{"id":"minecraft:emerald","count":6},"chance":0.5555556,"count":6.0},{"item":{"id":"minecraft:diamond","count":2},"chance":0.5555556,"count":1.5},{"item":{"id":"minecraft:prismarine_crystals","count":3},"chance":0.5555556,"count":3.0},{"item":{"id":"minecraft:leather_chestplate","count":1},"chance":0.25},{"item":{"id":"minecraft:iron_sword","count":1},"chance":0.25}],"category":"jeistuff:chest_loot","source":"minecraft:chests/buried_treasure","type":"jeistuff:loot"}],"recipeType":"jeistuff:chest_loot","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:nautilus_shell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"shrink:shrinking_device"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:carrot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:emerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:ender_pearl"},"type":"item_stack","bookmarkType":"INGREDIENT"},

@@ -2,5 +2,6 @@
 #34D minecraft:deep_lukewarm_ocean
 #79A minecraft:lukewarm_ocean
 #5FF minecraft:river
+#67B minecraft:savanna
 #706 minecraft:savanna_plateau
 #40F javd:void

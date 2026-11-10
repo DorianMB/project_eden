@@ -422,6 +422,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\colorfulhearts.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\comforts-common.toml",
         "isSelected": true
       },
@@ -978,6 +982,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\invtweaks-client-1.toml.bak",
+        "isSelected": true
+      },
+      {
         "path": "config\\invtweaks-client.toml",
         "isSelected": true
       },
@@ -1203,6 +1211,10 @@
       },
       {
         "path": "config\\jeioptimizer-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jeistuff-common.toml",
         "isSelected": true
       },
       {
@@ -1839,6 +1851,146 @@
       },
       {
         "path": "journeymap\\data\\mp\\Local",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\.legacy_cache_cleaned",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\biome",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\biome\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\biome\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\chunk_cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\chunk_cache\\c.-1.-1.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\chunk_cache\\c.-1.0.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\day",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\day\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\day\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\night",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\night\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\night\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\topo",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\topo\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\javd~void\\topo\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\biome",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\biome\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\biome\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\chunk_cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\chunk_cache\\c.-1.-1.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\chunk_cache\\c.-1.0.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\day",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\day\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\day\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\night",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\night\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\night\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\topo",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\topo\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\overworld\\topo\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871\\waypoints",
         "isSelected": false
       },
       {
@@ -2803,6 +2955,14 @@
       },
       {
         "path": "journeymap\\icon\\entity\\minecraft\\creeper.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\icon\\entity\\minecraft\\dolphin_outlined.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\icon\\entity\\minecraft\\dolphin.png",
         "isSelected": false
       },
       {
@@ -4954,18 +5114,6 @@
         "isSelected": true
       },
       {
-        "path": "kubejs\\external_scripts",
-        "isSelected": true
-      },
-      {
-        "path": "kubejs\\external_scripts\\simp_cm_portal_portals",
-        "isSelected": true
-      },
-      {
-        "path": "kubejs\\external_scripts\\simp_cm_portal_portals\\PORTALS.md",
-        "isSelected": true
-      },
-      {
         "path": "kubejs\\README.txt",
         "isSelected": true
       },
@@ -4995,6 +5143,10 @@
       },
       {
         "path": "kubejs\\server_scripts\\javd_generator.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\tiab_offline_time.js",
         "isSelected": true
       },
       {
@@ -5219,6 +5371,62 @@
       },
       {
         "path": "local\\ftbchunks\\data\\a2e142dc-e873-48dd-b18f-9d1b470f3805\\minecraft_overworld\\waypoints.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\biome_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\block_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\dimensions.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\javd_void",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\javd_void\\0EA5F-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\javd_void\\0EA5F-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\javd_void\\dimension.regions",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\javd_void\\waypoints.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\minecraft_overworld",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\minecraft_overworld\\0EA5F-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\minecraft_overworld\\0EA5F-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\minecraft_overworld\\dimension.regions",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\d0c62a20-5c86-483e-9baa-b322893acc11\\minecraft_overworld\\waypoints.json",
         "isSelected": false
       },
       {
@@ -5450,6 +5658,22 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2026-11-07-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-07-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-08-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-08-2.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\debug-1.log.gz",
         "isSelected": false
       },
@@ -5646,6 +5870,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\colorfulhearts-neoforge-1.21.1-10.5.9.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\comforts-neoforge-9.0.5+1.21.1.jar",
         "isSelected": true
       },
@@ -5794,7 +6022,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\invtweaks-1.21.1-1.3.2.jar",
+        "path": "mods\\invtweaks-1.21.1-1.4.0.jar",
         "isSelected": true
       },
       {
@@ -5810,27 +6038,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\jei_trade-1.0.2-1.21.1.jar",
-        "isSelected": true
-      },
-      {
         "path": "mods\\jei-1.21.1-neoforge-19.70.0.469.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\jeiworldgen-neoforge-1.21.1-1.4.5.jar",
+        "path": "mods\\jeistuff-1.21.1-1.3.0.jar",
         "isSelected": true
       },
       {
         "path": "mods\\journeymap-neoforge-1.21.1-6.0.9.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\JustEnoughResources-NeoForge-1.21.1-1.6.0.57.jar",
         "isSelected": true
       },
       {
@@ -6755,6 +6971,10 @@
       },
       {
         "path": "simplebackups\\New World\\New World_2026-11-07_09-20-52.zip",
+        "isSelected": false
+      },
+      {
+        "path": "simplebackups\\New World\\New World_2026-11-08_07-31-44.zip",
         "isSelected": false
       },
       {

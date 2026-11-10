@@ -1,0 +1,9 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:water",
+    "result": "productivebees:ocean_treasure",
+    "item": {
+        "item": "minecraft:heart_of_the_sea"
+    },
+    "chance": 1.0
+}

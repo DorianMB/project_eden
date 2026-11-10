@@ -1,3 +1,4 @@
+#5066F5 productivebees:advanced_oak_beehive
 #52B53D minecraft:air
 #0F359D minecraft:azure_bluet
 #7F50F6 minecraft:bell
@@ -19,7 +20,9 @@
 #FE4FBE powah:energy_cable_nitro
 #8803D6 powah:energy_cell_creative
 #664B81 extendedae:ex_drive
+#C5CEEB productivebees:expansion_box_oak
 #009B14 minecraft:farmland
+#1B10D1 productivebees:feeder
 #863EE4 functionalstorage:fluid_1
 #482EEB minecraft:glowstone
 #3F84B7 minecraft:grass_block

@@ -20,8 +20,8 @@
 				id: "69DA7D9A96900A74"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -11.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A8F8B7B4F3E62F1"]
@@ -41,8 +41,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -9.5d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["63E17C1D5312F845"]
@@ -68,8 +68,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -7.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0246B77559069311"]
@@ -96,8 +96,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -5.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["46D6A84AB662C406"]
@@ -122,8 +122,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -3.5d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["46D6A84AB662C406"]
@@ -143,8 +143,8 @@
 				item: { count: 1, id: "minecraft:torch" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -156,8 +156,8 @@
 				id: "75C3D7C3AA26FD99"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 10.0d
+			y: 0.0d
 		}
 	]
 }

@@ -1,0 +1,8 @@
+{
+    "primaryColor": "#3291a8",
+    "secondaryColor": "#FFFFFF",
+    "particleColor": "#3291a8",
+    "flowerTag": "minecraft:treasures",
+    "selfbreed": false,
+    "createComb": true
+}

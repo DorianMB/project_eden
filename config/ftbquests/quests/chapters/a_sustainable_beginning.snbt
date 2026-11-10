@@ -40,8 +40,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -6.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5297EC8C50123133"]
@@ -79,8 +79,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -6.5d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -92,8 +92,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/raw_meat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["53A24FFEBFC854CE"]
@@ -113,8 +113,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:foods/cooked_meat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -128,8 +128,8 @@
 				structure: "ae2:meteorite"
 				type: "structure"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["701DDE2F2E623503"]
@@ -140,8 +140,8 @@
 				item: { count: 1, id: "ae2:certus_quartz_crystal" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -162,8 +162,8 @@
 				item: { count: 1, id: "minecraft:leather" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["27ABF6FE3D567ADD"]
@@ -173,8 +173,8 @@
 				item: { components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }, count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -6.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -189,8 +189,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["72DEC1770D561328"]
@@ -217,8 +217,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -3.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -234,8 +234,8 @@
 				id: "66922BC72EB4CF36"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -255,8 +255,8 @@
 				id: "005D5FF18DBCEA75"
 				type: "dimension"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5EDE668D4E0AC040"]
@@ -295,8 +295,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -0.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2F550A6668313522"]
@@ -307,8 +307,8 @@
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 }

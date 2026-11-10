@@ -5,10 +5,6 @@
 /reload
 /kjs hand
 /reload
-/kjs hand
-/reload
-/kjs hand
-/reload
 /kjs inventory
 /reload
 /kjs inventory
@@ -47,4 +43,8 @@
 /gamerule doDaylightCycle false
 /reload
 /kjs errors server
+/reload
+/kjs errors server
+/reload
+/kill @e[type=minecraft:villager]
 /reload

@@ -12,6 +12,7 @@
 #E9A8F5 minecraft:crying_obsidian
 #3C3897 minecraft:cut_sandstone
 #B2A2E1 minecraft:dandelion
+#5E9420 minecraft:deepslate
 #80497A minecraft:dirt
 #2C1BE1 minecraft:gold_block
 #060B35 minecraft:granite
@@ -19,6 +20,7 @@
 #88BAFA minecraft:gravel
 #763000 gravestone:gravestone
 #D7EADE minecraft:iron_ore
+#EA439B minecraft:lapis_ore
 #83CED3 minecraft:lava
 #02D09C mekanism:lead_ore
 #CBF1B4 minecraft:light_blue_terracotta
@@ -34,6 +36,7 @@
 #AFAC0D minecraft:poppy
 #C34975 javd:portal_block
 #E6B35B minecraft:pumpkin
+#213091 minecraft:raw_copper_block
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
 #8638B9 minecraft:smooth_basalt

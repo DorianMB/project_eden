@@ -31,8 +31,8 @@
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -9.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74B784EC7BE048CA"]
@@ -59,8 +59,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -7.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["74B784EC7BE048CA"]
@@ -97,8 +97,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -7.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -111,8 +111,8 @@
 				id: "3779777FBC5B6FB6"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -123,8 +123,8 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -134,8 +134,8 @@
 				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -145,8 +145,8 @@
 				item: { count: 1, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -156,8 +156,8 @@
 				item: { count: 1, id: "mekanism:ingot_osmium" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -167,8 +167,8 @@
 				item: { count: 1, id: "mekanism:ingot_tin" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -178,8 +178,8 @@
 				item: { count: 1, id: "mekanism:ingot_lead" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -189,8 +189,8 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -201,8 +201,8 @@
 				item: { count: 1, id: "minecraft:obsidian" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6A30276A0D58DA9A"]
@@ -212,8 +212,8 @@
 				item: { count: 1, id: "minecraft:lapis_lazuli" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -2.0d
+			y: 8.0d
 		}
 	]
 }
