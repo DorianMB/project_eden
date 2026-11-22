@@ -1,3 +1,7 @@
 {
-    "curios.identifier.jetpack": "Jetpack"
+    "curios.identifier.jetpack": "Jetpack",
+    "block.eden.portal": "E.D.E.N. Portal",
+    "item.eden.infinity_alloy": "Infinity Alloy",
+    "item.eden.reality_anchor": "Reality Anchor",
+    "item.eden.infinity_quantum_battery": "Infinity Quantum Battery"
 }

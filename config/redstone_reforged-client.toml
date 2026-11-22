@@ -1,0 +1,38 @@
+#Cuadro de información de las gafas / Goggles info box
+[goggles]
+	#Distancia horizontal desde la mira en píxeles de interfaz
+	# Default: 14
+	# Range: -400 ~ 400
+	boxOffsetX = 14
+	#Desplazamiento vertical respecto a la mira
+	# Default: -6
+	# Range: -300 ~ 300
+	boxOffsetY = -6
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	boxScale = 1.0
+	#Opacidad del fondo (0-1)
+	# Default: 0.78
+	# Range: 0.0 ~ 1.0
+	boxOpacity = 0.78
+
+#Etiquetas en el mundo / World labels
+[labels]
+	# Default: 16
+	# Range: 4 ~ 32
+	labelRadius = 16
+	#Mostrar las etiquetas al arrancar
+	labelsOnByDefault = true
+
+#Luz de color de las lámparas / Coloured lamp light
+[lamps]
+	#Teñir del color de la lámpara las superficies cercanas
+	coloredLight = true
+	#Alcance de la luz de color en bloques
+	# Default: 6
+	# Range: 2 ~ 12
+	coloredLightRadius = 6
+	#Intensidad del color (0-1)
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	coloredLightStrength = 0.85

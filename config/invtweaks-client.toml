@@ -1,5 +1,11 @@
 #Sorting customization
 [sorting]
+	#Order of items within a category, in /OTHER slots and in containers
+	#CREATIVE = creative inventory tab order, then item name
+	#NAME = item name
+	#MOD = mod, then item name
+	#Allowed Values: CREATIVE, NAME, MOD
+	sortOrder = "CREATIVE"
 	#Rules for sorting
 	#Each element is of the form <POS> <CATEGORY>
 	#A-D is the row from top to bottom
@@ -17,12 +23,6 @@
 	#CATEGORY = /FROZEN has the effect of /LOCKED and, in addition, ignores slot in auto-refill
 	#CATEGORY = /OTHER covers all remaining items after other rules are exhausted
 	rules = ["D /LOCKED", "A1-C9 /OTHER"]
-	#Order of items within a category, in /OTHER slots and in containers
-	#CREATIVE = creative inventory tab order, then item name
-	#NAME = item name
-	#MOD = mod, then item name
-	#Allowed Values: CREATIVE, NAME, MOD
-	sortOrder = "CREATIVE"
 	#Custom settings per GUI
 	#x = x-position of external sort button relative to GUI top left
 	#y = same as above except for the y-position
@@ -125,7 +125,7 @@
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
 	[[sorting.containerOverrides]]
-		containerClass = "com.refinedmods.refinedstorage.screen.*"
+		containerClass = "com.refinedmods.refinedstorage.*"
 		sortRange = ""
 	#Custom settings per GUI
 	#x = x-position of external sort button relative to GUI top left
@@ -320,7 +320,7 @@
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
 	[[sorting.containerOverrides]]
-		containerClass = "aztech.modern_industrialization.*.gui.*Screen.java"
+		containerClass = "aztech.modern_industrialization.*.gui.*Screen"
 		sortRange = ""
 	#Custom settings per GUI
 	#x = x-position of external sort button relative to GUI top left
@@ -541,7 +541,7 @@
 	#Prepending an exclamation mark at the start of a clause inverts it
 	[[sorting.category]]
 		name = "cheapBlocks"
-		spec = ["/tag:forge:cobblestone", "/tag:minecraft:dirt"]
+		spec = ["/tag:c:cobblestones", "/tag:minecraft:dirt"]
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category
@@ -572,6 +572,10 @@
 	enableButtons = 3
 	#Enable auto-refill
 	autoRefill = true
+	#Ctrl+Shift+drop key over an item throws every stack of that item from the same inventory
+	#/LOCKED and /FROZEN slots are left alone, except the stack under the cursor
+	#Inactive when Inventory Essentials is installed, which has its own bulk drop on the same keys
+	throwAll = true
 	#0 = disable sorting
 	#1 = player sorting only
 	#2 = external sorting only
@@ -586,7 +590,3 @@
 	#Shift-clicking moves everything that fits
 	#/LOCKED and /FROZEN slots are left alone
 	quickStack = true
-	#Ctrl+Shift+drop key over an item throws every stack of that item from the same inventory
-	#/LOCKED and /FROZEN slots are left alone, except the stack under the cursor
-	#Inactive when Inventory Essentials is installed, which has its own bulk drop on the same keys
-	throwAll = true

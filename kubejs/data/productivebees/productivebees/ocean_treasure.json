@@ -4,5 +4,5 @@
     "particleColor": "#3291a8",
     "flowerTag": "minecraft:treasures",
     "selfbreed": false,
-    "createComb": true
+    "createComb": false
 }

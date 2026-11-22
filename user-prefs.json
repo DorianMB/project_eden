@@ -442,6 +442,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\configured-developer.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\cookingforblockheads-common.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\cucumber-client.toml",
         "isSelected": true
       },
@@ -466,6 +474,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\easy_villagers-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\easy_villagers-server.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\elevatorid-server.toml",
         "isSelected": true
       },
@@ -479,6 +495,10 @@
       },
       {
         "path": "config\\embeddium-options.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\enchdesc.json",
         "isSelected": true
       },
       {
@@ -918,6 +938,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\ftbquests\\quests\\lang\\fr_fr.snbt",
+        "isSelected": true
+      },
+      {
         "path": "config\\ftbquests\\quests\\reward_tables",
         "isSelected": true
       },
@@ -1018,6 +1042,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\jade\\server-plugin-overrides.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\jade\\sort-order.json",
         "isSelected": true
       },
@@ -1046,6 +1074,14 @@
         "isSelected": true
       },
       {
+        "path": "config\\jei\\client\\default\\jei-client.ini.bak.2",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\client\\default\\jei-client.ini.bak.3",
+        "isSelected": true
+      },
+      {
         "path": "config\\jei\\client\\default\\jei-colors.ini",
         "isSelected": true
       },
@@ -1067,6 +1103,14 @@
       },
       {
         "path": "config\\jei\\client\\jei-client.ini",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\client\\jei-client.ini.bak.1",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei\\client\\jei-client.ini.bak.2",
         "isSelected": true
       },
       {
@@ -1186,6 +1230,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\jei_mekanism_multiblocks-client.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\jei_plus_plus-client.toml",
         "isSelected": true
       },
@@ -1207,6 +1255,18 @@
       },
       {
         "path": "config\\jei_trade-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jei-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jeict_recipe_tree_memory.properties",
+        "isSelected": true
+      },
+      {
+        "path": "config\\jeict-client.toml",
         "isSelected": true
       },
       {
@@ -1235,6 +1295,10 @@
       },
       {
         "path": "config\\journeymap-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\just_enough_crafting_tree_preferences.json",
         "isSelected": true
       },
       {
@@ -1279,6 +1343,10 @@
       },
       {
         "path": "config\\megacells-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\mekamultivis-client.toml",
         "isSelected": true
       },
       {
@@ -1374,6 +1442,18 @@
         "isSelected": true
       },
       {
+        "path": "config\\moredragoneggs-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\morered-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\morered-server.toml",
+        "isSelected": true
+      },
+      {
         "path": "config\\MouseTweaks.cfg",
         "isSelected": true
       },
@@ -1418,6 +1498,10 @@
         "isSelected": true
       },
       {
+        "path": "config\\polylib.json",
+        "isSelected": true
+      },
+      {
         "path": "config\\powah.json5",
         "isSelected": true
       },
@@ -1435,6 +1519,22 @@
       },
       {
         "path": "config\\pylons-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\redstone_reforged-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\redstone_reforged-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\satisfactory_planner.json",
+        "isSelected": true
+      },
+      {
+        "path": "config\\shrink.json5",
         "isSelected": true
       },
       {
@@ -1490,7 +1590,19 @@
         "isSelected": true
       },
       {
+        "path": "config\\sophisticatedstorage-common-1.toml.bak",
+        "isSelected": true
+      },
+      {
         "path": "config\\sophisticatedstorage-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sophisticatedstorage-server-1.toml.bak",
+        "isSelected": true
+      },
+      {
+        "path": "config\\sophisticatedstorage-server-2.toml.bak",
         "isSelected": true
       },
       {
@@ -1542,6 +1654,26 @@
         "isSelected": true
       },
       {
+        "path": "config\\trophymanager-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\utilitarian-client.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\utilitarian-common.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\utilitarian-server.toml",
+        "isSelected": true
+      },
+      {
+        "path": "config\\waystones-common-1.toml.bak",
+        "isSelected": true
+      },
+      {
         "path": "config\\waystones-common.toml",
         "isSelected": true
       },
@@ -1559,6 +1691,14 @@
       },
       {
         "path": "crash-reports\\crash-2026-11-04_17.48.07-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-11-12_10.20.14-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2026-11-14_09.25.39-client.txt",
         "isSelected": false
       },
       {
@@ -1854,6 +1994,26 @@
         "isSelected": false
       },
       {
+        "path": "journeymap\\data\\mp\\Local\\.legacy_cache_cleaned",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local\\overworld\\chunk_cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local\\overworld\\day",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local\\waypoints",
+        "isSelected": false
+      },
+      {
         "path": "journeymap\\data\\mp\\Local_01e9944b~9aa7~4451~94f2~009235792871",
         "isSelected": false
       },
@@ -2107,6 +2267,122 @@
       },
       {
         "path": "journeymap\\data\\mp\\Local_4620d674~0c34~48af~8ba6~8a6b7b938e7e\\waypoints",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\.legacy_cache_cleaned",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\biome",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\biome\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\biome\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\biome\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\biome\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\chunk_cache",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\chunk_cache\\c.-1.-1.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\chunk_cache\\c.-1.0.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\chunk_cache\\c.0.-1.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\chunk_cache\\c.0.0.jmc",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\day",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\day\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\day\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\day\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\day\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\night",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\night\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\night\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\night\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\night\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\topo",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\topo\\-1,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\topo\\-1,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\topo\\0,-1.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\overworld\\topo\\0,0.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\data\\mp\\Local_5de1ab1b~e800~479d~a88b~c29413893cda\\waypoints",
         "isSelected": false
       },
       {
@@ -3227,6 +3503,14 @@
       },
       {
         "path": "journeymap\\icon\\entity\\minecraft\\villager_armorer.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\icon\\entity\\minecraft\\villager_beekeeper_outlined.png",
+        "isSelected": false
+      },
+      {
+        "path": "journeymap\\icon\\entity\\minecraft\\villager_beekeeper.png",
         "isSelected": false
       },
       {
@@ -4850,6 +5134,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\assets\\eden\\lang\\fr_fr.json",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\assets\\eden\\models",
         "isSelected": true
       },
@@ -4910,6 +5198,18 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\assets\\javd\\lang",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\javd\\lang\\en_us.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\javd\\lang\\fr_fr.json",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\assets\\javd\\textures",
         "isSelected": true
       },
@@ -4939,6 +5239,10 @@
       },
       {
         "path": "kubejs\\assets\\productivebees\\lang\\en_us.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\assets\\productivebees\\lang\\fr_fr.json",
         "isSelected": true
       },
       {
@@ -5026,6 +5330,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\data\\eden\\recipe\\bee_conversion\\ocean_treasure.json",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\data\\eden\\recipe\\bee_conversion\\philbee.json",
         "isSelected": true
       },
@@ -5035,6 +5343,10 @@
       },
       {
         "path": "kubejs\\data\\eden\\recipe\\bee_produce\\nether_star.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\eden\\recipe\\bee_produce\\ocean_treasure.json",
         "isSelected": true
       },
       {
@@ -5114,6 +5426,10 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\data\\productivebees\\productivebees\\ocean_treasure.json",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\README.txt",
         "isSelected": true
       },
@@ -5146,7 +5462,23 @@
         "isSelected": true
       },
       {
-        "path": "kubejs\\server_scripts\\tiab_offline_time.js",
+        "path": "kubejs\\server_scripts\\tags.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\tiab",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\tiab\\eden_tiab_settings.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\tiab\\tiab_liquid_xp.js",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\server_scripts\\tiab\\tiab_offline_time.js",
         "isSelected": true
       },
       {
@@ -5227,6 +5559,50 @@
       },
       {
         "path": "local\\ftbchunks\\data\\031c7409-066f-409e-89b6-64874c89cf1e\\minecraft_overworld\\waypoints.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\biome_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\block_map.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\dimensions.txt",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\minecraft_overworld",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\minecraft_overworld\\0EA5F-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\minecraft_overworld\\0EA5F-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\minecraft_overworld\\0EA60-0EA5F.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\minecraft_overworld\\0EA60-0EA60.zip",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\minecraft_overworld\\dimension.regions",
+        "isSelected": false
+      },
+      {
+        "path": "local\\ftbchunks\\data\\10f093c9-a49c-4df4-a4dc-af1a9bef99ff\\minecraft_overworld\\waypoints.json",
         "isSelected": false
       },
       {
@@ -5674,6 +6050,90 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2026-11-08-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-08-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-08-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-10-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-10-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-11-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-12-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-12-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-12-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-12-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-12-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-12-6.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-13-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-13-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-13-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-14-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-14-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-14-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-14-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-14-5.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2026-11-14-6.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\debug-1.log.gz",
         "isSelected": false
       },
@@ -5730,15 +6190,7 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20261102-1.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20261104-1.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20261104-2.json.gz",
+        "path": "logs\\telemetry\\20261112-1.json.gz",
         "isSelected": false
       },
       {
@@ -5818,7 +6270,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\appliedenergistics2-19.2.18.jar",
+        "path": "mods\\appliedenergistics2-19.2.20.jar",
         "isSelected": true
       },
       {
@@ -5826,7 +6278,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\architectury-13.0.11-neoforge.jar",
+        "path": "mods\\architectury-13.0.12-neoforge.jar",
         "isSelected": true
       },
       {
@@ -5890,6 +6342,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\cookingforblockheads-neoforge-1.21.1-21.1.25.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\cryonicconfig-neoforge-1.0.0+mc1.21.11.jar",
         "isSelected": true
       },
@@ -5902,11 +6358,19 @@
         "isSelected": true
       },
       {
+        "path": "mods\\easy-villagers-neoforge-1.21.1-1.1.49.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\elevatorid-neoforge-1.21.1-1.11.4.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\entityculling-neoforge-1.11.3-mc1.21.1.jar",
+        "path": "mods\\enchdesc-neoforge-1.21.1-21.1.11.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\entityculling-neoforge-1.12.1-mc1.21.1.jar",
         "isSelected": true
       },
       {
@@ -5930,7 +6394,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+        "path": "mods\\fancymenu_neoforge_3.10.0_MC_1.21.1.jar",
         "isSelected": true
       },
       {
@@ -5954,7 +6418,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\ftb-chunks-neoforge-2101.1.23.jar",
+        "path": "mods\\ftb-chunks-neoforge-2101.1.24.jar",
         "isSelected": true
       },
       {
@@ -5970,11 +6434,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\ftb-library-neoforge-2101.1.39.jar",
+        "path": "mods\\ftb-library-neoforge-2101.1.40.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\ftb-quests-neoforge-2101.1.38.jar",
+        "path": "mods\\ftb-quests-neoforge-2101.1.39.jar",
         "isSelected": true
       },
       {
@@ -6042,11 +6506,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\jeistuff-1.21.1-1.3.0.jar",
+        "path": "mods\\jeistuff-1.21.1-1.4.0.jar",
         "isSelected": true
       },
       {
         "path": "mods\\journeymap-neoforge-1.21.1-6.0.9.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\JustEnoughMekanismMultiblocks-1.21.1-7.23.jar",
         "isSelected": true
       },
       {
@@ -6070,7 +6538,55 @@
         "isSelected": true
       },
       {
+        "path": "mods\\mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-doors-1.1.5-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-furniture-3.4.1-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-lights-1.1.5-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-mcwstairs-1.0.2-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-paintings-1.1.0-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-roofs-2.3.2-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\megacells-4.11.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\mekamultivis-1.1.0.jar",
         "isSelected": true
       },
       {
@@ -6090,7 +6606,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\mezz_config-1.21.1-neoforge-0.6.11-standalone.jar",
+        "path": "mods\\mezz_config-1.21.1-neoforge-0.7.1-standalone.jar",
         "isSelected": true
       },
       {
@@ -6103,6 +6619,10 @@
       },
       {
         "path": "mods\\modular-routers-13.2.7+mc1.21.1.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\moredragoneggs-5.0.jar",
         "isSelected": true
       },
       {
@@ -6134,6 +6654,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\polylib-2100.1.0-build.183-neoforge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\Powah-6.2.10.jar",
         "isSelected": true
       },
@@ -6154,6 +6678,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\redstone-reforged-1.0.0-1.21.1-neoforge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\resourcefullib-neoforge-1.21-3.0.12.jar",
         "isSelected": true
       },
@@ -6166,6 +6694,10 @@
         "isSelected": true
       },
       {
+        "path": "mods\\shrink-2.0.1.47-neoforge.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\SimpleBackups-1.21-4.0.30.jar",
         "isSelected": true
       },
@@ -6174,19 +6706,23 @@
         "isSelected": true
       },
       {
+        "path": "mods\\simplylight-1.5.3+1.21.1-b4.jar",
+        "isSelected": true
+      },
+      {
         "path": "mods\\sodium-neoforge-0.8.13+mc1.21.1.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedbackpacks-1.21.1-3.26.20.2244.jar",
+        "path": "mods\\sophisticatedbackpacks-1.21.1-3.26.21.2249.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedcore-1.21.1-1.5.31.2460.jar",
+        "path": "mods\\sophisticatedcore-1.21.1-1.5.38.2484.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\sophisticatedstorage-1.21.1-1.6.16.2222.jar",
+        "path": "mods\\sophisticatedstorage-1.21.1-1.6.19.2234.jar",
         "isSelected": true
       },
       {
@@ -6210,7 +6746,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\titanium-1.21-4.0.52.jar",
+        "path": "mods\\titanium-1.21-4.0.56.jar",
         "isSelected": true
       },
       {
@@ -6230,7 +6766,11 @@
         "isSelected": true
       },
       {
-        "path": "mods\\waystones-neoforge-1.21.1-21.1.46.jar",
+        "path": "mods\\trophymanager-1.21.1-3.0.0.jar",
+        "isSelected": true
+      },
+      {
+        "path": "mods\\waystones-neoforge-1.21.1-21.1.47.jar",
         "isSelected": true
       },
       {
@@ -6374,6 +6914,10 @@
         "isSelected": false
       },
       {
+        "path": "saves\\New World\\data\\mekanism_SecurityFrequencyHandler.dat",
+        "isSelected": false
+      },
+      {
         "path": "saves\\New World\\data\\mezz_config",
         "isSelected": false
       },
@@ -6391,6 +6935,10 @@
       },
       {
         "path": "saves\\New World\\data\\random_sequences.dat",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World\\data\\redstone_reforged_wireless.dat",
         "isSelected": false
       },
       {
@@ -6946,22 +7494,6 @@
         "isSelected": false
       },
       {
-        "path": "simplebackups\\New World\\New World_2026-10-31_16-42-15.zip",
-        "isSelected": false
-      },
-      {
-        "path": "simplebackups\\New World\\New World_2026-11-02_08-32-42.zip",
-        "isSelected": false
-      },
-      {
-        "path": "simplebackups\\New World\\New World_2026-11-03_09-39-40.zip",
-        "isSelected": false
-      },
-      {
-        "path": "simplebackups\\New World\\New World_2026-11-03_11-39-41.zip",
-        "isSelected": false
-      },
-      {
         "path": "simplebackups\\New World\\New World_2026-11-04_17-31-41.zip",
         "isSelected": false
       },
@@ -6975,6 +7507,30 @@
       },
       {
         "path": "simplebackups\\New World\\New World_2026-11-08_07-31-44.zip",
+        "isSelected": false
+      },
+      {
+        "path": "simplebackups\\New World\\New World_2026-11-10_08-51-45.zip",
+        "isSelected": false
+      },
+      {
+        "path": "simplebackups\\New World\\New World_2026-11-12_09-51-38.zip",
+        "isSelected": false
+      },
+      {
+        "path": "simplebackups\\New World\\New World_2026-11-12_19-19-14.zip",
+        "isSelected": false
+      },
+      {
+        "path": "simplebackups\\New World\\New World_2026-11-13_08-55-21.zip",
+        "isSelected": false
+      },
+      {
+        "path": "simplebackups\\New World\\New World_2026-11-14_08-53-37.zip",
+        "isSelected": false
+      },
+      {
+        "path": "simplebackups\\New World\\New World_2026-11-18_11-20-23.zip",
         "isSelected": false
       },
       {

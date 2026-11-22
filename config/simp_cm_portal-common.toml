@@ -1,4 +1,0 @@
-#Paths and options for future features
-[general]
-	#Base path for external JSON data. Default: kubejs/external_scripts
-	externalScriptsPath = "kubejs/external_scripts"

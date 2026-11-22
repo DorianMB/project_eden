@@ -1,5 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"javd:portal_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":"productivebees:phil","type":"cy.jdkdigital.productivebees.common.crafting.ingredient.BeeIngredient","bookmarkType":"INGREDIENT"}
-]

@@ -1,0 +1,9 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:quarry_bee",
+    "result": "productivebees:sussy",
+    "item": {
+        "item": "minecraft:brush"
+    },
+    "chance": 1.0
+}

@@ -1,0 +1,51 @@
+#Bloques y objetos activados / Enabled blocks and items
+[features]
+	copperWire = true
+	togglePiston = true
+	counter = true
+	lamps = true
+	tubes = true
+	goggles = true
+	timer = true
+	logicPlate = true
+	display = true
+	sensors = true
+	wireless = true
+	recorder = true
+	glue = true
+	manual = true
+	actuator = true
+
+[wireless]
+	#Alcance base de la antena emisora en bloques / Base transmitter range
+	# Default: 64
+	# Range: 1 ~ 4096
+	range = 64
+	#Alcance extra por cada pararrayos apilado encima (máximo 4) / Extra range per stacked lightning rod
+	# Default: 16
+	# Range: 0 ~ 1024
+	lightningRodBonus = 16
+	#Alcance del mando de bolsillo / Remote control range
+	# Default: 64
+	# Range: 1 ~ 4096
+	remoteRange = 64
+
+[components]
+	#Velocidad de los tubos en bloques por segundo (tolva ≈ 2.5) / Tube speed in blocks per second
+	# Default: 5.0
+	# Range: 0.5 ~ 40.0
+	tubeSpeed = 5.0
+	#Ticks que puede guardar la grabadora de señal / Max ticks stored by the signal recorder
+	# Default: 1200
+	# Range: 20 ~ 72000
+	recorderLimit = 1200
+	#Bloques máximos de una red de cable de cobre-redstone / Max blocks in one copper wire network
+	# Default: 4096
+	# Range: 64 ~ 65536
+	wireNetworkLimit = 4096
+
+[general]
+	#Las antorchas de redstone no se funden en relojes rápidos / Redstone torches never burn out
+	torchesNeverBurnOut = false
+	#Dar el manual de redstone al entrar al mundo por primera vez / Give the manual on first join
+	giveManualOnFirstJoin = true
